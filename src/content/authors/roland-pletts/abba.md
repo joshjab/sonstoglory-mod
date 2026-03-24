@@ -7,12 +7,8 @@ tags: []
 legacy_url: "/rolandpletts/abba.htm"
 ---
 
-******[About Roland](about.htm)******
+Daniel and Maria are orphans with no home. Their future looks bleak. Then they get to know a Tramp who walks the streets helping the poor and homeless. He is a king in disguise and their lives take an amazing turn. They are changed forever.
 
-[**Covenant Book**](index.htm)
+This book is only a story and is not intended to be a source of theological teaching or to supplement or replace scripture. It is not a vision or authoritative. It is only a story based on our Beloved Saviour and an aid to help one contemplate His great love and power.
 
-****[Shekinah Glory Book](../JesusSecondComing.htm)****
-
-****[Abba Book](abba.htm)****
-
-****[Other Books](books.htm)****
+[Download PDF](/pdfs/rolandpletts/Daniel Maria and ABBA THE TRAMP Roland Pletts.pdf)
