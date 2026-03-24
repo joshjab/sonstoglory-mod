@@ -33,15 +33,11 @@
 - `content-inventory.csv` lives at repo root
 
 ### Milestone 0.3 — HTML to Markdown Conversion
-- [ ] Install `pandoc`: `sudo apt install pandoc`
-- [ ] Write `scripts/migrate.py` that:
-  1. Reads each `.htm` file from the mirror
-  2. Strips Dreamweaver table-layout wrappers (the `<table>` tags used for layout, not content tables)
-  3. Calls `pandoc` to convert the cleaned HTML to Markdown
-  4. Writes output to the appropriate `content/` subdirectory
-- [ ] Run the script on a single file first to validate output quality
-- [ ] Run the full migration and spot-check 10 converted files against originals
-- [ ] Commit the raw converted Markdown files
+- [x] Install `pandoc`: `sudo apt install pandoc`
+- [x] Write `scripts/migrate.py` (strips Dreamweaver layout tables, runs pandoc, writes frontmatter)
+- [x] Run the script on a single file first to validate output quality
+- [x] Run the full migration — 101 converted, 15 skipped (index/book-request/redirect-only), 0 errors
+- [ ] Spot-check converted files against originals and commit
 
 ### Milestone 0.4 — Add Frontmatter
 - [ ] Write `scripts/add_frontmatter.py` that reads the inventory CSV and injects YAML frontmatter into each Markdown file:

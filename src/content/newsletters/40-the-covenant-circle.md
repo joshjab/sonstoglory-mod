@@ -1,0 +1,62 @@
+---
+title: "Newsletter #40 The Covenant Circle"
+author: "Paul Jablonowski"
+date: "2021-04-27"
+type: newsletter
+number: 40
+description: "The 66 books of the Bible can be spiraled in a circle with a Cross at the center creating amazing patterns greater than Solomon"
+tags: []
+legacy_url: "/newsletters/40TheCovenantCircle.htm"
+---
+
+# The Covenant Circle
+
+by Paul Jablonowski
+
+April 27, 2021
+
+
+<img src="pictures/CovenantCircle.png" width="722" height="722" />  <img src="pictures/Covenant_Circle.png" width="722" height="722" />
+
+The cross is the power of God and the wisdom of God; and the cross of Christ is central to the Gospel of the Kingdom. Nothing is accomplished in the Kingdom apart from sacrifice; and Jesus is the ultimate example of sacrifice which is what the cross represents. Therefore, the cross is at the center of the covenant circle. The cross is the color of silver because silver is representative of redemption. Only in Jesus Christ is redemption provided for humankind. But far from ending at the cross, **new life** always begins for each of us when we find a place of sacrifice for others in our hearts. *"I know a place, a wonderful place, where accused and condemned find mercy and grace, where the wrongs we have done and the wrongs done to us, were nailed there with Him, there At the Cross."*(1)
+
+This covenant circle, with 4 concentric circles, surrounds this central theme of **The Cross**. Covenant is a huge topic in the Bible, and it is the entire Bible which makes up this covenant wheel. The 66 books of the bible are wrapped around this circle starting with the first book of Genesis and going left with each book in the order found in the Bible. The first word in the first book of Genesis is the Hebrew word "Beresheet," which is a derivative of "Breet" or the Hebrew word for COVENANT. So even from the very first word of the bible we see covenant hidden in there. This word ends with the Hebrew letter "tav" which in ancient times was written as a "cross." This tav is the final letter of the Hebrew alphabet and means "a sign." The cross of Christ is indeed a sign of redemption for all who believe.
+
+If you look at the very top right hand side of this covenant circle, you will see the cross or tav Hebrew letter. Next to the tav, is the ancient Hebrew letter aleph or the first letter of the Hebrew alphabet. The beginning and the end of the Hebrew alphabet start here at the top of the covenant circle. Hebrew is circular in thought instead of linear like Greek or English. Jesus is both the beginning and the end, and all things find their completion in Him, including us. Christ IN us is the true hope for all the world.
+
+Hebrew covenants are not made, but rather "cut" which involves again this theme of sacrifice represented by the cross. In effect, the cross cut the covenant of redemption for us in Christ Jesus for mankind. Only by the shedding of blood can a Biblical covenant be cut, and there is no greater power than the love of the blood of Jesus!!
+
+Hebrew is written from right to left, so everything in the covenant circle flows in a counterclockwise direction. There are 22 letters in the Hebrew alphabet, and this covenant circle uses the ancient Hebrew letters which are hieroglyphic where each letter is also a picture of something.(2)
+
+Each one of these letters is a living angelic being that is aiding mankind in bringing the Word of God on earth. Each messenger angel lines up with 3 of the 66 books of the Bible. For example, the first letter Aleph includes Genesis in the first circle, Isaiah in the second circle, and Romans in the third circle. Each of the 22 groups, containing three Bible books and its corresponding Hebrew letter, have amazing similarities and themes to them. The number and word patterns in each group shows divine design and purpose far beyond random coincidence. For example, the 4th Hebrew letter dalet means door, and contains the book of Ezekiel who describes in detail the doors/gates of <a href="../ThirdTempleEzekielsMillennialTemple.htm" target="_blank">the millennial temple</a>. Richard McGough shows a comparison between what he calls the Bible Wheel and Ezekiel's temple.(3) Notice how both patterns point to the sacrificial altar and cross at the center.
+
+<img src="pictures/Bible_Wheel.png" data-border="9" width="404" height="386" />
+
+This Covenant circle or bible wheel is nothing new, as Solomon wrote about it to his son Rehoboam in his book called *<a href="key_of_solomon_book.pdf" target="_blank">The Key of Solomon</a>*. Below is one of the many "circles" that Solomon documented in this writing and used to conjure and invoke angels from the spirit realm. A word of caution here: The spirit realm is multifaceted with a lot of pitfalls that can wreck a person's life. Solomon did document some good things in this extra biblical book, but there are also many things Solomon learned that have been used by the occult for evil purposes. If you seek God the Father with a pure heart, then the angels and messengers that He sends your way will be beneficial and not selfish and harmful. The point of the Covenant Circle is to connect with God, and when you do, He will open up **gates**, **keys** and **songs** to express His great love for all of creation.
+
+<img src="pictures/SolomonsCircle.png" data-vspace="4" data-hspace="4" width="400" height="400" /> <img src="pictures/OccultCircle.png" data-vspace="4" data-hspace="4" width="400" height="365" />
+
+The two most obvious similarities between this circle of Solomon and the Covenant Circle presented in this writing are the 22 letters on the very outside, and the cross in the middle. This black circle above is another "decipher key" used by the occult that includes letters, numbers and symbols.(4) It is very interesting how the occult uses God given keys for selfish purposes, and God allows it to test our hearts. Even satan and all his devils are being used for a purpose to refine us. We cannot cast out these principalities before their purpose is finished. They will attract those with kindred spirits. "Mystic Wheel" or "Magical Circle" is what these "pentacles" are called in The Key of Solomon book. But they are just cheap copies of God's Covenant Circle, often used to conjure up devils, demons and evil principalities.
+
+But onward to what the Covenant Circle is all about. The details of the 66 books of the bible rolled up into 3 concentric circles and overlapping each other is nothing short of phenomenal! God is the master mathematician, who chose these 66 books and none other to represent HIS Covenant in Christ Jesus. I like to read extra biblical books, like Enoch, Jasher and Macabees, but no other book has the supernatural numerical patterns found in it like the current 66 biblical books. God chose these 22 angels to assist in bringing forth the right books at the right time through His chosen human vessels. If we embrace this truth, then we can learn how Holy Spirit uses this Covenant Circle with His messengers (angels) to bring His Kingdom in the earth today as well. This covenant circle is just a two dimensional graphic of God's multidimensional living Word brought to us through messengers.
+
+Today is the LORD's Passover, and last night we celebrated it together by eating some good food, sounding the shofar, taking the LORD's communion, and worshipping king Jesus at my workplace.(5) There is a connection with this 2021 Passover celebration and the Covenant Circle being released in this particular location. <a href="../callingHuntsvilleAlabama.htm" target="_blank">Huntsville Alabama</a> is the cradle of American space exploration, and a spirit of knowledge has always been the gift of God for this region. Werner Von Braun and operation paper clip tapped into this knowledge-spring here, but it can also be used for redemptive purposes. This Covenant Circle is one of them. Below is an aerial photo of this "circle" of knowledge that is called Research Park here in Huntsville.
+
+<img src="pictures/ResearchParkLoopHuntsvilleAlabama.png" width="782" height="626" />
+
+Over the years and especially over the past month, several of us have been worshipping Jesus in key locations around this Explorer Boulevard circle because God inhabits the praises of His people. God is transforming our community into a covenant circle of His Word with the Cross of Christ at the center! Releasing the song of the LORD in the right location at the proper time has amazing results in the spirit realm; as well as sounding the shofar at the leading of Holy Spirit. The words "judge" and "shofar" are only one letter different in the Hebrew and are certainly connected in both word form and function. But the righteous judgment of the LORD will bring repentance and restoration for many who don't understand His great love for them. God will indeed <a href="32restorationofallthings.htm" target="_blank">restore all of His creation</a>, and **time** is the only hindrance so that we learn the destructiveness of selfish sins.
+
+Notice how there is a walking trail in the middle of this Research Park loop in the form of a DNA helix at the Hudson Alpha Institute for Biotechnology. The real warfare is over our DNA, because enemy spirits want our DNA since humankind has a calling to rule with God. If satan cannot steal it, then he will corrupt it as much as possible; and our DNA is very corrupted from its original form thanks to sin. However, Father God is well able to restore what has been stolen or corrupted, and this is where the power of the blood of Jesus comes in!! Simple communion and fellowship with our Creator is the first reason to take communion regularly, but another byproduct is that the blood of Jesus contains His DNA of love and life which brings healing to us! God is sovereign, and He will fix what now seems impossible.
+
+*"The true knowledge of God begins with a recognition of His sovereignty. The more we know Him, the more sovereign He seems to be. The less we know Him, the more sovereign man seems to be."*(6) This Covenant Circle is about God's sovereignty with man. Even though man wrote the 66 books contained in our "bible" it was the Sovereign Creator God who moved with his angel messengers to bring about every single letter of every single word contained in these books. Nothing needs to be added and nothing taken away. It is His covenant circle that starts and ends with Jesus.
+
+<a href="CovenantCircleCharts.pdf" target="_blank"><img src="WheelWithinWheel.png" data-border="0" width="220" height="220" /></a>
+
+----------------------------------------------------------------------------------------------
+(1) <a href="atthecross.mp3" target="_blank">At the Cross song</a> - singing one of my favorite songs about the Place of the Cross
+(2) Dr. Frank T. Seekins has a great book on this topic called "<a href="https://living-word-pictures.myshopify.com/products/20-percent-off-hebrew-word-pictures-u-s" target="_blank">Hebrew Word Pictures</a>" - and Scholar Jeff A. Benner has written the <a href="https://www.ancient-hebrew.org/bookstore/book_ahlb.html" target="_blank">Ancient Hebrew Lexicon of the Bible</a> with these hieroglyphic letters. The Ancient Hebrew letters used in this covenant circle were taken from these two sources.
+(3) Richard Amiel McGough has an amazing book called "<a href="../BibleWheel.pdf" target="_blank">The Bible Wheel</a>" which is 412 pages of detail on each of these 22 spokes and their corresponding themes within each 3 bible books. This graphic is from page 180 of Richard's book.
+(4) <a href="https://www.youtube.com/watch?v=rRqfxvFqeSk" target="_blank">Jessie Czebotar interview with George Iceman</a> on the Reveal Report - In this interview Jessie gives excellent insight into the enemy's camp and how we intercede in high level spiritual warfare by knowing the dominion God has given us over the land, the water and the spiritual gates. She also explains how the enemy uses these occult circles since Jesus saved her out from the highest levels of witchcraft.
+(5) This Passover celebration occurrred at Radiance Technologies in Research Park on 4/26/2021
+(6) <a href="https://godskingdom.org/studies/books/creations-jubilee" target="_blank">Creation's Jubilee</a> by Dr. Stephen E. Jones. Quote from page 152
+(7) Singing <a href="Song%20of%20Moses%20and%20the%20Song%20of%20the%20Lamb.mp3" target="_blank">The Song of the Lamb</a>

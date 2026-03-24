@@ -1,0 +1,36 @@
+---
+title: "Newsletter #7 Firstfruits - Resurrection of our Body - Firstborn 2733"
+author: "Paul Jablonowski"
+date: "2010-04-04"
+type: newsletter
+number: 7
+description: "Feast of Firstfruits, the firstborn Hebrew understanding and 273 redeemed firstborn sons"
+tags: []
+legacy_url: "/newsletters/07FirstfruitsFirstborn2733.htm"
+---
+
+# The Resurrection of our Body
+
+by Paul Jablonowski
+
+April 4, 2010
+
+Happy Feast of Firstfruits!
+
+Most people know today as Easter, but the biblical term for this special day upon which Jesus rose from the dead is called the *Feast of Firstfruits*. Leviticus 23:9-14 talks about this third harvest festival which is closely connected with the first two Spring Feasts: *Passover* and the *Feast of Unleavened Bread*. Jesus was the sacrificial lamb who was crucified on the Passover day. Jesus was buried in the grave during the Feast of Unleavened bread, and Jesus was the **firstfruits** of the resurrection from the dead on this special first Sunday after Passover! While Passover is always on the 14th day of the first Hebrew month of Abib or Nisan, this *Firstfruits* feast date on the calendar varies from year to year because it always falls on the first Sunday after the Passover.
+
+This year, today is rightly called Resurrection Sunday where Jesus was the FIRSTFRUIT to rise from the dead! As 1 Corinthians 15:20-26 says, *"Christ is risen from the dead, and has become the **firstfruits** of those who have fallen asleep. For since by man came death, by Man also came the resurrection of the dead. For as in Adam all die, even so in Christ all shall be made alive. But each one in his own order**:** **Christ the firstfruits**, afterward those who are Christ's at His coming. Then comes the end, when He delivers the kingdom to God the Father, when He puts an end to all rule and all authority and power. For He must reign till He has put all enemies under His feet. The last enemy that will be destroyed is death."*
+
+If we really believe that Jesus has conquered death, then we live our lives much differently without fear and without pride. We have no fear because the death of this body is just a new beginning with Jesus. We have no pride, because we can do nothing to earn this gift of eternal life. Jesus paid the price for our redemption with His precious blood at the cross. The blood of Jesus cleanses our sins so that we can become sons of God. *"For the earnest expectation of the creation eagerly waits for the revealing of the sons of God... not only that, but we also who have the **firstfruits** of the Spirit, even we ourselves groan within ourselves, eagerly waiting for the adoption (sonship), the redemption of our bodies."* Romans 8:19,23.
+
+So Jesus was the FIRST to be given a glorified body to walk this earth, but He was not the last! His redemption plan includes redeeming not only our spirit and soul, but also our bodies. Jesus opened the graves of many saints at his resurrection, and these saints appeared to people in Jerusalem in their glorified bodies! (see Matt. 27:52-53). This is an example of a firstfruits company of believers who walk the earth in resurrection power. They are firstfruits unto God and unto Jesus who is **the** first fruit. *"These are the ones who follow the Lamb wherever He goes. These were redeemed from among men, being **firstfruits** to God and to the Lamb. And in their mouth was found no deceit for they are without fault before the throne of God."* (Rev. 14:4-5)
+
+The exciting part is that there is a company of believers in our generation who will walk in this same resurrection glory! If we really believe in the resurrection, then this should not be a stretch of faith. There is a spiritual authority coming in our generation that responds to heaven alone and not the whims of man. There is a glory coming upon God's people that will shake the kingdoms of this world to their core. It will start with a firstfruits company of believers just like the firstfruits company of believers in the generation of Jesus. There is a restoration coming to bring us back to the reality of the resurrection from the dead!
+
+<img src="pictures/2733Ranch_CloudsCove_Alabama.jpg" data-align="right" data-vspace="7" data-hspace="7" width="555" height="197" />Yesterday I was honored to participate in a small group meeting at the 2733 Ranch. Dennis and Henrietta Jacobs from Nigeria Africa were present and shared two testimonies about how people in their home congregation are raising people from the dead. One young girl who was dead for 9 hours was raised to life through prayer, and another 12 year old boy who was hit by a car was raised to life in the midst of a large crowded street. They explained how the simple faith of those in their country allow for great miracles, but Americans tend to trust more in doctors and money than in God. While this is often true, the greatest promise of sitting with Jesus on His throne (spiritual authority) was granted to those who overcome this lukewarm spirit of our age (Rev. 3:21).
+
+The 2733 Ranch is owned by Miles W. Albright who has been given a tremendous revelation of "the redemption of the **firstborn**" that will help encourage and build the body of Christ worldwide. Here is a quick summary: The Israelites were redeeming their firstborn sons at God's command, because the Egyptian's firstborn sons were killed at the Passover. So the 22,000 Levites were taken and sanctified by God in place of the 22,273 firstborn Israelites. But there were 273 firstborn Israelites MORE than there were Levites to redeem them. To redeem these, God said to take five shekels for each of the 273 extra firstborn (Num. 3:46). So a small firstborn firstfruits company had to pay a price. Now God is using this 273 parable in our generation to highlight a deeper truth.
+
+Today, April 4th, happens to be my wedding anniversary, but also the 15th anniversary of when Mr. Albright received this 273 3 revelation. It includes his "2733 Ranch" which is dedicated for God's purposes in the earth, but also a deeper understanding of firstfruits, bodily resurrection, firstborn, and the 273 3 number. The 273 number is basically representative of the "church of the firstborn" or firstfruits unto God (Heb. 12:22-23). These firstfruits will come to spiritual maturity before the general harvest and walk in the resurrection power of Jesus. So you can see that this is not a localized revelation, but includes the global <a href="05BetrothalMarriageCovenantBride.htm" target="_blank">Bride of Christ</a> in the earth. Here is the link to read all of Miles Wylie Albright's <a href="../Jesus/2733Revelation.htm" target="_blank">273 3 revelation</a>.
+
+On this Resurrection Sunday, it only seems appropriate to anticipate that blessed hope of the return of Christ's resurrection power in us - our hope of glory! (Col. 1:27) A shaking is coming to prepare us for this reality, but this shaking will be worth it as the LORD says, *"Yet once more I shake not only the earth, but also heaven."* These things that are seen (nations, houses, money) will be shaken, so that what is truly spiritual will remain. *"Therefore, since we are receiving a kingdom which cannot be shaken, let us have grace, by which we may serve God acceptably with reverence and godly fear. For our God is a consuming fire."* (Hebrews 12:26-29)
