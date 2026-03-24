@@ -8,12 +8,14 @@ export default {
         body: ['"Source Serif 4"', 'Georgia', 'serif'],
       },
       colors: {
-        primary: '#1B3A5C',
-        accent: '#C8912A',
+        primary: '#1A2350',   // deep cosmic navy (book cover tone)
+        accent: '#C8912A',    // crown gold — unchanged
+        cosmic: '#0D1122',    // deep space background
+        nebula: '#3B2A6A',    // purple nebula accent
         muted: '#6B7280',
         surface: '#FFFFFF',
         bg: '#FAFAF5',
-        ink: '#1A1A2E',
+        ink: '#0F1525',       // near-black for body text
       },
       typography: {
         DEFAULT: {

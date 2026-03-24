@@ -37,13 +37,13 @@ function extractCardImage(body) {
     <!-- Carousel slides (CSS animation, no JS) -->
     {carouselImages.map((img, i) => (
       <div
-        class="carousel-slide absolute inset-0 bg-cover bg-center"
-        style={`background-image: url('${base}${img}'); animation-delay: ${delays[i]};`}
+        class="carousel-slide absolute inset-0 bg-no-repeat bg-center"
+        style={`background-image: url('${base}${img}'); background-size: 70%; animation-delay: ${delays[i]};`}
       />
     ))}
 
-    <!-- Dark overlay so text stays readable -->
-    <div class="absolute inset-0" style="background: rgba(27,58,92,0.72);" />
+    <!-- Dark overlay — cosmic navy from book cover palette -->
+    <div class="absolute inset-0 bg-cosmic" style="opacity: 0.82;" />
 
     <!-- Content -->
     <div class="relative z-10 max-w-3xl mx-auto text-center py-20 px-4">
@@ -125,7 +125,7 @@ function extractCardImage(body) {
   </section>
 
   <!-- Free Book CTA -->
-  <section class="bg-white border-y border-gray-100 py-14 px-4">
+  <section class="bg-cosmic py-14 px-4">
     <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10">
       <!-- Book cover -->
       <div class="flex gap-3 shrink-0">
@@ -142,16 +142,16 @@ function extractCardImage(body) {
       </div>
       <!-- Text -->
       <div>
-        <h2 class="font-heading text-3xl text-primary mb-3">Sons To Glory — Free Book</h2>
-        <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+        <h2 class="font-heading text-3xl text-white mb-3">Sons To Glory — Free Book</h2>
+        <p class="text-blue-200 mb-6 text-lg leading-relaxed">
           A multi-chapter exploration of spiritual sonship, the Biblical feasts, and the
           Everlasting Kingdom. Read online or download the PDF — freely given.
         </p>
         <div class="flex flex-col sm:flex-row gap-3">
-          <a href={`${base}book/`} class="bg-primary text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90 text-center">
+          <a href={`${base}book/`} class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90 text-center">
             Read Online
           </a>
-          <a href={`${base}pdfs/SonsToGloryBook.pdf`} target="_blank" class="border border-primary text-primary px-6 py-3 rounded font-semibold no-underline hover:bg-primary hover:text-white transition-colors text-center">
+          <a href={`${base}pdfs/SonsToGloryBook.pdf`} target="_blank" class="border border-accent text-accent px-6 py-3 rounded font-semibold no-underline hover:bg-accent hover:text-white transition-colors text-center">
             Download PDF
           </a>
         </div>
@@ -160,12 +160,12 @@ function extractCardImage(body) {
   </section>
 
   <!-- Subscribe CTA -->
-  <section class="max-w-3xl mx-auto px-4 py-14 text-center">
-    <h2 class="font-heading text-2xl text-primary mb-3">Stay Connected</h2>
-    <p class="text-gray-600 mb-6">
+  <section class="bg-nebula py-14 px-4 text-center">
+    <h2 class="font-heading text-2xl text-white mb-3">Stay Connected</h2>
+    <p class="text-purple-200 mb-6">
       Subscribe to receive new writings and updates from Paul Jablonowski.
     </p>
-    <a href={`${base}subscribe/`} class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90">
+    <a href={`${base}subscribe/`} class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90 inline-block">
       Subscribe to Newsletter
     </a>
   </section>
