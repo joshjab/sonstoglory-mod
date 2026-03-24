@@ -42,22 +42,35 @@ Full details in `doc/ARCH.md`.
 
 ## Current Project Phase
 
-**Phase 0 — Content Migration** (in progress as of 2026-03-24)
+**Phase 1 — Scaffold & Deploy** (in progress as of 2026-03-24)
 
-- [x] Git repo initialized
-- [x] `doc/ROADMAP.md`, `doc/ARCH.md`, `CLAUDE.md`, `README.md` created
-- [x] sonstoglory.com mirror complete — 464 files, 2.1 GB (`legacy-mirror/sonstoglory.com/`)
-- [x] pauljab.com mirror complete — 5 files, landing page only (`legacy-mirror/pauljab.com/`)
-- [x] Inventory script written (`scripts/inventory.py`) and run → `content-inventory.csv` (116 rows)
-- [ ] **Next:** Milestone 0.3 — HTML → Markdown conversion (`scripts/migrate.py`)
+### Phase 0 — COMPLETE
+- [x] Legacy mirror (464 files, 2.1 GB)
+- [x] Inventory script + content-inventory.csv (116 pages catalogued)
+- [x] HTML → Markdown migration (101 files, scripts/migrate.py)
+- [x] Frontmatter injected, content organized into src/content/
+- [x] Static assets copied: 46 PDFs → public/pdfs/, 282 images → public/images/
+- [x] Audio/video excluded from git (too large); stay on legacy server for now
+- [x] 106 URL redirect rules → public/_redirects (scripts/generate_redirects.py)
+- [x] Asset paths rewritten to absolute /images/ and /pdfs/ URLs (scripts/fix_asset_paths.py)
 
-### Inventory findings (important for next session)
+### Phase 1 — In Progress
+- [x] GitHub repo: https://github.com/joshjab/sonstoglory-mod
+- [x] Astro 4.16.19 + Tailwind CSS 3 scaffolded (Node 20, Astro 4 — NOT 5/6, requires Node 22)
+- [x] src/content/config.ts — Zod schemas for newsletters, book, articles, authors
+- [x] src/layouts/BaseLayout.astro — header, footer, mobile nav
+- [x] src/pages/index.astro — homepage with hero, latest newsletters, book CTA
+- [x] src/styles/global.css — Lora + Source Serif 4 fonts, brand palette
+- [ ] **Next: Milestone 1.5** — ArticleLayout + newsletter listing/detail pages
+- [ ] Milestone 1.6 — Deploy to GitHub Pages
+- [ ] Milestone 1.7 — Verify HTTPS + redirects
+
+### Key findings from Phase 0
 - 41 newsletters (#1–#41, 2008–2021), all dated
-- **4 guest authors** (not 2 as originally planned): Roland Pletts, Bonnie Gaunt, Kenny Mitchell, Miles Wylie Albright
-- 39 articles, 10 book-chapters, 5 book-request pages, 10 index/nav pages
-- `18newmooncelebrations.htm` is a redirect-only stub (canonical is `18newmonthcelebrations.htm`)
-- 14 MP3s + 4 MP4s in the mirror — copy to `public/audio/` and `public/video/`
-- `temple.htm` has an empty title — needs manual check during migration
+- 4 guest authors: Roland Pletts, Bonnie Gaunt, Kenny Mitchell, Miles Wylie Albright
+- Newsletter #41 was Paul's last — site is now an archive (videos continue on YouTube)
+- Audio (MP3s) and video (MP4s) not in git — reference legacy server URLs for now
+- `18newmooncelebrations.htm` is a redirect-only stub → canonical `18newmonthcelebrations.htm`
 
 Check `doc/ROADMAP.md` for the full task list and current completion state.
 
@@ -120,8 +133,12 @@ Channel ID: TBD — extract from channel page source when implementing Phase 2.5
 
 ---
 
-## Notes for Future Sessions
+## Important Technical Notes
 
-- The Cloudflare Worker for Decap CMS OAuth is confirmed as the approach. It is genuinely free (100k req/day). Implement in Milestone 2.5.1.
-- The `--wait=1 --random-wait` flags were used during mirroring to avoid hammering the server. The mirror lives in `legacy-mirror/` and should be treated as read-only source material.
-- pauljab.com is essentially just a landing page that redirects to sonstoglory.com — only 5 files downloaded. The real content is all on sonstoglory.com.
+- **Node version**: Must use Node 20 (system). Astro 4 was chosen because Astro 5/6 requires Node 22.
+- **Dev server**: Run `npm run dev -- --host` to expose on local network (user remotes in from another machine).
+- **Build**: `npm run build` — clean, no warnings as of last commit.
+- **Cloudflare Worker for Decap CMS OAuth** confirmed free (100k req/day). Implement in Milestone 2.5.1.
+- **Audio/video not in git**: MP4s (1.9GB) and MP3s (217MB) excluded from git. `public/video/` and `public/audio/` in .gitignore. Files exist locally but need a media hosting decision before launch.
+- **Legacy mirror**: Read-only source at `legacy-mirror/sonstoglory.com/`. pauljab.com mirror has only 5 files — it's just a landing page.
+- **package.json name** is still "astro-scaffold" — worth renaming to "sonstoglory" in a future cleanup pass.
