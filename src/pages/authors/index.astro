@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/(\/?)$/, '/');
+
+const authors = [
+  { name: 'Paul Jablonowski', slug: null, description: 'Author of the Sons To Glory newsletters and book.' },
+  { name: 'Roland Pletts', slug: 'roland-pletts', description: 'Author of several books on the second coming and covenant of Christ.' },
+  { name: 'Bonnie Gaunt', slug: 'bonnie-gaunt', description: 'Author of studies on Bible numerics and gematria.' },
+  { name: 'Kenny Mitchell', slug: 'kenny-mitchell', description: 'Guest author and contributor.' },
+  { name: 'Miles Wylie Albright', slug: 'miles-albright', description: 'Guest author and teacher.' },
+];
+---
+<BaseLayout title="Authors" description="Authors featured on Sons To Glory.">
+  <div class="max-w-3xl mx-auto px-4 py-16">
+    <h1 class="font-heading text-4xl text-primary mb-8">Authors</h1>
+    <ul class="space-y-4">
+      {authors.map(a => (
+        <li class="border-b border-gray-100 pb-4">
+          <p class="font-heading text-lg text-primary font-semibold">{a.name}</p>
+          <p class="text-gray-600 text-sm mt-1">{a.description}</p>
+          {a.slug && (
+            <p class="text-xs text-accent mt-1">Full page coming soon</p>
+          )}
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

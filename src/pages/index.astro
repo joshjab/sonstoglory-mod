@@ -9,32 +9,28 @@ const newsletters = (await getCollection('newsletters'))
 
 const base = import.meta.env.BASE_URL.replace(/(\/?)$/, '/');
 
-// CSS-only carousel: 4 photos cycle behind the hero (24s total, 6s each)
 const carouselImages = [
   'images/newsletters/pictures/King_Jesus_in_the_Clouds_as_Bridegroom.JPG',
   'images/newsletters/pictures/3crosses.jpg',
   'images/newsletters/pictures/dove_with_an_olive_branch.jpg',
   'images/newsletters/pictures/GloryRide1.jpg',
 ];
-// Delays: slide N is offset N×6s back in a 24s cycle
 const delays = ['0s', '-18s', '-12s', '-6s'];
 
-// Pull the first image src out of a newsletter's raw Markdown body
 function extractCardImage(body) {
   const m = body.match(/<img[^>]+src="([^"]+)"/);
   if (!m) return null;
   const src = m[1];
-  // Prefix root-relative paths with base
   return src.startsWith('/') ? `${base}${src.slice(1)}` : src;
 }
 ---
 
 <BaseLayout title="Home" description="Theological writings, newsletters, and resources by Paul Jablonowski — freely given for the Everlasting Kingdom of Jesus.">
 
-  <!-- Hero with CSS carousel -->
-  <section class="relative text-white overflow-hidden" style="min-height: 420px;">
+  <!-- Hero with CSS-only carousel -->
+  <section class="relative text-white overflow-hidden" style="min-height: 440px; background-color: #0D1122;">
 
-    <!-- Carousel slides (CSS animation, no JS) -->
+    <!-- Carousel slides -->
     {carouselImages.map((img, i) => (
       <div
         class="carousel-slide absolute inset-0 bg-no-repeat bg-center"
@@ -42,28 +38,30 @@ function extractCardImage(body) {
       />
     ))}
 
-    <!-- Dark overlay — cosmic navy from book cover palette -->
-    <div class="absolute inset-0 bg-cosmic" style="opacity: 0.82;" />
+    <!-- Full-section dim overlay -->
+    <div class="absolute inset-0" style="background: rgba(10,14,30,0.60);" />
 
-    <!-- Content -->
-    <div class="relative z-10 max-w-3xl mx-auto text-center py-20 px-4">
-      <p class="text-sm font-semibold uppercase tracking-widest text-blue-200 mb-3">
-        Freely Given for the Kingdom of Jesus Christ
-      </p>
-      <h1 class="font-heading text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
-        Sons To Glory
-      </h1>
-      <p class="text-lg text-blue-100 mb-10 leading-relaxed max-w-xl mx-auto">
-        Theological writings on sonship, the Biblical feasts, prophecy,
-        and the Everlasting Kingdom — by Paul Jablonowski.
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href={`${base}book/`} class="bg-accent text-white px-7 py-3 rounded font-semibold no-underline hover:opacity-90 transition-opacity">
-          Read the Book
-        </a>
-        <a href={`${base}newsletters/`} class="border-2 border-white text-white px-7 py-3 rounded font-semibold no-underline hover:bg-white hover:text-primary transition-colors">
-          Browse Newsletters
-        </a>
+    <!-- Text content with its own frosted backdrop -->
+    <div class="relative z-10 flex items-center justify-center py-20 px-4" style="min-height: 440px;">
+      <div class="max-w-2xl w-full text-center rounded-2xl px-8 py-10" style="background: rgba(10,14,30,0.55); backdrop-filter: blur(2px);">
+        <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color: #C8912A;">
+          Freely Given for the Kingdom of Jesus Christ
+        </p>
+        <h1 class="font-heading text-5xl md:text-6xl font-bold text-white mb-5 leading-tight">
+          Sons To Glory
+        </h1>
+        <p class="text-lg mb-8 leading-relaxed" style="color: #c7d4e8;">
+          Theological writings on sonship, the Biblical feasts, prophecy,
+          and the Everlasting Kingdom — by Paul Jablonowski.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href={`${base}book/`} class="px-7 py-3 rounded font-semibold no-underline hover:opacity-90 transition-opacity" style="background:#C8912A; color:#fff;">
+            Read the Book
+          </a>
+          <a href={`${base}newsletters/`} class="border-2 border-white text-white px-7 py-3 rounded font-semibold no-underline hover:bg-white hover:text-primary transition-colors">
+            Browse Newsletters
+          </a>
+        </div>
       </div>
     </div>
 
@@ -84,34 +82,19 @@ function extractCardImage(body) {
             href={`${base}newsletters/${n.slug}/`}
             class="flex flex-col bg-white rounded-lg shadow-sm border border-gray-100 no-underline hover:shadow-md transition-shadow overflow-hidden"
           >
-            {/* Card image */}
             {cardImage ? (
               <div class="h-40 overflow-hidden bg-gray-100">
-                <img
-                  src={cardImage}
-                  alt=""
-                  class="w-full h-full object-cover"
-                  loading="lazy"
-                />
+                <img src={cardImage} alt="" class="w-full h-full object-cover" loading="lazy" />
               </div>
             ) : (
-              <div class="h-40 bg-primary flex items-center justify-center">
-                <span class="font-heading text-4xl font-bold text-white opacity-30">
-                  #{n.data.number}
-                </span>
+              <div class="h-40 flex items-center justify-center" style="background:#1A2350;">
+                <span class="font-heading text-4xl font-bold text-white opacity-30">#{n.data.number}</span>
               </div>
             )}
-            {/* Card text */}
             <div class="p-5 flex flex-col flex-1">
-              <span class="text-xs font-semibold text-accent uppercase tracking-wide mb-1">
-                Issue #{n.data.number}
-              </span>
-              <h3 class="font-heading text-base text-primary leading-snug font-semibold mb-2 flex-1">
-                {displayTitle}
-              </h3>
-              {formattedDate && (
-                <p class="text-xs text-gray-400 mt-auto">{formattedDate}</p>
-              )}
+              <span class="text-xs font-semibold uppercase tracking-wide mb-1" style="color:#C8912A;">Issue #{n.data.number}</span>
+              <h3 class="font-heading text-base text-primary leading-snug font-semibold mb-2 flex-1">{displayTitle}</h3>
+              {formattedDate && <p class="text-xs text-gray-400 mt-auto">{formattedDate}</p>}
             </div>
           </a>
         );
@@ -124,34 +107,24 @@ function extractCardImage(body) {
     </div>
   </section>
 
-  <!-- Free Book CTA -->
-  <section class="bg-cosmic py-14 px-4">
+  <!-- Free Book CTA — warm cream, dark text -->
+  <section class="py-14 px-4" style="background: #F0EBE0;">
     <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10">
-      <!-- Book cover -->
       <div class="flex gap-3 shrink-0">
-        <img
-          src={`${base}images/images/sonstoglorycover.jpg`}
-          alt="Sons To Glory book cover"
-          class="h-52 w-auto shadow-lg rounded"
-        />
-        <img
-          src={`${base}images/images/sonstoglorybackcover.jpg`}
-          alt="Sons To Glory back cover"
-          class="h-52 w-auto shadow-lg rounded hidden sm:block"
-        />
+        <img src={`${base}images/images/sonstoglorycover.jpg`} alt="Sons To Glory book cover" class="h-52 w-auto shadow-lg rounded" />
+        <img src={`${base}images/images/sonstoglorybackcover.jpg`} alt="Sons To Glory back cover" class="h-52 w-auto shadow-lg rounded hidden sm:block" />
       </div>
-      <!-- Text -->
       <div>
-        <h2 class="font-heading text-3xl text-white mb-3">Sons To Glory — Free Book</h2>
-        <p class="text-blue-200 mb-6 text-lg leading-relaxed">
+        <h2 class="font-heading text-3xl text-primary mb-3">Sons To Glory — Free Book</h2>
+        <p class="mb-6 text-lg leading-relaxed" style="color:#3a3a4a;">
           A multi-chapter exploration of spiritual sonship, the Biblical feasts, and the
           Everlasting Kingdom. Read online or download the PDF — freely given.
         </p>
         <div class="flex flex-col sm:flex-row gap-3">
-          <a href={`${base}book/`} class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90 text-center">
+          <a href={`${base}book/`} class="px-6 py-3 rounded font-semibold no-underline hover:opacity-90 text-center text-white" style="background:#1A2350;">
             Read Online
           </a>
-          <a href={`${base}pdfs/SonsToGloryBook.pdf`} target="_blank" class="border border-accent text-accent px-6 py-3 rounded font-semibold no-underline hover:bg-accent hover:text-white transition-colors text-center">
+          <a href={`${base}pdfs/SonsToGloryBook.pdf`} target="_blank" class="px-6 py-3 rounded font-semibold no-underline text-center transition-colors hover:text-white" style="border:2px solid #C8912A; color:#C8912A; --tw-hover-bg:#C8912A;">
             Download PDF
           </a>
         </div>
@@ -159,13 +132,13 @@ function extractCardImage(body) {
     </div>
   </section>
 
-  <!-- Subscribe CTA -->
-  <section class="bg-nebula py-14 px-4 text-center">
+  <!-- Subscribe CTA — deep navy, readable -->
+  <section class="py-14 px-4 text-center" style="background:#1A2350;">
     <h2 class="font-heading text-2xl text-white mb-3">Stay Connected</h2>
-    <p class="text-purple-200 mb-6">
+    <p class="mb-6" style="color:#9eb4cc;">
       Subscribe to receive new writings and updates from Paul Jablonowski.
     </p>
-    <a href={`${base}subscribe/`} class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90 inline-block">
+    <a href={`${base}subscribe/`} class="inline-block px-6 py-3 rounded font-semibold no-underline hover:opacity-90" style="background:#C8912A; color:#fff;">
       Subscribe to Newsletter
     </a>
   </section>
