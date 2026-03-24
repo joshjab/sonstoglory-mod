@@ -4,3 +4,7 @@ dist/
 .DS_Store
 *.pyc
 __pycache__/
+
+# Large media — too big for git, served from external host or legacy site
+public/video/
+public/audio/

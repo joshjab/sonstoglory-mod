@@ -37,10 +37,10 @@
 - [x] Write `scripts/migrate.py` (strips Dreamweaver layout tables, runs pandoc, writes frontmatter)
 - [x] Run the script on a single file first to validate output quality
 - [x] Run the full migration — 101 converted, 15 skipped (index/book-request/redirect-only), 0 errors
-- [ ] Spot-check converted files against originals and commit
+- [x] Spot-check converted files against originals and commit
 
-### Milestone 0.4 — Add Frontmatter
-- [ ] Write `scripts/add_frontmatter.py` that reads the inventory CSV and injects YAML frontmatter into each Markdown file:
+### Milestone 0.4 — Add Frontmatter (combined with 0.3)
+- [x] YAML frontmatter injected directly by migrate.py (combined with 0.3)
   ```yaml
   ---
   title: ""
@@ -53,36 +53,26 @@
   legacy_url: /newsletters/original-filename.htm
   ---
   ```
-- [ ] Run the script across all converted files
-- [ ] Manually review and complete any frontmatter where date/description/tags are missing
-- [ ] For newsletters, ensure `number` field is correct for all 40+ issues
+- [x] All 101 files have frontmatter
+- [x] Reviewed — tags left as [] for manual curation in QA pass
+- [x] All 41 newsletter numbers confirmed correct
 
-### Milestone 0.5 — Organize Content Into Directories
-- [ ] Create the directory structure:
-  ```
-  content/
-  ├── newsletters/
-  ├── book/
-  ├── articles/
-  ├── authors/
-  │   ├── roland-pletts/
-  │   └── bonnie-gaunt/
-  └── poems/
-  ```
-- [ ] Move each converted Markdown file into the correct directory
-- [ ] Rename files to URL-friendly slugs (e.g., `40TheCovenantCircle.md` → `40-the-covenant-circle.md`)
+### Milestone 0.5 — Organize Content Into Directories (combined with 0.3)
+- [x] Directory structure created and populated by migrate.py
+- [x] Files renamed to URL-friendly slugs
+- [x] 4 guest author dirs: roland-pletts, bonnie-gaunt, kenny-mitchell, miles-albright
 
 ### Milestone 0.6 — Copy Static Assets
-- [ ] Create `public/pdfs/` directory
-- [ ] Copy all PDFs from the mirror to `public/pdfs/`
-- [ ] Create `public/images/` directory
-- [ ] Copy all images from the mirror to `public/images/`
-- [ ] Update any image references in converted Markdown files to point to `/images/`
+- [x] 46 PDFs copied to `public/pdfs/` (preserving subdir structure: bonniegaunt/, rolandpletts/, newsletters/, jesus/, etc.)
+- [x] 282 images copied to `public/images/`
+- [x] 15 audio files (MP3/M4A) copied to `public/audio/`
+- [x] 4 MP4 videos (Miles Albright) copied to `public/video/milesalbright/`
+- [ ] Update image/audio/video references in Markdown files to use new `/images/`, `/audio/`, `/video/` paths (defer to QA pass)
 
 ### Milestone 0.7 — Generate URL Redirects
-- [ ] Write `scripts/generate_redirects.py` that reads the inventory CSV and writes a `public/_redirects` file mapping every old `.htm` URL to the new path
-- [ ] Run the script and manually verify 10 redirect entries
-- [ ] Add any manual redirects not covered by the script (e.g., `/book.htm` → `/book/`)
+- [x] Write `scripts/generate_redirects.py`
+- [x] Run script — 106 redirect rules written to `public/_redirects`
+- [x] Verified: all 41 newsletters, book chapters, articles, guest authors; book-request stubs → /book/; #18 stub → canonical URL
 
 ---
 
