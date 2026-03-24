@@ -162,20 +162,11 @@
 - [x] Poems: no poem content exists in the collection — skipped
 
 ### Milestone 2.5 — YouTube Integration
-- [ ] Confirm Paul's YouTube channel ID (see Open Questions in README)
-- [ ] Write `scripts/fetch-youtube-feed.mjs`:
-  1. Fetch `https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID`
-  2. Parse the XML (use a lightweight XML parser npm package)
-  3. Write to `src/data/videos.json` (array of `{ id, title, date, thumbnail }`)
-- [ ] Add this script to the Astro build process in `package.json`:
-  ```json
-  "prebuild": "node scripts/fetch-youtube-feed.mjs"
-  ```
-- [ ] Create `src/pages/videos.astro`:
-  - Reads `src/data/videos.json`
-  - Renders a responsive grid of video thumbnails + titles
-  - On click, replaces thumbnail with a full `<iframe>` YouTube embed (lite-youtube or native)
-- [ ] Add 2 latest videos to the homepage
+- [x] Channel ID confirmed: `UCNcpfgCgr1RavvcWZXSb9kA` (channel: "Stars in the Sky" / @coolpixstargazer)
+- [x] `scripts/fetch-youtube-feed.mjs`: fetches RSS, parses XML with regex, writes `src/data/videos.json`; fails gracefully if network unavailable
+- [x] Build script updated: `node scripts/fetch-youtube-feed.mjs && astro build && node scripts/rebase-assets.mjs`
+- [x] `src/pages/videos/index.astro`: responsive 3-col grid; click thumbnail to replace with embedded player
+- [x] Homepage: 2 latest videos section added above book CTA; same click-to-embed behavior
 
 ### Milestone 2.6 — Newsletter Signup
 - [ ] Create account on Buttondown (or chosen email service)

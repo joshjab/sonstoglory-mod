@@ -1,6 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import allVideos from '../data/videos.json';
+
+const latestVideos = allVideos.slice(0, 2);
 
 const newsletters = (await getCollection('newsletters'))
   .filter(n => n.data.type === 'newsletter' && n.data.number)
@@ -107,6 +110,34 @@ function extractCardImage(body) {
     </div>
   </section>
 
+  <!-- Latest Videos -->
+  <section class="max-w-5xl mx-auto px-4 py-14">
+    <h2 class="font-heading text-3xl text-primary mb-8">Latest Videos</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6" id="home-video-grid">
+      {latestVideos.map(v => (
+        <div class="video-card rounded-lg overflow-hidden shadow-sm border border-gray-100 bg-white" data-id={v.id}>
+          <button class="video-thumb block w-full relative cursor-pointer border-0 p-0 bg-transparent" aria-label={`Play ${v.title}`}>
+            <img src={v.thumbnail} alt={v.title} class="w-full h-44 object-cover" loading="lazy" />
+            <span class="absolute inset-0 flex items-center justify-center">
+              <span class="w-14 h-14 rounded-full flex items-center justify-center" style="background:rgba(220,38,38,0.88);">
+                <svg viewBox="0 0 24 24" class="w-7 h-7 text-white fill-current" style="margin-left:3px;"><polygon points="5,3 19,12 5,21"/></svg>
+              </span>
+            </span>
+          </button>
+          <div class="p-4">
+            <p class="font-heading text-sm text-primary font-semibold leading-snug">{v.title}</p>
+            <p class="text-xs text-gray-400 mt-1">
+              {new Date(v.published).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+    <div class="mt-8 text-center">
+      <a href={`${base}videos/`} class="text-primary font-semibold hover:text-accent">View all videos →</a>
+    </div>
+  </section>
+
   <!-- Free Book CTA — warm cream, dark text -->
   <section class="py-14 px-4" style="background: #F0EBE0;">
     <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10">
@@ -144,6 +175,21 @@ function extractCardImage(body) {
   </section>
 
 </BaseLayout>
+
+<script>
+  document.querySelectorAll('.video-card').forEach(card => {
+    const btn = card.querySelector('.video-thumb');
+    const id = card.dataset.id;
+    btn.addEventListener('click', () => {
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube.com/embed/${id}?autoplay=1`;
+      iframe.allow = 'autoplay; encrypted-media';
+      iframe.allowFullscreen = true;
+      iframe.className = 'w-full h-44';
+      btn.replaceWith(iframe);
+    });
+  });
+</script>
 
 <style>
   @keyframes hero-fade {

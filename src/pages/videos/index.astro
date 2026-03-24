@@ -1,18 +1,69 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import videos from '../../data/videos.json';
 ---
-<BaseLayout title="Videos" description="Teaching videos by Paul Jablonowski on the Kingdom of Jesus Christ.">
-  <div class="max-w-3xl mx-auto px-4 py-16 text-center">
-    <h1 class="font-heading text-4xl text-primary mb-4">Videos</h1>
-    <p class="text-gray-500 text-lg mb-6">YouTube integration coming soon.</p>
-    <a
-      href="https://youtube.com/@coolpixstargazer"
-      target="_blank"
-      rel="noopener"
-      class="inline-block px-6 py-3 rounded font-semibold no-underline text-white hover:opacity-90"
-      style="background:#1A2350;"
-    >
-      Watch on YouTube →
-    </a>
+<BaseLayout title="Videos" description="Teaching videos by Paul Jablonowski on the heavens, the Kingdom of Jesus Christ, and Biblical prophecy.">
+  <div class="max-w-5xl mx-auto px-4 py-14">
+
+    <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
+      <div>
+        <h1 class="font-heading text-4xl text-primary mb-2">Videos</h1>
+        <p class="text-gray-500">Stars, moons, and the heavens declaring the glory of God — by Paul Jablonowski.</p>
+      </div>
+      <a
+        href="https://youtube.com/@coolpixstargazer"
+        target="_blank"
+        rel="noopener"
+        class="shrink-0 px-5 py-2 rounded font-semibold no-underline text-white text-sm hover:opacity-90"
+        style="background:#1A2350;"
+      >
+        YouTube Channel →
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="video-grid">
+      {videos.map(v => (
+        <div class="video-card rounded-lg overflow-hidden shadow-sm border border-gray-100 bg-white" data-id={v.id}>
+          <button
+            class="video-thumb block w-full relative cursor-pointer border-0 p-0 bg-transparent"
+            aria-label={`Play ${v.title}`}
+          >
+            <img
+              src={v.thumbnail}
+              alt={v.title}
+              class="w-full h-44 object-cover"
+              loading="lazy"
+            />
+            <span class="absolute inset-0 flex items-center justify-center">
+              <span class="w-14 h-14 rounded-full flex items-center justify-center" style="background:rgba(220,38,38,0.88);">
+                <svg viewBox="0 0 24 24" class="w-7 h-7 text-white fill-current" style="margin-left:3px;"><polygon points="5,3 19,12 5,21"/></svg>
+              </span>
+            </span>
+          </button>
+          <div class="p-4">
+            <p class="font-heading text-sm text-primary font-semibold leading-snug">{v.title}</p>
+            <p class="text-xs text-gray-400 mt-1">
+              {new Date(v.published).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+
   </div>
 </BaseLayout>
+
+<script>
+  document.querySelectorAll('.video-card').forEach(card => {
+    const btn = card.querySelector('.video-thumb');
+    const id = card.dataset.id;
+    btn.addEventListener('click', () => {
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube.com/embed/${id}?autoplay=1`;
+      iframe.allow = 'autoplay; encrypted-media';
+      iframe.allowFullscreen = true;
+      iframe.className = 'w-full h-44';
+      btn.replaceWith(iframe);
+    });
+  });
+</script>
