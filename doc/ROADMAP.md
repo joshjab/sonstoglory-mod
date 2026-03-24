@@ -176,17 +176,19 @@
 - [ ] Add the component to the footer and to a dedicated `src/pages/subscribe.astro` page
 
 ### Milestone 2.7 — RSS Feed
-- [ ] Install `@astrojs/rss`: `npm install @astrojs/rss`
-- [ ] Create `src/pages/rss.xml.ts` that generates an RSS feed from the newsletters content collection
-- [ ] Add `<link rel="alternate" type="application/rss+xml">` to BaseLayout head
-- [ ] Test the feed URL at `/rss.xml`
+- [x] Install `@astrojs/rss`: `npm install @astrojs/rss`
+- [x] Create `src/pages/rss.xml.ts` that generates an RSS feed from the newsletters content collection
+- [x] Add `<link rel="alternate" type="application/rss+xml">` to BaseLayout head
+- [x] Test the feed URL at `/rss.xml`
 
 ### Milestone 2.8 — QA Pass
-- [ ] Click through every page on the live Netlify URL
-- [ ] Check all 40+ newsletter pages load and display correctly
-- [ ] Verify all PDFs are accessible
-- [ ] Test on a real mobile device (iOS and Android)
-- [ ] Fix any broken links, missing images, or formatting issues found
+- [x] Click through every page on the live Netlify URL
+- [x] Check all 40+ newsletter pages load and display correctly
+- [x] Verify all PDFs are accessible (all PDF hrefs resolve to files in public/)
+- [x] Test on a real mobile device (iOS and Android) — Josh verified
+- [x] Fix any broken links, missing images, or formatting issues found
+  - Fixed: book/foreword and book/endnotes page titles were doubled ("Foreword — Foreword")
+  - Known: 98 legacy `.htm` cross-reference links in content body text (pre-existing from migration; handled by _redirects on Netlify/CF Pages; GitHub Pages does not support _redirects)
 
 ---
 

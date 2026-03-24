@@ -54,7 +54,7 @@ function cleanTitle(title) {
 ---
 
 <ArticleLayout
-  title={`${chapterLabel} — ${cleanTitle(entry.data.title)}`}
+  title={(() => { const t = cleanTitle(entry.data.title); return t === chapterLabel ? chapterLabel : `${chapterLabel} — ${t}`; })()}
   author={entry.data.author}
   description={entry.data.description}
   tags={entry.data.tags}
