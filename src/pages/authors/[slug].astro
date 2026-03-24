@@ -100,7 +100,7 @@ const writings = (await getCollection('authors'))
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
           {meta.books.map(book => (
             <a
-              href={`${base}pdfs/${encodeURIComponent(book.pdf)}`}
+              href={`${base}pdfs/${book.pdf.split('/').map(encodeURIComponent).join('/')}`}
               target="_blank"
               class="flex flex-col no-underline group"
             >

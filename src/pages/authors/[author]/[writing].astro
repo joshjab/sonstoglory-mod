@@ -1,0 +1,44 @@
+---
+import ArticleLayout from '../../../layouts/ArticleLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const writings = (await getCollection('authors'))
+    .filter(e => {
+      const parts = e.slug.split('/');
+      // Exclude index, about, and books pages — not standalone articles
+      return parts.length === 2 && !['index', 'about', 'books'].includes(parts[1]);
+    });
+
+  return writings.map(entry => {
+    const [author, writing] = entry.slug.split('/');
+    return { params: { author, writing }, props: { entry } };
+  });
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const base = import.meta.env.BASE_URL.replace(/(\/?)$/, '/');
+
+const wordCount = entry.body.split(/\s+/).filter(Boolean).length;
+const readingTime = Math.max(1, Math.round(wordCount / 200));
+
+const [authorSlug] = entry.slug.split('/');
+---
+
+<ArticleLayout
+  title={entry.data.title}
+  author={entry.data.author}
+  date={entry.data.date}
+  description={entry.data.description}
+  tags={entry.data.tags}
+  readingTime={readingTime}
+  baseUrl={`${base}authors/${authorSlug}/`}
+>
+  <div class="mb-6">
+    <a href={`${base}authors/${authorSlug}/`} class="text-sm text-accent hover:underline">
+      ← Back to {entry.data.author}
+    </a>
+  </div>
+  <Content />
+</ArticleLayout>
