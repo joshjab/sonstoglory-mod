@@ -11,4 +11,4 @@ Daniel and Maria are orphans with no home. Their future looks bleak. Then they g
 
 This book is only a story and is not intended to be a source of theological teaching or to supplement or replace scripture. It is not a vision or authoritative. It is only a story based on our Beloved Saviour and an aid to help one contemplate His great love and power.
 
-[Download PDF](/pdfs/rolandpletts/Daniel Maria and ABBA THE TRAMP Roland Pletts.pdf)
+[Download PDF](/pdfs/rolandpletts/Daniel%20Maria%20and%20ABBA%20THE%20TRAMP%20Roland%20Pletts.pdf)
