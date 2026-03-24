@@ -59,7 +59,7 @@ const formattedDate = date
       {pdf && (
         <div class="mt-4">
           <a
-            href={`${import.meta.env.BASE_URL}${pdf?.replace(/^\//, '')}`}
+            href={`${import.meta.env.BASE_URL.replace(/(\/?)$/, '/')}${pdf?.replace(/^\//, '')}`}
             target="_blank"
             rel="noopener"
             class="inline-flex items-center gap-1 text-sm text-primary border border-primary px-3 py-1.5 rounded no-underline hover:bg-primary hover:text-white transition-colors"

@@ -6,7 +6,7 @@ const newsletters = (await getCollection('newsletters'))
   .filter(n => n.data.type === 'newsletter' && n.data.number)
   .sort((a, b) => (b.data.number ?? 0) - (a.data.number ?? 0))
   .slice(0, 3);
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/(\/?)$/, "/");
 ---
 
 <BaseLayout title="Home" description="Theological writings, newsletters, and resources by Paul Jablonowski — freely given for the Everlasting Kingdom of Jesus.">

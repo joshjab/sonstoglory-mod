@@ -10,7 +10,7 @@ const { title, description } = Astro.props;
 const siteTitle = 'Sons To Glory';
 const pageTitle = title ? `${title} | ${siteTitle}` : siteTitle;
 const pageDescription = description ?? 'Theological writings, newsletters, and resources by Paul Jablonowski.';
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/(\/?)$/, "/");
 ---
 
 <!doctype html>
