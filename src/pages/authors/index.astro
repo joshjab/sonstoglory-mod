@@ -16,11 +16,14 @@ const authors = [
     <ul class="space-y-4">
       {authors.map(a => (
         <li class="border-b border-gray-100 pb-4">
-          <p class="font-heading text-lg text-primary font-semibold">{a.name}</p>
-          <p class="text-gray-600 text-sm mt-1">{a.description}</p>
-          {a.slug && (
-            <p class="text-xs text-accent mt-1">Full page coming soon</p>
+          {a.slug ? (
+            <a href={`${base}authors/${a.slug}/`} class="font-heading text-lg text-primary font-semibold no-underline hover:text-accent">
+              {a.name}
+            </a>
+          ) : (
+            <p class="font-heading text-lg text-primary font-semibold">{a.name}</p>
           )}
+          <p class="text-gray-600 text-sm mt-1">{a.description}</p>
         </li>
       ))}
     </ul>

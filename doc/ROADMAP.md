@@ -149,12 +149,12 @@
 - [x] `src/pages/book/[slug].astro` — 9 chapter routes; chapter numbers added to frontmatter
 
 ### Milestone 2.3 — Guest Author Pages
-- [ ] Create `src/layouts/AuthorLayout.astro`:
-  - Author name, bio, photo placeholder
-  - List of their writings/books on the site
-- [ ] Create `src/pages/authors/[author]/index.astro`: author profile page
-- [ ] Create `src/pages/authors/roland-pletts/index.astro` and populate Roland Pletts' bio and book list
-- [ ] Create `src/pages/authors/bonnie-gaunt/index.astro` and populate Bonnie Gaunt's bio
+- [x] Create `src/pages/authors/[slug].astro`: dynamic author profile page (bio, photo, book list w/ covers, writings)
+- [x] Populate Roland Pletts' bio (from legacy mirror) and all 8 book PDFs with covers
+- [x] Populate Bonnie Gaunt's bio + photo + 8 PDF studies
+- [x] Stub pages for Kenny Mitchell and Miles Albright
+- [x] `src/pages/authors/index.astro` updated — author names now link to detail pages
+- [x] `src/content/authors/roland-pletts/about.md` and `bonnie-gaunt/about.md` filled with real bio text
 
 ### Milestone 2.4 — Articles & Poems Pages
 - [ ] Create `src/pages/articles/index.astro`: list of all standalone articles

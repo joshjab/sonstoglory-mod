@@ -1,0 +1,158 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, getEntry } from 'astro:content';
+
+const base = import.meta.env.BASE_URL.replace(/(\/?)$/, '/');
+
+// Per-author static data: bio source, photo, PDF books
+const AUTHOR_META = {
+  'roland-pletts': {
+    name: 'Roland Pletts',
+    description: 'Author of eight books on the Second Coming, the Covenant of Glory, and Christian mission in Africa.',
+    photo: null,
+    books: [
+      { title: 'Covenant of Glory', cover: 'Covenant_cover.jpg', pdf: 'rolandpletts/Covenant of Glory Roland Pletts.pdf' },
+      { title: 'War for the World', cover: 'warfortheworld.jpg', pdf: 'rolandpletts/WAR FOR WORLD.pdf' },
+      { title: 'Abba / Daniel Maria and the Tramp', cover: 'Tramp_cover_small.jpg', pdf: 'rolandpletts/Daniel Maria and ABBA THE TRAMP Roland Pletts.pdf' },
+      { title: 'Crown of Thorns', cover: 'crownofthorns.jpg', pdf: 'rolandpletts/CROWN OF THORNS.pdf' },
+      { title: 'The Lord Reigns', cover: 'theLORDreigns.jpg', pdf: 'rolandpletts/The Lord Reigns.pdf' },
+      { title: 'The Coming Conflict in Jerusalem', cover: 'coming_conflict_cover.jpg', pdf: 'rolandpletts/THE COMING CONFLICT in Jerusalem.pdf' },
+      { title: 'Miracle of Israel', cover: 'Miracle_Israel_cover.jpg', pdf: 'rolandpletts/Miracle of Israel.pdf' },
+      { title: 'When Messiah Comes', cover: 'When_Messiah_Comes_cover.jpg', pdf: 'rolandpletts/When Messiah Comes.pdf' },
+    ],
+  },
+  'bonnie-gaunt': {
+    name: 'Bonnie Gaunt',
+    description: 'Author of fifteen books on Bible Gematria, prophecy, and the coming Millennium. August 11, 1929 – January 23, 2012.',
+    photo: 'bonniegaunt/images/bonnie-pic.jpg',
+    books: [
+      { title: 'Gematria: How It Works', pdf: 'bonniegaunt/Gematria-How it Works.pdf' },
+      { title: "Earth's Great Sunrise — The Millennial Morning", pdf: "bonniegaunt/Earth's Great Sunrise -- The Millennial Morning.pdf" },
+      { title: 'Dates 1999 and 2033', pdf: 'bonniegaunt/Dates 1999 and 2033.pdf' },
+      { title: 'Israel 2033 and 5793', pdf: 'bonniegaunt/Israel 2033 and 5793.pdf' },
+      { title: 'Chronology Timeline', pdf: 'bonniegaunt/Bonnie_Timeline.pdf' },
+      { title: "God's Government", pdf: "bonniegaunt/God's Government.pdf" },
+      { title: 'The Rainbow', pdf: 'bonniegaunt/The Rainbow.pdf' },
+      { title: 'Boaz and Ruth', pdf: 'bonniegaunt/Boaz and Ruth.pdf' },
+    ],
+  },
+  'kenny-mitchell': {
+    name: 'Kenny Mitchell',
+    description: 'Guest author and contributor on the Kingdom of God and the empowerment of the Church.',
+    photo: null,
+    books: [],
+  },
+  'miles-albright': {
+    name: 'Miles Wylie Albright',
+    description: 'Guest teacher with video teachings on the 2733 Revelation and biblical prophecy.',
+    photo: null,
+    books: [],
+  },
+};
+
+export async function getStaticPaths() {
+  const slugs = ['roland-pletts', 'bonnie-gaunt', 'kenny-mitchell', 'miles-albright'];
+  return slugs.map(slug => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const meta = AUTHOR_META[slug];
+
+// Load bio from about.md in the authors collection
+const aboutEntry = await getEntry('authors', `${slug}/about`);
+const { Content: BioContent } = aboutEntry ? await aboutEntry.render() : { Content: null };
+
+// Load all writings for this author (exclude about and index pages)
+const writings = (await getCollection('authors'))
+  .filter(e => e.slug.startsWith(`${slug}/`) && !['about', 'index', 'books'].includes(e.slug.split('/')[1]))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+
+<BaseLayout title={`${meta.name} — Authors`} description={meta.description}>
+  <div class="max-w-4xl mx-auto px-4 py-14">
+
+    <!-- Author header -->
+    <div class="flex flex-col sm:flex-row gap-8 items-start mb-10">
+      {meta.photo && (
+        <img
+          src={`${base}images/${meta.photo}`}
+          alt={meta.name}
+          class="w-32 h-32 object-cover rounded-full shadow-md shrink-0"
+        />
+      )}
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-widest mb-1" style="color:#C8912A;">Guest Author</p>
+        <h1 class="font-heading text-4xl text-primary mb-3">{meta.name}</h1>
+        {BioContent ? (
+          <div class="prose max-w-none text-gray-700">
+            <BioContent />
+          </div>
+        ) : (
+          <p class="text-gray-600">{meta.description}</p>
+        )}
+      </div>
+    </div>
+
+    <!-- Books / PDFs -->
+    {meta.books.length > 0 && (
+      <section class="mb-12">
+        <h2 class="font-heading text-2xl text-primary mb-6">Books</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
+          {meta.books.map(book => (
+            <a
+              href={`${base}pdfs/${encodeURIComponent(book.pdf)}`}
+              target="_blank"
+              class="flex flex-col no-underline group"
+            >
+              {book.cover ? (
+                <img
+                  src={`${base}images/${slug === 'roland-pletts' ? 'rolandpletts/images/' : ''}${book.cover}`}
+                  alt={book.title}
+                  class="w-full h-44 object-cover rounded shadow-sm group-hover:shadow-md transition-shadow mb-2"
+                  loading="lazy"
+                />
+              ) : (
+                <div class="w-full h-44 rounded shadow-sm flex items-center justify-center mb-2" style="background:#1A2350;">
+                  <span class="text-white text-xs text-center px-2 opacity-70 leading-snug">{book.title}</span>
+                </div>
+              )}
+              <span class="text-sm text-primary font-semibold leading-snug group-hover:text-accent">{book.title}</span>
+              <span class="text-xs text-gray-400 mt-0.5">Download PDF →</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Other writings -->
+    {writings.length > 0 && (
+      <section>
+        <h2 class="font-heading text-2xl text-primary mb-4">Writings on This Site</h2>
+        <ul class="space-y-2">
+          {writings.map(w => (
+            <li class="border-b border-gray-100 pb-2">
+              <a
+                href={`${base}authors/${slug}/${w.slug.split('/')[1]}/`}
+                class="font-heading text-primary hover:text-accent font-semibold"
+              >
+                {w.data.title}
+              </a>
+              {w.data.description && (
+                <p class="text-sm text-gray-500 mt-0.5">{w.data.description}</p>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {meta.books.length === 0 && writings.length === 0 && (
+      <p class="text-gray-400 text-sm">Full page coming soon.</p>
+    )}
+
+    <div class="mt-10">
+      <a href={`${base}authors/`} class="text-sm text-primary hover:text-accent">← All Authors</a>
+    </div>
+
+  </div>
+</BaseLayout>
