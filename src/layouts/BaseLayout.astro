@@ -26,7 +26,12 @@ const base = import.meta.env.BASE_URL.replace(/(\/?)$/, "/");
 
     <header class="bg-primary text-white shadow-md">
       <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-        <a href={base} class="text-white no-underline hover:text-accent">
+        <a href={base} class="flex items-center gap-3 text-white no-underline hover:text-accent">
+          <img
+            src={`${base}images/images/sonstoglorycover_sm.jpg`}
+            alt="Sons To Glory"
+            class="h-9 w-auto rounded shadow-sm"
+          />
           <span class="font-heading text-2xl font-bold">Sons To Glory</span>
         </a>
         <nav class="hidden md:flex gap-6 text-sm font-semibold">
