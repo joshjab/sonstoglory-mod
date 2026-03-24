@@ -15,7 +15,7 @@ by Paul Jablonowski
 
 September 30, 2010
 
-<a href="../MillenniumBook.pdf" target="_blank"><img src="../images/Bonniebookcoverfront_sm.jpg" data-align="right" data-vspace="8" data-hspace="8" data-border="0" width="200" height="296" /></a>It is with great joy and excitement that I write this newsletter during the Feast of Tabernacles to offer you a free book by Bonnie Gaunt called *"The Dawn of Earth's Great Millennium!"*
+<a href="/pdfs/MillenniumBook.pdf" target="_blank"><img src="/images/images/Bonniebookcoverfront_sm.jpg" data-align="right" data-vspace="8" data-hspace="8" data-border="0" width="200" height="296" /></a>It is with great joy and excitement that I write this newsletter during the Feast of Tabernacles to offer you a free book by Bonnie Gaunt called *"The Dawn of Earth's Great Millennium!"*
 
 Releasing this book during Tabernacles is appropriate because the earth's great millennium (1,000 years) that we are now entering can rightly be called the *"Tabernacles Age"* where Christ fully tabernacles with His Bride and rules and reigns with His people on the earth. This time period is often called the *Millennial Reign of Christ* or the *Millennial Kingdom of Jesus Christ.* The *"Passover Age"* began with the first Passover of Moses and ended with the crucifixion of Jesus our Passover Lamb. Then the *"Pentecost Age"* started and has been working itself out over the past 2,000 years in Christ's body the church. But now we find ourselves within a 33-1/2 year transition period before entering the *"Tabernacles Age."*
 
@@ -27,7 +27,7 @@ Both Bonnie and I independently saw the parallel between the birth of the first 
 
 Therefore, Passover 2012 will be the parallel of this event in Jesus' life to the manchild government in our day. But Bonnie has also seen another parallel in this timetable which is in regards to the building of the temple in Jerusalem in 537 B.C. Below is a chart taken from page 61 in Bonnie's new book that shows all three of these parallels.
 
-<img src="../bonniegaunt/images/G17-temple.jpg" width="555" height="395" />
+<img src="/images/bonniegaunt/images/G17-temple.jpg" width="555" height="395" />
 
 Bonnie writes on page 60 to explain this chart saying, *"In the autumn of 550 B.C., Daniel was given a vision in which he saw a Ram with two horns, which represented the combined kingdom of the Medes and the Persians. (Daniel 8) The vision was prophetic of the night when Babylon’s king Belshazzar, during his great feast, saw the handwriting on the wall; and at the same time the army of Cyrus was breaking through into the city. That night Babylon was conquered."* If you remember history, Cyrus conquered Babylon in a single day! While Babylon's king Belshazzar was partying at a feast and mocking the God of Israel by drinking from their sacred vessels, fingers appeared and wrote "the handwriting on the wall" which Daniel interpreted to mean "your kingdom has been divided." (Daniel 5)
 
@@ -35,4 +35,4 @@ Bonnie writes on page 60 to explain this chart saying, *"In the autumn of 550 B.
 
 The gematria (number code) for the bold portion of the scripture above is "2012." But the good news is that the "chambers" we enter refer to a bridal chamber and God will use the hard times ahead to bring together and purify His Bride body so that He can do great exploits in the earth! We are still in the beginning stages of God's manchild government, and the real ministry of the Bride to the world does not start until 2029-2033 which will parallel the 3-1/2 years of Jesus' ministry. But there is much preparation and work being done during this transition period, just like Jesus who *"increased in wisdom and stature and in favor with God and men"* during his growth as a man before His public ministry.
 
-For more information on this 33-1/2 year transition period between the years of 1999-2033, please read the latest sonstoglory.com book written by Bonnie Gaunt called "The Dawn of Earth's Great Millennium." You can read it <a href="../millenniumgematria.htm" target="_blank">on-line</a>, download the <a href="../MillenniumBook.pdf" target="_blank">e-book</a> or request a <a href="../bonniegaunt.htm" target="_blank">paperback</a>. May Yahweh bless you and keep you.
+For more information on this 33-1/2 year transition period between the years of 1999-2033, please read the latest sonstoglory.com book written by Bonnie Gaunt called "The Dawn of Earth's Great Millennium." You can read it <a href="../millenniumgematria.htm" target="_blank">on-line</a>, download the <a href="/pdfs/MillenniumBook.pdf" target="_blank">e-book</a> or request a <a href="../bonniegaunt.htm" target="_blank">paperback</a>. May Yahweh bless you and keep you.

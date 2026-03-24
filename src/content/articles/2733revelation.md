@@ -12,7 +12,7 @@ legacy_url: "/Jesus/2733Revelation.htm"
 ## by Miles Wylie Albright
 
 
-<img src="Miles_Albright.png" data-align="left" data-vspace="7" data-hspace="7" width="273" height="386" />My name is Miles Wylie Albright. I am an Alabama Rancher/Pastor. I am ordained by MorningStar Ministries under Rick Joyner. I went to the Airport Vineyard Revival in Toronto, Ontario in late March of 1995. I was there, worshiping and being ministered to for five days. I returned home on 4-3-95, which was my 43 birthday. Frankly, I was a little miffed, not seeing the point of my trip. I resolved to set aside the next day to fast, pray, and wrestle with God. I prayed for a while but seemed unable to break through.
+<img src="/images/Jesus/Miles_Albright.png" data-align="left" data-vspace="7" data-hspace="7" width="273" height="386" />My name is Miles Wylie Albright. I am an Alabama Rancher/Pastor. I am ordained by MorningStar Ministries under Rick Joyner. I went to the Airport Vineyard Revival in Toronto, Ontario in late March of 1995. I was there, worshiping and being ministered to for five days. I returned home on 4-3-95, which was my 43 birthday. Frankly, I was a little miffed, not seeing the point of my trip. I resolved to set aside the next day to fast, pray, and wrestle with God. I prayed for a while but seemed unable to break through.
 
 I eventually gave up and started doing my daily Bible reading, which I had gotten a little behind on in my travels. My scheduled reading for the day was the census chapters in the book of Numbers.
 

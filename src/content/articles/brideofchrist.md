@@ -41,7 +41,7 @@ There were only twelve of us at this Marriage Supper of the Lamb. Ken and Mary S
 
 One thing that happened during this time of worship was the release of some of the land that the Lord has been promising this group in Kansas to build a center for teaching information on the Bride of Christ. It is located on the hill called "The Place." For over eighteen years this group has been receiving prophetic words and signs for "The Place" and this convocation seemed to really release some things in the natural to help this vision come to pass.
 
-<img src="images/TheHillCalledthePlace.jpg" width="500" height="191" />
+<img src="/images/images/TheHillCalledthePlace.jpg" width="500" height="191" />
 
 I believe the Lord has also given me some understanding regarding the purpose of "The Place" ministry center in Kansas and this illustration above depicts that understanding. "Hills" in the Bible are symbolic of *governments*, *authority*, and *ruler ship*. The hill in this illustration represents **TRUTH** and **JUSTICE**, which is why it has a flame on top. The hill in this illustration also doubles as an army helmet because "the hill called the place" will be a command center for many parts of the Lord's Army.
 
@@ -62,7 +62,7 @@ Roy and Faith Sauzek from Kansas also attended this Convocation. Roy explained t
 
 The Lord symbolically demonstrated this message by having Ken represent the Jew and Roy represent the Gentile. Ken, who teaches on the Jewish feasts and who may even have Jewish lineage, had the Israeli flag draped over his shoulders, while Roy had the American flag draped upon his shoulders. During worship and prayer, Fran Beauchamps was shown in the Spirit that I was to have the Christian flag draped upon my shoulders while standing between Ken and Roy. My stance between the *king* and the *priest* represented **intercession** to bring about the "one new man" which is the Bride of Christ made up of both Jew and Gentile. As I stood between them I read from Ephesians 2:11-18 part of which says, *"He Himself* (Christ) *is our peace, who has made both* (Jew and Gentile) *one... so as to create in Himself **ONE NEW MAN** from the two, thus making peace."*
 
-<img src="images/Ezekiel37_two_sticks_poster.jpg" data-align="left" width="258" height="405" />Ezekiel chapter 37 speaks about the two sticks of Judah (Jews) and Ephraim (Christians) becoming one stick in the Lord's hand. This was another Word brought forth by the Spirit of the Lord through several independent sources at this Convocation:
+<img src="/images/images/Ezekiel37_two_sticks_poster.jpg" data-align="left" width="258" height="405" />Ezekiel chapter 37 speaks about the two sticks of Judah (Jews) and Ephraim (Christians) becoming one stick in the Lord's hand. This was another Word brought forth by the Spirit of the Lord through several independent sources at this Convocation:
 
 On the first day of the Convocation, Ken's entire message revolved around Ezekiel chapter 37. Two days later, Jane Greenstein first arrived without knowledge of the Ezekiel 37 words that had already been shared. The Lord had directed her to give us four stakes to plant around the "The Castle" property to claim it back for the Kingdom of God. These stakes were Chinese chopsticks that were stuck together creating a tangible imagery of the two sticks being made one, and she had written <a href="http://www.blueletterbible.org/kjv/Eze/Eze037.html#top" style="text-decoration:none" target="_blank">Ezekiel 37</a> on each stick prior to attending!
 

@@ -33,117 +33,117 @@ Rather than writing about the many many wonderful experiences we had in Israel, 
 <tbody>
 <tr class="odd">
 <td colspan="2"><div data-align="center">
-<img src="pictures/Israel/Cesarea.jpg" width="666" height="374" /><br />
+<img src="/images/newsletters/pictures/Israel/Cesarea.jpg" width="666" height="374" /><br />
 Caesarea ancient aqueduct on the Mediterranean Sea
 </div></td>
 </tr>
 <tr class="even">
 <td colspan="2"><div data-align="center">
-<img src="pictures/Israel/BeitSheencolusium.jpg" width="666" height="374" /><br />
+<img src="/images/newsletters/pictures/Israel/BeitSheencolusium.jpg" width="666" height="374" /><br />
 Beit Shean ancient coliseum
 </div></td>
 </tr>
 <tr class="odd">
 <td colspan="2"><div data-align="center">
-<img src="pictures/Israel/seaofgalileeworship2.jpg" width="666" height="372" /><br />
+<img src="/images/newsletters/pictures/Israel/seaofgalileeworship2.jpg" width="666" height="372" /><br />
 Singing on the Sea of Galilee boat ride
 </div></td>
 </tr>
 <tr class="even">
 <td width="268"><div data-align="center">
-<img src="pictures/Israel/Gihonspring.jpg" width="333" height="592" /><br />
+<img src="/images/newsletters/pictures/Israel/Gihonspring.jpg" width="333" height="592" /><br />
 Gihon Spring Siloam Tunnel
 </div></td>
 <td width="355"><div data-align="center">
-<img src="pictures/Israel/EinGedi.jpg" width="333" height="592" /><br />
+<img src="/images/newsletters/pictures/Israel/EinGedi.jpg" width="333" height="592" /><br />
 Springs of Ein Gedi
 </div></td>
 </tr>
 <tr class="odd">
 <td colspan="2"><div data-align="center">
-<img src="pictures/Israel/MediterraneanSea.jpg" width="666" height="374" /><br />
+<img src="/images/newsletters/pictures/Israel/MediterraneanSea.jpg" width="666" height="374" /><br />
 Rosh HaNikra in northern Israel
 </div></td>
 </tr>
 <tr class="even">
 <td colspan="2"><div data-align="center">
-<img src="pictures/Israel/PrayertowerKingofKings.jpg" width="666" height="374" /><br />
+<img src="/images/newsletters/pictures/Israel/PrayertowerKingofKings.jpg" width="666" height="374" /><br />
 View of Jerusalem from the <a href="http://www.jerusalemprayertower.org/" target="_blank">Jerusalem Prayer Tower</a> at <a href="http://www.kkcj.org/" target="_blank">King of Kings Ministries</a>
 </div></td>
 </tr>
 <tr class="odd">
 <td width="268"><div data-align="center">
-<img src="pictures/Israel/Lebanonbordersoldier.jpg" width="333" height="592" /><br />
+<img src="/images/newsletters/pictures/Israel/Lebanonbordersoldier.jpg" width="333" height="592" /><br />
 At the border of Lebanon
 </div></td>
 <td width="355"><div data-align="center">
-<img src="pictures/Israel/JordanRiverbaptism.jpg" width="333" height="592" /><br />
+<img src="/images/newsletters/pictures/Israel/JordanRiverbaptism.jpg" width="333" height="592" /><br />
 Getting baptized in Jordan River
 </div></td>
 </tr>
 <tr class="even">
 <td colspan="2"><div data-align="center">
-<img src="pictures/Israel/MtOlives.jpg" width="666" height="374" /><br />
+<img src="/images/newsletters/pictures/Israel/MtOlives.jpg" width="666" height="374" /><br />
 Mount of Olives
 </div></td>
 </tr>
 <tr class="odd">
 <td colspan="2"><div data-align="center">
-<img src="pictures/Israel/Gardentomb4.jpg" width="666" height="374" /><br />
+<img src="/images/newsletters/pictures/Israel/Gardentomb4.jpg" width="666" height="374" /><br />
 The four of us stood together in the Garden tomb where Jesus was buried and rose again!
 </div></td>
 </tr>
 <tr class="even">
 <td colspan="2"><div data-align="center">
-<img src="pictures/Israel/EinGediwater.jpg" width="666" height="374" /><br />
+<img src="/images/newsletters/pictures/Israel/EinGediwater.jpg" width="666" height="374" /><br />
 Found Ein Gedi bottled water at an Arab market in Jerusalem on the same day we visited Ein Gedi
 </div></td>
 </tr>
 <tr class="odd">
 <td width="268"><div data-align="center">
-<img src="pictures/Israel/Shfayimcliffs.jpg" width="333" height="592" /><br />
+<img src="/images/newsletters/pictures/Israel/Shfayimcliffs.jpg" width="333" height="592" /><br />
 The Keshet Arch in northern Israel
 </div></td>
 <td width="355"><div data-align="center">
-<img src="pictures/Israel/Gardentomb.jpg" width="333" height="592" /><br />
+<img src="/images/newsletters/pictures/Israel/Gardentomb.jpg" width="333" height="592" /><br />
 The Garden tomb
 </div></td>
 </tr>
 <tr class="even">
 <td colspan="2"><div data-align="center">
-<img src="pictures/Israel/telavivkiosk.jpg" width="666" height="373" /><br />
+<img src="/images/newsletters/pictures/Israel/telavivkiosk.jpg" width="666" height="373" /><br />
 The kiosk in Tel-Aviv where modern Israel started. Inserted picture is the same kiosk from 100 years ago!
 </div></td>
 </tr>
 <tr class="odd">
 <td width="268"><div data-align="center">
-<img src="pictures/Israel/RonandElana.jpg" width="333" height="592" /><br />
+<img src="/images/newsletters/pictures/Israel/RonandElana.jpg" width="333" height="592" /><br />
 <a href="http://messiahsmandate.org/" target="_blank">Ron &amp; Elana Cantor</a> who organized the tour
 </div></td>
 <td width="355"><div data-align="center">
-<img src="pictures/Israel/Joppagate.jpg" width="333" height="592" /><br />
+<img src="/images/newsletters/pictures/Israel/Joppagate.jpg" width="333" height="592" /><br />
 The Joppa gate where the gospel went to the Gentiles
 </div></td>
 </tr>
 <tr class="even">
 <td colspan="2"><div data-align="center">
-<img src="pictures/Israel/cityofDavid.jpg" width="666" height="374" /><br />
+<img src="/images/newsletters/pictures/Israel/cityofDavid.jpg" width="666" height="374" /><br />
 The city of David
 </div></td>
 </tr>
 <tr class="odd">
 <td width="268" height="30"><div data-align="center">
-<img src="pictures/Israel/western%20wailing%20wall.jpg" width="333" height="592" /><br />
+<img src="/images/newsletters/pictures/Israel/western%20wailing%20wall.jpg" width="333" height="592" /><br />
 The western wailing wall
 </div></td>
 <td width="355" height="30"><div data-align="center">
-<img src="pictures/Israel/gardenofgethsemane.jpg" width="333" height="592" /><br />
+<img src="/images/newsletters/pictures/Israel/gardenofgethsemane.jpg" width="333" height="592" /><br />
 The garden of Gethsemane
 </div></td>
 </tr>
 <tr class="even">
 <td colspan="2"><div data-align="center">
-<img src="pictures/Israel/Jerusalem.jpg" width="666" height="374" /><br />
+<img src="/images/newsletters/pictures/Israel/Jerusalem.jpg" width="666" height="374" /><br />
 <em>"Pray for the peace of Jerusalem, they will prosper who love you."</em> (Psalm 122)
 </div></td>
 </tr>

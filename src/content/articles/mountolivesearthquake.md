@@ -16,7 +16,7 @@ legacy_url: "/MountOlivesEarthquake.htm"
 
 There is nothing quite like hearing the voice of the Lord. When God speaks, your whole body quakes. That was our opening sentence yesterday. This morning (October 3) at 7 AM, on the eve of the Feast of Trumpets, north of the Salt Sea near Jericho, there was a 4.0 earthquake. Sitting in my morning chair, 700 meters above sea level, I felt the shaking continue for about 15 seconds. Only later did I relate the event to the current feast. If we took it as a sign from the Lord, what might He be saying? It is a season of shaking from the foundations of the earth. The shaking will go out from the point of origin and be felt at great distances. The shaking is not yet so severe. The voice of the Lord is audible but not yet booming. So we wish you a meaningful and blessed Feast of Trumpets.
 
-<img src="newsletters/pictures/city_of_David_1969_picture.jpg" width="594" height="468" />
+<img src="/images/newsletters/pictures/city_of_David_1969_picture.jpg" width="594" height="468" />
 
 ## by Jerry Golden
 

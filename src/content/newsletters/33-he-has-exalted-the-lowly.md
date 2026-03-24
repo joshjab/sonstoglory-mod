@@ -16,7 +16,7 @@ by Paul Jablonowski
 
 December 10, 2018
 
-<img src="pictures/3crosses.jpg" width="333" height="231" />
+<img src="/images/newsletters/pictures/3crosses.jpg" width="333" height="231" />
 
 *"For the message of the cross is foolishness to those who are perishing, but to us who are being saved it is the power of God... For God has chosen **the foolish things** of the world to put to shame the wise, and God has chosen **the weak things** of the world to put to shame the things which are mighty."* (1 Corinthians 1:18...27)
 
@@ -62,7 +62,7 @@ When we humble ourselves, the LORD is able to use us, like Mary, to birth His pu
 
 David is best known as the shepherd king because he started out as a lowly and humble shepherd **AND** was able to maintain this humility even as king of Israel. The times that he faltered and fell were always times of pride and self-focus, but eventually he returned to the "heart of David" that we all know and love so much.
 
-<img src="pictures/FrontCover_Tale_of_Two_Hearts_book.jpg" data-vspace="8" data-hspace="8" data-align="left" data-border="8" width="333" height="533" />SonsToGlory.com is now publishing a book on this topic of **the Heart of David**. It is a book that Miles Albright wrote called the: *"Tale of Two Hearts,"* which contrasts the hearts of king Saul and king David of ancient Israel. We all struggle with the same heart conflicts: to serve our selfishness, or to lay down our lives like a lamb.
+<img src="/images/newsletters/pictures/FrontCover_Tale_of_Two_Hearts_book.jpg" data-vspace="8" data-hspace="8" data-align="left" data-border="8" width="333" height="533" />SonsToGlory.com is now publishing a book on this topic of **the Heart of David**. It is a book that Miles Albright wrote called the: *"Tale of Two Hearts,"* which contrasts the hearts of king Saul and king David of ancient Israel. We all struggle with the same heart conflicts: to serve our selfishness, or to lay down our lives like a lamb.
 
 The heart of David is best symbolized as the lamb, and the heart of Saul is like a donkey; which is why the cover of this book has a lamb next to the shepherd boy David, and the donkey next to king Saul. Also the three crosses found on the cover of this book represent the Tale of the Two Hearts. The center cross is Jesus. The cross leaning into Jesus is the heart of David. The cross leaning away from Jesus is the heart of Saul. **It's really all about Jesus**, the son of David!
 
@@ -75,7 +75,7 @@ First Samuel 16:7
 
 This book "Tale of Two Hearts" can be obtained in three different formats:
 1) **Website** - <a href="../twohearts.htm" target="_blank">www.sonstoglory.com/twohearts.htm</a>
-2) **E-book** (.PDF Acrobat format) - <a href="../twohearts.pdf" target="_blank">www.sonstoglory.com/twohearts.pdf</a>
+2) **E-book** (.PDF Acrobat format) - <a href="/pdfs/twohearts.pdf" target="_blank">www.sonstoglory.com/twohearts.pdf</a>
 3) Request a **Paperback** book - by writing to: Sons To Glory; 131 Wyeth Drive; Harvest, AL 35749
 
 Psalm 110 is one of the most often quoted books in the New Testament which talks about the reign of the Messiah according to the order of Melchizedek. Jesus is the one who sat down at the right hand of the Father after His resurrection. And Jesus will be the one to return after His "enemies become His footstool."(2) Jesus will rule through a love that overcomes enemies by winning them to <a href="32restorationofallthings.htm" target="_blank">reconcile all man to Himself</a>. *"For FROM Him are all things, and TO Him are all things."* (Romans 11:36). **He deserves the Glory!**(3)
@@ -84,7 +84,7 @@ Psalm 110 is one of the most often quoted books in the New Testament which talks
 
 \(1\) Scriptures showing the birth of Jesus to be during the fall Feasts - <a href="https://www.gods-kingdom-ministries.net/teachings/books/secrets-of-time/chapter-9-the-birth-of-jesus/" target="_blank">https://www.gods-kingdom-ministries.net/teachings/books/secrets-of-time/chapter-9-the-birth-of-jesus/</a>
 
-\(2\) Bonnie Gaunt's observations into the Psalm 110 saints ruling with Jesus - <a href="../bonniegaunt/bible/Psalm110.pdf" target="_blank">http://sonstoglory.com/bonniegaunt/bible/Psalm110.pdf</a>
+\(2\) Bonnie Gaunt's observations into the Psalm 110 saints ruling with Jesus - <a href="/pdfs/bonniegaunt/Psalm110.pdf" target="_blank">http://sonstoglory.com/bonniegaunt/bible/Psalm110.pdf</a>
 
 \(3\) Song: From Him and to Him are all things - <a href="https://www.youtube.com/watch?v=ywoMeuutuc4" target="_blank">https://www.youtube.com/watch?v=ywoMeuutuc4</a>
 

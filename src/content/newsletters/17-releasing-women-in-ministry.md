@@ -15,7 +15,7 @@ by Paul Jablonowski
 
 March 25, 2013
 
-*<img src="pictures/washing_feet.jpg" data-align="left" data-vspace="7" data-hspace="7" width="444" height="296" />"Yahweh gave the Word; **the women who proclaimed it** was a great company: Sovereigns of armies flee in haste! And she who **remains at home** divides the spoil."* Psalm 68:11-12 (ISR Scriptures version)
+*<img src="/images/newsletters/pictures/washing_feet.jpg" data-align="left" data-vspace="7" data-hspace="7" width="444" height="296" />"Yahweh gave the Word; **the women who proclaimed it** was a great company: Sovereigns of armies flee in haste! And she who **remains at home** divides the spoil."* Psalm 68:11-12 (ISR Scriptures version)
 
 It is great to think about the world's armies, kings and presidents fleeing in haste because of God's proclaimed Word from the lips and hearts of **women**. Even from the comfort of their own homes! It is the "God of peace" who crushes Satan underneath our feet, and women are perfect vehicles for the word of shalom to come forth. Are we preparing God's daughters to fulfill their calling? Or are we hindering them through the traditions of man which makes the word of God of no effect?
 

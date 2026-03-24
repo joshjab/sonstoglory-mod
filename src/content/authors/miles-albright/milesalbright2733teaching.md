@@ -8,8 +8,8 @@ tags: []
 legacy_url: "/milesalbright/MilesAlbright2733teaching.html"
 ---
 
-<a href="2733part3of4.mp4" target="_blank"><img src="miles3.jpg" data-border="0" width="320" height="215" /><br />
+<a href="2733part3of4.mp4" target="_blank"><img src="/images/milesalbright/miles3.jpg" data-border="0" width="320" height="215" /><br />
 </a>**Part 3 of 4** (38 minutes)
 
-<a href="2733part4of4.mp4" target="_blank"><img src="miles4.jpg" data-border="0" width="320" height="214" /><br />
+<a href="2733part4of4.mp4" target="_blank"><img src="/images/milesalbright/miles4.jpg" data-border="0" width="320" height="214" /><br />
 </a>**Part 4 of 4** (23 minutes)

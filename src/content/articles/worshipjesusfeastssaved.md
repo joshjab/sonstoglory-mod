@@ -60,7 +60,7 @@ You are a <strong>spirit</strong>, You have a <strong>soul</strong>, And you liv
 
 # The New Man in Christ Jesus
 
-<img src="images/SpiritSoulBodyMan.jpg" width="720" height="890" />
+<img src="/images/images/SpiritSoulBodyMan.jpg" width="720" height="890" />
 
 This chart above depicts the spirit of the person who has been born again from heaven. The man who has not been reborn has a wandering spirit and cannot understand or obey the things of God. However, thanks to our Lord Jesus Christ we CAN have a born again spirit that will lead us into all truth and teach us the things of God's Spirit. God's Word teaches us that in order for a person's spirit to be reborn he or she must make a confession with their mouth to another person of their belief in the Lord Jesus. Romans 10:9-10 tells us, *"If you confess with your mouth the Lord Jesus and believe in your heart that God has raised Him from the dead, you will be saved. For with the heart one believes unto righteousness, and with the mouth confession is made unto salvation."* Also, Jesus tells us that if we confess Him **before men**, then He will confess you to the Father and be your advocate legally before the throne of God (Matt 10:32, Luke 12:8). Your profession of faith in Christ before another person is a legal matter in heaven, and it is only through Jesus that we can legally be reconciled back to God.
 
@@ -76,11 +76,11 @@ Our soul consists of the mind, will and emotions, and your heart is the area whe
 
 To worship "in spirit" is to walk in obedience to the promptings of these seven spirits who dwell within the born again believer. To worship "in truth" is the other side of our balanced walk with the Lord. Walking "in truth" involves walking according to God's order and instruction, which is shown to us in His WORD. So you have a constant balance of walking in the Spirit and walking according to His truth found in His word. You cannot have one without the other. If you have all spirit and no word then you will "puff up" in pride. If you have all word and no spirit then you will "dry up" with dead religion. We must have a proper balance of worship in spirit and in truth as this figure below shows:
 
-<img src="images/balancedwalk.jpg" width="500" height="139" />
+<img src="/images/images/balancedwalk.jpg" width="500" height="139" />
 
 The best definition of worship is "free will obedience." The first use of the word "worship" in the Scriptures is in <a href="http://biblecc.com/genesis/22-5.htm" style="text-decoration:none" target="_blank">Genesis 22:5</a> where Abraham went to "worship" on Mt. Moriah by offering Isaac on the altar. There was no music or dancing or shouting, it was Abraham's free will offering of obedience. Part of worshiping "in truth" involves ordering our times of communion with God and with one another according to God's ways. Below is a chart that helps to describe the order that God is calling His people to worship Him in truth. You can see that the Old Testament order for offerings of worship is a pattern or matrix to help contain the New Covenant life that we have together in Christ Jesus. Again, it is a free will offering of obedience to His word (worship in truth).
 
-<span id="worshipChart"></span><img src="images/OfferingsofWorshipNumbers28.jpg" data-align="top" width="720" height="540" />
+<span id="worshipChart"></span><img src="/images/images/OfferingsofWorshipNumbers28.jpg" data-align="top" width="720" height="540" />
 
 Worshiping in truth is a matter of discipline according to God's word. We can discipline ourselves for times of worship according to our own good ideas, or we can do it according to the word of God which would be worshiping in truth.
 

@@ -25,7 +25,7 @@ His first coming was to die. His second coming is **not** to die, but to rule an
 
 When He returns, will we be one of those overcomers? This is the question of the ages. The "Age of the ages" is the "Millennium" we are now entering. This millennium will be the reward of the overcomers. It will be a time where truth overcomes lies/deception, and righteousness overcomes evil. But it doesn't happen all at once. There is a progression into this age of peace.
 
-<img src="pictures/Jesus_2nd_coming_timeline.jpg" width="602" height="249" />
+<img src="/images/newsletters/pictures/Jesus_2nd_coming_timeline.jpg" width="602" height="249" />
 
 Law, Grace, and Peace are the three pillars of the ages. Moses initiated the Law. Jesus initiated Grace with His first coming; and will initiate true Peace with His second coming. The "Second Pentecost" is really the end of the 2,000 year long time period of Pentecost from Jesus until today. This second Pentecost will finish what was started with the first disciples in Acts chapter 2. The Second Pentecost is the culmination of the Age of Pentecost.
 
@@ -33,11 +33,11 @@ Jesus' first coming was the culmination of the Covenant of Law (Age of Truth) be
 
 ## Timing of Jesus Second Coming
 
-Putting a time frame on <a href="../ChristComingBook.pdf" target="_blank">the second coming of Jesus</a> is not always easy, but it is important NOT to be ignorant as Scripture admonishes us: *"Concerning the times and seasons... you, brethren are not in darkness, so that this Day should overtake you as a thief."* (1 Thess. 5:1-4) When talking about the second coming of Jesus, Peter warns us that scoffers will mock those who await His coming because it has been so long. But then Peter gives us a timing hint to be watching when he says, *"do not be ignorant of this **one thing**, that with the LORD, **one day** is as **a thousand years**, and a thousand years as one day."* (2 Peter 3:8)
+Putting a time frame on <a href="/pdfs/ChristComingBook.pdf" target="_blank">the second coming of Jesus</a> is not always easy, but it is important NOT to be ignorant as Scripture admonishes us: *"Concerning the times and seasons... you, brethren are not in darkness, so that this Day should overtake you as a thief."* (1 Thess. 5:1-4) When talking about the second coming of Jesus, Peter warns us that scoffers will mock those who await His coming because it has been so long. But then Peter gives us a timing hint to be watching when he says, *"do not be ignorant of this **one thing**, that with the LORD, **one day** is as **a thousand years**, and a thousand years as one day."* (2 Peter 3:8)
 
 With this KEY in mind - **that one day is like a thousand years** - consider the deeper meaning in the many Scripture verses that talk about the second coming of Christ on the "third day." The third day would be the third "thousand year" period since the first coming of Christ 2,000 years ago.
 
-<img src="pictures/Luke2421theThirdDayJesus.jpg" data-align="left" data-vspace="8" data-hspace="8" width="400" height="300" />The obvious meaning when Jesus predicted he would **"rise on the third day"** is His resurrection three days after His crucifixion. Today, 2,000 years later, we await His coming again "on the third day." This longer term, higher purpose "third day" is the millennium we are now entering. Consider these Scriptures in light of the 1,000 year third day:
+<img src="/images/newsletters/pictures/Luke2421theThirdDayJesus.jpg" data-align="left" data-vspace="8" data-hspace="8" width="400" height="300" />The obvious meaning when Jesus predicted he would **"rise on the third day"** is His resurrection three days after His crucifixion. Today, 2,000 years later, we await His coming again "on the third day." This longer term, higher purpose "third day" is the millennium we are now entering. Consider these Scriptures in light of the 1,000 year third day:
 
 *"The Son of Man must suffer many things, and be rejected by the elders and chief priests and scribes, and be killed, and be raised **the third day**"* (Luke 9:22). Prophetic of the millennium.
 
@@ -79,7 +79,7 @@ This is the fully quoted verse from the prophet Joel which Acts 2 only quotes th
 
 *"For behold, in those days and at that time,* (time of the second Pentecost) *when I bring back the captives of Judah and Jerusalem, I will also gather all nations, and bring them down to **the Valley of Jehoshaphat**; and I will enter into judgment with them there on account of My people, My heritage Israel, whom they have scattered among the nations; They have also divided up My land."* (Joel 3:1-2)
 
-<img src="thevalleyofjehoshaphatisraelmapaerialview.jpg" width="547" height="727" />
+<img src="/images/newsletters/thevalleyofjehoshaphatisraelmapaerialview.jpg" width="547" height="727" />
 
 The Valley of Jehoshaphat runs north/south between the Mount of Olives and the Temple mount in modern day Israel. Above, this aerial picture, shows the Valley of Jehoshaphat location (in red) being viewed from the southern tip of the ancient City of David.
 
@@ -95,7 +95,7 @@ The Jews returning **as a nation** to their Creator and Saviour Jesus Yahshua ha
 
 Jerusalem Israel has been a desolation for nearly 2,000 years. It was not possible at the time of the early disciples of Christ to finish the prophecy in Joel. But now is the time, at the end of this age of Pentecost, for Israel to be the firstfruit nation of the Kingdom. Grace and truth will meet together to create peace and unity in Jesus. This will happen on a national scale first. Then it will spread to the nations who are willing to receive it. It will one day fill the earth.
 
-<img src="pictures/Jesus_second_coming_timeline_with_year_dates.jpg" width="585" height="277" />
+<img src="/images/newsletters/pictures/Jesus_second_coming_timeline_with_year_dates.jpg" width="585" height="277" />
 
 The Age of Pentecost is a 2,000 year period that is now ending. There is much to say about the Age of Tabernacles that we are in transition into right now. But we must finish Pentecost with that which started it: - **the Holy Spirit!** The greatest outpouring of the Holy Spirit this earth has ever seen is upon us in our generation. It will be "like" the flood in Noah's day. Only this time, it will **save** all of humanity instead of destroy all of humanity.
 
@@ -129,7 +129,7 @@ The human race will be represented by a new kind of government based out of Zion
 > The inhabitants of one city shall go to another, saying, "Let us continue to go, and to *pray before the LORD*, and seek **the LORD of hosts**. I myself will go also.
 > Yes, many peoples and strong nations shall come to seek **the LORD of hosts** in **Jerusalem**, and to *pray before the LORD*."
 > For thus says **the LORD of hosts**: "In those days, ten men from every language of the nations shall grasp the sleeve of a **Jewish man**, saying, "Let us go with you, for we have heard that God is with you.""
-> <a href="pictures/Zechariah8BibleJerusalemJudah.jpg" target="_blank">Zechariah 8</a>
+> <a href="/images/newsletters/pictures/Zechariah8BibleJerusalemJudah.jpg" target="_blank">Zechariah 8</a>
 
 -------------------------------------------------------------------------
 "You're a <a href="https://www.youtube.com/watch?v=b0nqw8cPcyY" target="_blank">Good good Father</a>" song

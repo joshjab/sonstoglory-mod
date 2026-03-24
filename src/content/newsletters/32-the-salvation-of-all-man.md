@@ -15,7 +15,7 @@ by Paul Jablonowski
 
 July 31, 2018
 
-<img src="pictures/dove_with_an_olive_branch.jpg" width="300" height="300" />
+<img src="/images/newsletters/pictures/dove_with_an_olive_branch.jpg" width="300" height="300" />
 
 Noah released a dove which returned with a freshly plucked olive leaf in its beak, and therefore knew: *"that the waters had abated from the earth"* (Gen 8:11).
 

@@ -11,9 +11,9 @@ tags: []
 legacy_url: "/twohearts.htm"
 ---
 
-<img src="images/Two_Hearts_cover.jpg" width="900" height="1350" />
+<img src="/images/images/Two_Hearts_cover.jpg" width="900" height="1350" />
 
-<img src="images/twohearts_cover_back.jpg" width="912" height="1367" />
+<img src="/images/images/twohearts_cover_back.jpg" width="912" height="1367" />
 
 <span style="color:#000000"> </span><span style="color:#000000"> </span>
 
@@ -66,7 +66,7 @@ legacy_url: "/twohearts.htm"
 
 <span style="font-size:10pt; color:#000000">1) </span><span style="font-size:10pt; font-weight:bold; color:#000000">Website</span><span style="font-size:10pt; color:#000000"> - [www.sonstoglory.com/twohearts.htm](twohearts.htm) </span>
 
-<span style="font-size:10pt; color:#000000">2) </span><span style="font-size:10pt; font-weight:bold; color:#000000">E-book</span><span style="font-size:10pt; color:#000000"> - (.pdf Adobe Acrobat) - can be downloaded at: </span> <span style="font-size:10pt; color:#000000"><a href="twohearts.pdf" target="_blank">www.sonstoglory.com/twohearts.pdf</a> </span>
+<span style="font-size:10pt; color:#000000">2) </span><span style="font-size:10pt; font-weight:bold; color:#000000">E-book</span><span style="font-size:10pt; color:#000000"> - (.pdf Adobe Acrobat) - can be downloaded at: </span> <span style="font-size:10pt; color:#000000"><a href="/pdfs/twohearts.pdf" target="_blank">www.sonstoglory.com/twohearts.pdf</a> </span>
 
 <span style="font-size:10pt; color:#000000">3) </span><span style="font-size:10pt; font-weight:bold; color:#000000">Paperback books</span><span style="font-size:10pt; color:#000000"> are available as time and funds permit. </span><span style="font-size:10pt; color:#000000">Please check our website for the current availability.</span><span style="font-size:10pt; color:#000000"></span>
 
@@ -198,7 +198,7 @@ legacy_url: "/twohearts.htm"
 ==================<span style="color:#000000"> </span>
 
 
-<img src="images/twohearts_crosses.jpg" width="307" height="211" /><span style="color:#000000"> </span>
+<img src="/images/images/twohearts_crosses.jpg" width="307" height="211" /><span style="color:#000000"> </span>
 
 
 <span style="color:#000000">The three crosses found on the cover of this book represent the Tale of the Two Hearts. The center cross is Jesus. The cross leaning into Jesus is the heart of David. The cross leaning away from Jesus is the heart of Saul.</span><span style="color:#000000"> </span>

@@ -11,7 +11,7 @@ legacy_url: "/Jesus/thefireofhislove.htm"
 
 # The Fire of His LOVE!
 
-## <img src="fire_of_Gods_Love.png" width="222" height="126" />
+## <img src="/images/Jesus/fire_of_Gods_Love.png" width="222" height="126" />
 
 ## by Lana Vawser
 

@@ -84,9 +84,9 @@ Jesus is the Alpha and the Omega, which means He is the beginning and the ending
 
 So Jesus' first coming came in different stages. First, He was conceived in His mother Mary's womb and birthed. Then, He grew up in wisdom and stature with both men and God for 30 years. Then, He was baptized by John and started His 3 ½ year ministry on the earth. At the end of His ministry, He was crucified, buried and rose again from the grave. All of these events, over about a 34 year period, consisted of His "first coming," and it was a transition period between the Age of Truth and the Age of Grace.
 
-<img src="images/AgesJesusReturnTimeline.jpg" width="550" height="156" />
+<img src="/images/images/AgesJesusReturnTimeline.jpg" width="550" height="156" />
 
-<img src="images/JesusRocketDiagram.gif" data-align="left" width="156" height="288" />Likewise, Jesus' Second Coming will not happen all in one day, but will occur in stages and cover many years (which is why the dates in the above chart are approximate and not exact). The Lord's "Second Coming" is a transition period between the Age of Grace and the 1,000 year Age of Peace. Let us compare the second coming of Christ to the blasting off of a rocket with three different stages. The first stage of the rocket is the conception and birth process, which is the focus of this writing.
+<img src="/images/images/JesusRocketDiagram.gif" data-align="left" width="156" height="288" />Likewise, Jesus' Second Coming will not happen all in one day, but will occur in stages and cover many years (which is why the dates in the above chart are approximate and not exact). The Lord's "Second Coming" is a transition period between the Age of Grace and the 1,000 year Age of Peace. Let us compare the second coming of Christ to the blasting off of a rocket with three different stages. The first stage of the rocket is the conception and birth process, which is the focus of this writing.
 
 The second stage of His coming, which is the longest phase, is the growth of God's government (manchild) on the earth. This second stage can be compared to the 30 years before Jesus started His ministry where He was growing in spiritual maturity. The third and final stage of this rocket is the 3 ½ year ministry of the "two witnesses" discussed in Revelation chapter 11 and can be compared to Jesus' 3 ½ year ministry. These final two stages will destroy the "lawless one" by the "brightness of His coming" (2 Thess. 2:8). The Greek word "coming" in this verse is "parousia" and refers to the coming of God's manifest presence and glory IN His people.
 
@@ -200,7 +200,7 @@ Psalm 76:1 shows this progression of intimacy with the Lord… *"In **Judah** Go
 
 *"The Lord loves the gates of Zion more than all the dwellings of Jacob" (Ps. 87:2).*
 
-<img src="images/ZionBullseye.gif" data-align="BOTTOM" data-naturalsizeflag="3" width="748" height="290" />
+<img src="/images/images/ZionBullseye.gif" data-align="BOTTOM" data-naturalsizeflag="3" width="748" height="290" />
 
 Inside the Most Holy place of Moses' tabernacle was the Ark of the Covenant, which represented God's Presence. However, no one was allowed in the Most Holy Place except the high priest, and only once per year with fear and trembling. Some priests did not come out alive if they did not follow the prescriptions of blood sacrifice exactly the way God told Moses, because the way to ultimate intimacy with God was not yet understood (Heb. 9:7,8). This may be why we do not see "Zion" mentioned in the Scriptures at all during the Tabernacle of Moses, because Zion represents the way of abiding intimately with the Lord in the Most Holy Place, and this was not yet known at the time of the tabernacle of Moses (Heb. 9:7-8).
 
@@ -429,7 +429,7 @@ When Jesus came the first time, there was very little fanfare and public underst
 
 **Update** -- It is now September 2004, five years after I first wrote this study on the Birthing of Zion's Sons. When this writing was first published in July 1999, there was a section here on the "Signs in the Heavens" which were happening in the stars starting from 1996 and culminating on September 11th 1999 (The Feast of Trumpets). I was eagerly anticipating this September 1999 date as a significant one in the purposes of God concerning the birthing of Zion's sons. I had no idea at the time that my own second son Stephen Paul would be born (a month earlier than he was due) on this very date of September 11, 1999 to prophetically confirm this spiritual birth. The details of Stephen's birth and the prophetic significance were discussed in [chapters 9-11](book.htm#contents2) of this book. It is sufficient enough to say here that this spiritual birthing has already taken place and we are now in the maturing phase:
 
-<img src="images/JesusComingTime-line.gif" width="700" height="190" />
+<img src="/images/images/JesusComingTime-line.gif" width="700" height="190" />
 
 The chart above gives a rough timeline of where we are in the maturing process of God's government on the earth. The reason the conception for this birth is placed at <a href="http://www.theopenscroll.com/beyond_veil/year1991.htm" style="text-decoration:none" target="_blank">1991</a> is because a very unique sign in the stars was happening that was very similar to the sign at the first coming of Jesus as well as this 1999 sign. The details of this heavenly sign were shown to Bob Schlenker and written on his Open Scroll website.<a href="endnotes.htm" target="_blank">15</a> The next few decades should bring about the maturity of God's Man-child. It is during this time period that the Lord is sealing His 144,000 apostles for the work of ministry, which will culminate in a 3-1/2 year time of intense ministry and demonstration of the Kingdom of God on earth similar to that of Jesus' three and one half year ministry.
 

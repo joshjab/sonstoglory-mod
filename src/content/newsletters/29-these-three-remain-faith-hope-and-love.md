@@ -18,7 +18,7 @@ October 1, 2017
 
 *"And now **THESE THREE REMAIN**: Faith, Hope, and Love, But the greatest of these is LOVE!" --- 1 Corinthians 13:13*
 
-<img src="pictures/key_of_David.jpg" data-vspace="8" data-hspace="8" data-align="left" width="223" height="404" />Jesus said that He only did what He saw His Father doing, although there were many good works to be done. We must do likewise!
+<img src="/images/newsletters/pictures/key_of_David.jpg" data-vspace="8" data-hspace="8" data-align="left" width="223" height="404" />Jesus said that He only did what He saw His Father doing, although there were many good works to be done. We must do likewise!
 
 The best way to know what the Father is doing is to understand His heart of perfect agape **LOVE**, which willingly lays its life down for others. What would LOVE do? This is the question to ask, and Jesus' life is the perfect example whether He was forgiving the prostitute or calling the Pharisees snakes and vipers, both were perfect LOVE in action at the correct time.
 
@@ -46,7 +46,7 @@ The humble will display agape love because they are not easily angered and keep 
 
 True love is better felt than telt, and easier caught than taught. So it is hard to write a newsletter about it, but it really is the ***key*** that king David had which made him great and why Jesus is said to have "the key of David" in the faithful church of Philadelphia in Rev. 3:7
 
-<img src="pictures/Eugene_2733.jpg" data-align="right" data-vspace="7" data-hspace="7" width="403" height="272" />Therefore, let me end this "agape love" message by honoring an old friend of mine who I've recently reconnected with again in a powerful way. Eugene Brown pictured here on the right is someone who really lives agape love in his life and ministry. By the way, "agape" is Greek for "the ultimate God-kind of love that lays its life down for others." As opposed to "Phileo" love (a friendship love) and "eros" love (sensual and often selfish love).
+<img src="/images/newsletters/pictures/Eugene_2733.jpg" data-align="right" data-vspace="7" data-hspace="7" width="403" height="272" />Therefore, let me end this "agape love" message by honoring an old friend of mine who I've recently reconnected with again in a powerful way. Eugene Brown pictured here on the right is someone who really lives agape love in his life and ministry. By the way, "agape" is Greek for "the ultimate God-kind of love that lays its life down for others." As opposed to "Phileo" love (a friendship love) and "eros" love (sensual and often selfish love).
 
 Eugene Brown is a pastor for the people in the Northwood community in Huntsville Alabama, but he pastors people on the streets and in their homes and not like a traditional church. I have been very impressed with Eugene's obedience to the Father's will in his life in spite of the many obstacles and people discouraging him from doing it. He has given up a high paying engineering job to minister God's love to the poor and needy where he often finds himself physically breaking up street fights or spending hours with someone he just met that needs the love of Christ because they just lost a family member.
 

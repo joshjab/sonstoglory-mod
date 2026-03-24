@@ -12,7 +12,7 @@ Chapter 7
 
 # The Millennial Temple
 
-<a href="images/imagemillennialtemplepicturebw.jpg" style="text-decoration:none" target="_blank"><img src="images/EzekielsTemplebyPaulJablonowski.jpg" id="millennial_temple" data-border="0" width="500" height="261" /></a>
+<a href="/images/images/imagemillennialtemplepicturebw.jpg" style="text-decoration:none" target="_blank"><img src="/images/images/EzekielsTemplebyPaulJablonowski.jpg" id="millennial_temple" data-border="0" width="500" height="261" /></a>
 
 *"Describe the temple to the house of Israel, that they may be ashamed of their iniquities; and let them measure the pattern. And if they are ashamed of all that they have done, make known to them the design of the temple and its arrangement, its exits and its entrances, its entire design and all its ordinances, all its forms and all its laws. Write it down in their sight, so that they may keep its whole design and all its ordinances, and perform them."* (<a href="http://biblecc.com/ezekiel/43-10.htm" style="text-decoration:none" target="_blank">Ezekiel 43:10</a>-11)
 
@@ -84,7 +84,7 @@ We are all ignorant about many of the deep truths found in the exact dates and n
 
 # **<u>First "Dwelling Place" of God</u>**
 
-## <img src="images/GardenofEdenTimeline.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="426" height="279" />
+## <img src="/images/images/GardenofEdenTimeline.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="426" height="279" />
 
 The first "abiding place" of God with mankind was in the paradise He created for them in the beginning.
 
@@ -95,7 +95,7 @@ The first "abiding place" of God with mankind was in the paradise He created for
 
 # **<u>Second "Dwelling Place" of God</u>**
 
-## <img src="images/TabernacleOfMosesTimeline.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="484" height="268" />
+## <img src="/images/images/TabernacleOfMosesTimeline.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="484" height="268" />
 
 The second place where God allowed His glory to manifest to man was in the Tabernacle that He specified for Moses and the children of Israel to make for Him.
 
@@ -108,7 +108,7 @@ The second place where God allowed His glory to manifest to man was in the Taber
 
 #
 
-# **<u>Third "Dwelling Place" of God (First Temple) </u>** <img src="images/SolomonsTempleTimeline.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="484" height="274" />
+# **<u>Third "Dwelling Place" of God (First Temple) </u>** <img src="/images/images/SolomonsTempleTimeline.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="484" height="274" />
 
 The tabernacle of David was the beginning of this third dwelling place. Although David was given the plans to build this temple, because he was a warrior and had shed much blood, it was his son Solomon (whose name means Rest/Peaceful) who actually built it.
 
@@ -117,7 +117,7 @@ The tabernacle of David was the beginning of this third dwelling place. Although
 ------------------------------------------------------------------------
 
 
-# **<u>Fourth "Dwelling Place" of God (Second Temple) </u>** <img src="images/HerodsTemple.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="484" height="272" />
+# **<u>Fourth "Dwelling Place" of God (Second Temple) </u>** <img src="/images/images/HerodsTemple.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="484" height="272" />
 
 This temple was started by the political decrees of Cyrus and Darius, and built by Ezra, Nehemiah, Zerrubabel, and expanded later by Herod.
 
@@ -126,7 +126,7 @@ This temple was started by the political decrees of Cyrus and Darius, and built 
 ------------------------------------------------------------------------
 
 
-# **<u>Fifth "Dwelling Place" of God</u><u> </u>** <img src="images/JesusTimeline.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="484" height="312" />
+# **<u>Fifth "Dwelling Place" of God</u><u> </u>** <img src="/images/images/JesusTimeline.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="484" height="312" />
 
 The fifth "dwelling" of God in history is the one and only unique Son of God Yahoshua (Jesus) of Nazareth.
 
@@ -139,7 +139,7 @@ The fifth "dwelling" of God in history is the one and only unique Son of God Yah
 
 # **<u>Sixth "Dwelling Place" of God (Third Temple)</u>**
 
-## <img src="images/MillennialTempleTimeline.jpg" width="465" height="279" />
+## <img src="/images/images/MillennialTempleTimeline.jpg" width="465" height="279" />
 
 The sixth major dwelling place of the Lord in His story will be the temple described in detail to the prophet Ezekiel which will serve God's purpose in discipling the nations for 1,000 years during the promised reign of peace on the earth.
 
@@ -150,7 +150,7 @@ The sixth major dwelling place of the Lord in His story will be the temple descr
 
 # **<u>Seventh "Dwelling Place" of God</u>**
 
-## **<img src="images/BrideofChrist.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="484" height="315" />**
+## **<img src="/images/images/BrideofChrist.gif" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="484" height="315" />**
 
 The Seventh and final temple is the ultimate purpose of God in creating mankind, and that is for US to be His temple. This temple is the spiritually mature Bride of Christ or the New Jerusalem, where God's Spirit is able to FULLY dwell in man similar to the way He dwelt in our protégé Jesus.
 
@@ -165,7 +165,7 @@ The Seventh and final temple is the ultimate purpose of God in creating mankind,
 
 This section will show eight different pictures of my scale model of Ezekiel's temple. The model scale is 1/16th of an inch equals one cubit. Each photo is labeled with numbers which coordinate with a brief explanation of the main components of the temple listed underneath the photo. Links will be made to these pictures throughout this study so the reader can see photos of the components being discussed. The Scripture reference, from the book of Ezekiel, is listed after each temple component.
 
-**<u><img src="images/EzekielsMillennialTemplePicture1.jpg" id="millennial_temple1" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="345" /></u>**
+**<u><img src="/images/images/EzekielsMillennialTemplePicture1.jpg" id="millennial_temple1" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="345" /></u>**
 
 1\. Outer Court - 40:17-19
 2. Inner Court - 40:44,47
@@ -176,7 +176,7 @@ This section will show eight different pictures of my scale model of Ezekiel's t
 ------------------------------------------------------------------------
 
 
-**<u><img src="images/EzekielsMillennialTemplePicture2.jpg" id="millennial_temple2" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" /></u>**
+**<u><img src="/images/images/EzekielsMillennialTemplePicture2.jpg" id="millennial_temple2" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" /></u>**
 
 6\. Outer Court Northern Gateway - 40:20-23
 7. Outer Court Eastern Gateway - 40:6-16
@@ -189,7 +189,7 @@ This section will show eight different pictures of my scale model of Ezekiel's t
 
 <span id="anchor230430"></span>
 
-<img src="images/EzekielsMillennielTemplePicture3.jpg" id="millennial_temple3" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
+<img src="/images/images/EzekielsMillennielTemplePicture3.jpg" id="millennial_temple3" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
 
 12\. Building at the Western End - 41:12
 13. Four Kitchens (one in each corner of the Outer Court) - 46:21-24
@@ -200,7 +200,7 @@ This section will show eight different pictures of my scale model of Ezekiel's t
 ------------------------------------------------------------------------
 
 <span id="anchor231718"></span>
-<img src="images/EzekielMillennialTemplePicture4.jpg" id="millennial_temple4" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
+<img src="/images/images/EzekielMillennialTemplePicture4.jpg" id="millennial_temple4" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
 
 17\. Lower Pavement of the Outer Court - 40:17-18
 18. Walkway of Northern Priests Chambers - 42:4
@@ -215,7 +215,7 @@ This section will show eight different pictures of my scale model of Ezekiel's t
 
 <span id="anchor236550"></span>
 
-<img src="images/ezekielsMilennialTemplePicture5.jpg" id="millennial_temple5" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
+<img src="/images/images/ezekielsMilennialTemplePicture5.jpg" id="millennial_temple5" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
 
 25\. Eight tables in the Northern Gateway to slay the Burnt Offering - 40:39-43
 26. Wall of the Inner Court - 41:10
@@ -225,7 +225,7 @@ This section will show eight different pictures of my scale model of Ezekiel's t
 
 <span id="anchor197151"></span>
 
-<img src="images/EzekielsMillenialTemplePicture6.jpg" id="millennial_temple6" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
+<img src="/images/images/EzekielsMillenialTemplePicture6.jpg" id="millennial_temple6" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
 
 27\. Two Inner Court Chambers for the Singers (the other is on opposite side of east gate) - 40:44-46
 28. Altar of Sacrifice - 43:13-17 (40:47)
@@ -234,7 +234,7 @@ This section will show eight different pictures of my scale model of Ezekiel's t
 ------------------------------------------------------------------------
 
 
-<img src="images/ezekielsmillennialtemplepicture7.jpg" id="millennial_temple7" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
+<img src="/images/images/ezekielsmillennialtemplepicture7.jpg" id="millennial_temple7" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
 
 *In this photograph the Sanctuary Galleries have been removed and pushed towards the back so the inside can be seen.*
 
@@ -247,7 +247,7 @@ This section will show eight different pictures of my scale model of Ezekiel's t
 ------------------------------------------------------------------------
 
 
-<img src="images/EzekielsMillennialTemplePicture8.jpg" id="millennial_temple8" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
+<img src="/images/images/EzekielsMillennialTemplePicture8.jpg" id="millennial_temple8" data-align="BOTTOM" data-border="0" data-naturalsizeflag="3" width="500" height="339" />
 
 *The Sanctuary Galleries have been removed in this Top View photograph of the Sanctuary.*
 
@@ -270,25 +270,25 @@ This section gives the measurements and details of the: **1) Sanctuary, 2) Gatew
 
 **1) Sanctuary (Top View)**
 
-## <img src="images/EzekielsTempleFloorplansSanctuary.jpg" width="740" height="520" />
+## <img src="/images/images/EzekielsTempleFloorplansSanctuary.jpg" width="740" height="520" />
 
 ------------------------------------------------------------------------
 
 
 ## **2) Gateways (Top View)**
 
-## <img src="images/EzekielsTempleFloorplansGateways.jpg" width="740" height="509" />
+## <img src="/images/images/EzekielsTempleFloorplansGateways.jpg" width="740" height="509" />
 
 ------------------------------------------------------------------------
 
 
 ## **3) Altar of Sacrifice (Top and Side Views) **
 
-## <img src="images/EzekielsTempleFloorplansAltar.jpg" width="740" height="246" />
+## <img src="/images/images/EzekielsTempleFloorplansAltar.jpg" width="740" height="246" />
 
 ## **4) Priests Chambers (Top View)**
 
-<img src="images/EzekielsTempleFloorplansPriestsChambers.jpg" width="740" height="435" />
+<img src="/images/images/EzekielsTempleFloorplansPriestsChambers.jpg" width="740" height="435" />
 
 ------------------------------------------------------------------------
 
@@ -575,12 +575,12 @@ In Numbers 34:1-12, the Lord spoke to Moses almost the exact same boundaries for
 
 The illustration below this map is a detailed blow-up diagram of the "Holy Portion" of the land. This Holy Portion is located in the center of Israel around the area of modern day Jerusalem and is pictured to scale on the map as well.
 
-<img src="images/EzekielsIsraeliSatelliteMapmInMillennium.jpg" width="740" height="1115" />
+<img src="/images/images/EzekielsIsraeliSatelliteMapmInMillennium.jpg" width="740" height="1115" />
 
 
 ## <span id="anchor156221"></span>Holy Portion (Blowup from map above)
 
-<img src="images/EzekielsIsraeliHolyPortionLand.jpg" width="740" height="654" />
+<img src="/images/images/EzekielsIsraeliHolyPortionLand.jpg" width="740" height="654" />
 
 *This diagram is a detail of the Holy Portion from the previous map.*
 
@@ -629,7 +629,7 @@ Likewise, let us continually offer the sacrifices of praise and thanksgiving! Le
 <table width="5%" data-border="3" data-cellspacing="2" data-cellpadding="2">
 <tbody>
 <tr class="odd">
-<td><img src="images/EzekielsTemplebyJohnSchmitt.gif" width="668" height="288" /></td>
+<td><img src="/images/images/EzekielsTemplebyJohnSchmitt.gif" width="668" height="288" /></td>
 </tr>
 </tbody>
 </table>
@@ -637,7 +637,7 @@ Likewise, let us continually offer the sacrifices of praise and thanksgiving! Le
 <table width="5%" data-border="3" data-cellspacing="2" data-cellpadding="2">
 <tbody>
 <tr class="odd">
-<td><img src="images/EzekielsTemplebyJohnSchmidt2.jpg" width="333" height="204" /></td>
+<td><img src="/images/images/EzekielsTemplebyJohnSchmidt2.jpg" width="333" height="204" /></td>
 </tr>
 </tbody>
 </table>
@@ -645,4 +645,4 @@ Likewise, let us continually offer the sacrifices of praise and thanksgiving! Le
 
 Pictured above is a different model of the same temple built by John W. Schmitt. John has been studying and building models of Ezekiel's <a href="http://www.templemount.org/ezektmp.html" style="text-decoration:none" target="_blank">temple</a> for over thirty years. These pictures, and more, can be found in his excellent book *"Messiah's Coming Temple."*<a href="endnotes.htm" target="_blank">6</a>
 
-I came across John's book in late 1997, shortly after I had already finished my model in July of 1997. It was a wonderful confirmation to see that other Christians were also studying this <a href="images/imagemillennialtemplepicture.jpg" target="_blank">yet to be constructed temple in Jerusalem Israel</a>.
+I came across John's book in late 1997, shortly after I had already finished my model in July of 1997. It was a wonderful confirmation to see that other Christians were also studying this <a href="/images/images/imagemillennialtemplepicture.jpg" target="_blank">yet to be constructed temple in Jerusalem Israel</a>.

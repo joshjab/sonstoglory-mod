@@ -15,7 +15,7 @@ by Paul Jablonowski
 
 October 31, 2014
 
-<img src="pictures/City_of_Zion.jpg" data-align="left" data-vspace="8" data-hspace="8" width="555" height="403" />This newsletter is for the purpose of looking at "Zion" in the Scriptures and considering the modern day use of the terms "Zionism" and "Zionists," because they mean different things to different people today, but what does the Bible say about Zion?
+<img src="/images/newsletters/pictures/City_of_Zion.jpg" data-align="left" data-vspace="8" data-hspace="8" width="555" height="403" />This newsletter is for the purpose of looking at "Zion" in the Scriptures and considering the modern day use of the terms "Zionism" and "Zionists," because they mean different things to different people today, but what does the Bible say about Zion?
 
 ## **Zion**
 

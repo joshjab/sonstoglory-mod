@@ -26,13 +26,13 @@ legacy_url: "/Jesus/gematriabiblenumbercode.htm"
 > <h2 id="letters-1" data-align="center">24 letters</h2></td>
 > </tr>
 > <tr class="even">
-> <td><img src="HebrewGematria.jpg" width="322" height="781" /></td>
-> <td><img src="GreekGematria.jpg" width="333" height="808" /></td>
+> <td><img src="/images/Jesus/HebrewGematria.jpg" width="322" height="781" /></td>
+> <td><img src="/images/Jesus/GreekGematria.jpg" width="333" height="808" /></td>
 > </tr>
 > <tr class="odd">
 > <td>The 5 "sofit" letters (kaph, mem, nun, pe, tsady) are used at the end of a word and written slightly different than the root letter, but remain the same gemetria value.</td>
-> <td><p>Stigma . . . . . . . . . . . . . <img src="Stigmanumber6inGreek.jpg" width="16" height="25" />. . . . . . . . . . . . . . 6</p>
-> <p>Stigma is a Greek letter that has fallen out of use. The only place Stigma is used in the Bible is when giving the number of the beast <a href="../newsletters/23number666.htm" target="_blank">666</a> in Revelation 13:18. It is written: <img src="number666inGreek.jpg" width="44" height="25" /></p></td>
+> <td><p>Stigma . . . . . . . . . . . . . <img src="/images/Jesus/Stigmanumber6inGreek.jpg" width="16" height="25" />. . . . . . . . . . . . . . 6</p>
+> <p>Stigma is a Greek letter that has fallen out of use. The only place Stigma is used in the Bible is when giving the number of the beast <a href="../newsletters/23number666.htm" target="_blank">666</a> in Revelation 13:18. It is written: <img src="/images/Jesus/number666inGreek.jpg" width="44" height="25" /></p></td>
 > </tr>
 > <tr class="even">
 > <td> </td>
@@ -57,18 +57,18 @@ legacy_url: "/Jesus/gematriabiblenumbercode.htm"
 > </tr>
 > <tr class="even">
 > <td><div data-align="center">
-> <img src="Lordgematria800.jpg" width="142" height="238" />
+> <img src="/images/Jesus/Lordgematria800.jpg" width="142" height="238" />
 > </div></td>
 > <td><div data-align="center">
-> <img src="Jesusgematria888.jpg" width="144" height="239" />
+> <img src="/images/Jesus/Jesusgematria888.jpg" width="144" height="239" />
 > </div></td>
 > <td><div data-align="center">
-> <img src="Christgematria1480.jpg" width="149" height="259" />
+> <img src="/images/Jesus/Christgematria1480.jpg" width="149" height="259" />
 > </div></td>
 > </tr>
 > <tr class="odd">
 > <td colspan="3"><div data-align="center">
-> <img src="LordJesusChristgematria3168.jpg" width="188" height="129" />
+> <img src="/images/Jesus/LordJesusChristgematria3168.jpg" width="188" height="129" />
 > </div></td>
 > </tr>
 > </tbody>

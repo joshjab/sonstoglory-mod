@@ -62,7 +62,7 @@ The graphic below shows the location references to the numbers above.
 <table width="3" data-border="3" data-cellspacing="2" data-cellpadding="2" data-align="center">
 <tbody>
 <tr class="odd">
-<td><img src="images/HeavenlySignJesusBirth.gif" width="543" height="259" /></td>
+<td><img src="/images/images/HeavenlySignJesusBirth.gif" width="543" height="259" /></td>
 </tr>
 </tbody>
 </table>
@@ -78,7 +78,7 @@ The Jews understood the principle that whenever God moves in a major way He woul
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><img src="images/CelestalSignRevelation12_1996.gif" width="341" height="256" /></td>
+<td><img src="/images/images/CelestalSignRevelation12_1996.gif" width="341" height="256" /></td>
 </tr>
 <tr class="even">
 <td height="27"><div data-align="center">
@@ -98,7 +98,7 @@ The Jews understood the principle that whenever God moves in a major way He woul
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><img src="images/CelestalSignManchild_1999.jpg" width="684" height="367" /></td>
+<td><img src="/images/images/CelestalSignManchild_1999.jpg" width="684" height="367" /></td>
 </tr>
 <tr class="even">
 <td><div data-align="center">
@@ -167,4 +167,4 @@ In 1991, nine years before this "birthing" there was another very rare celestial
 **3) Stephen Paul Jablonowski - Birth of a Manchild Poem
 ** My son Stephen Paul was born on the same day this Revelation 12 Sign appeared in the heavens on the Jewish New Year (Sept. 11th 1999 - <a href="http://www.awarenessministry.org/trumpets.htm" style="text-decoration:none" target="_blank">Feast of Trumpets</a>). This confirmation is only one of many that the Holy Spirit gave me to know that this "Revelation 12 Sign" is really a sign from the Lord and not just an interesting coincidence. The poem that I wrote on the day of Stephen's birth, September 11th 1999, is written in the next chapter. Below is Stephen Paul's birth announcement from Huntsville Hospital's "BabyFace" website:
 
-<img src="images/StephenBirthHuntsvilleHospital.jpg" width="544" height="626" />
+<img src="/images/images/StephenBirthHuntsvilleHospital.jpg" width="544" height="626" />

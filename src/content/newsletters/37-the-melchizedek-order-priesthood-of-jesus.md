@@ -26,7 +26,7 @@ Isaiah 9:6
 <tbody>
 <tr class="odd">
 <td><div data-align="center">
-<img src="pictures/King_Jesus.jpg" data-border="2" width="224" height="301" />
+<img src="/images/newsletters/pictures/King_Jesus.jpg" data-border="2" width="224" height="301" />
 </div></td>
 </tr>
 </tbody>

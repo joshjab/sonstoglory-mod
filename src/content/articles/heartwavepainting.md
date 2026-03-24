@@ -16,7 +16,7 @@ I did this painting during one of the deepest seasons of intimacy I had ever had
 
 ***The Heart Wave by Katie Becker***
 
-<a href="Heart-Wave-byKatieBecker.jpg" target="_blank"><img src="../newsletters/pictures/HeartWavebyKatieBecker.jpg" data-border="0" width="422" height="333" /></a>
+<a href="/images/Jesus/Heart-Wave-byKatieBecker.jpg" target="_blank"><img src="/images/newsletters/pictures/HeartWavebyKatieBecker.jpg" data-border="0" width="422" height="333" /></a>
 
 It is a new day when wave after wave of My presence and glory will come suddenly. You will no longer get stuck, frustrated or lose hope and set aside the things that I have called you to do. I am empowering and enabling you to do the things of the Kingdom quickly and with authority.
 

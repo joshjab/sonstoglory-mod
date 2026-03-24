@@ -7,7 +7,7 @@ tags: []
 legacy_url: "/book.htm"
 ---
 
-<img src="images/sonstoglorybackcover.jpg" width="500" height="719" /> <img src="images/sonstoglorycover.jpg" width="500" height="719" />
+<img src="/images/images/sonstoglorybackcover.jpg" width="500" height="719" /> <img src="/images/images/sonstoglorycover.jpg" width="500" height="719" />
 
 ------------------------------------------------------------------------
 
@@ -37,7 +37,7 @@ As supplies last, this book will be given freely without charge to individuals w
 
 This book can be obtained in three different formats:
 1) **Website** - www.sonstoglory.com/book.htm
-2) **E-book** - (.pdf Adobe Acrobat) - can be downloaded at: <a href="SonsToGloryBook.pdf" target="_blank">www.sonstoglory.com/SonsToGloryBook.pdf</a>
+2) **E-book** - (.pdf Adobe Acrobat) - can be downloaded at: <a href="/pdfs/SonsToGloryBook.pdf" target="_blank">www.sonstoglory.com/SonsToGloryBook.pdf</a>
 <span id="orderSonsbook"></span>3) **Paperback books** - are available as time and funds permit. Please check our website at www.sonstoglory.com for the current availability.
 
 

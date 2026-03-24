@@ -15,7 +15,7 @@ legacy_url: "/Jesus/darkcloudofthefather.htm"
 >
 >
 >
-> *<img src="black_cloud.jpg" data-align="left" data-vspace="6" data-hspace="8" width="296" height="218" />"When the priests came out of the holy place, the cloud filled the house of the Lord, so that the priests could not continue ministering because of the cloud; for the glory of the Lord filled the house of the Lord. Then Solomon spoke: "The Lord said He would dwell in the dark cloud."* (1 Kings 8:10-12)
+> *<img src="/images/Jesus/black_cloud.jpg" data-align="left" data-vspace="6" data-hspace="8" width="296" height="218" />"When the priests came out of the holy place, the cloud filled the house of the Lord, so that the priests could not continue ministering because of the cloud; for the glory of the Lord filled the house of the Lord. Then Solomon spoke: "The Lord said He would dwell in the dark cloud."* (1 Kings 8:10-12)
 >
 > I want to teach on something that has been very dear to my heart. It is a revelation that has built a place of tremendous tenderness and intimacy between God and me. All of my Christian life and Christian experience I have wanted to know God as a friend. The only person who I could think of whoever did that was Enoch. I knew by heart the little that was written about him and I also read the book of Enoch. It is really radical! The purposeful pursuit of the presence of God needs to be your single desire. Not for a spiritual experience. It is not about having a spiritual experience; it is about your desire to encounter God, which then creates the atmosphere for a spiritual experience. If you chase the experience then you will often get an experience but there will be no long-lasting fruit from it. You need to chase the person of God.
 >

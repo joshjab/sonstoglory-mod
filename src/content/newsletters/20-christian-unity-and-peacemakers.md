@@ -16,7 +16,7 @@ by Paul Jablonowski
 
 May 1, 2014
 
-<img src="pictures/Jesus_laughing_picture.jpg" width="823" height="519" />
+<img src="/images/newsletters/pictures/Jesus_laughing_picture.jpg" width="823" height="519" />
 
 Today, on the National Day of Prayer in America, I was able to participate in: 1) a Prayer Rally and, 2) a Worship Convocation in my hometown of Huntsville Alabama. Both of these were organized by women and children which was part of the message of God <a href="17releasingwomeninministry.htm" target="_blank">releasing women in ministry</a> in our generation like never before in history. <a href="Hosea6-3_song.mp3" target="_blank">This brief 6 minute audio and song explains this Hosea 6:1-3 meeting</a>.
 

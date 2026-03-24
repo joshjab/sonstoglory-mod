@@ -16,7 +16,7 @@ by Paul Jablonowski
 April 21, 2019
 
 
-<img src="pictures/Tent-of-David-ark.jpg" data-align="left" data-vspace="10" data-hspace="10" width="308" height="163" />The Tabernacle of David, or Tent of David, was a very unique thing!
+<img src="/images/newsletters/pictures/Tent-of-David-ark.jpg" data-align="left" data-vspace="10" data-hspace="10" width="308" height="163" />The Tabernacle of David, or Tent of David, was a very unique thing!
 
 It wasn't the Tabernacle of Moses(1) which was in Gibeon at the time of David (1 Chr. 21:29). Rather, it was a special tent or tabernacle set up in the city of David (Zion) as a **transition** "dwelling place" between the times of the tabernacle of Moses and the temple of Solomon. If the tent of David only lasted during David's lifetime as a "transition," then why does prophecy say that in the latter days it will be raised up again? What was so special about this transitionary tent in David's backyard in Zion?
 

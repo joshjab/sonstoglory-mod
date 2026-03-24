@@ -15,7 +15,7 @@ by Paul Jablonowski
 
 September 28, 2020
 
-<img src="pictures/Jubilee_hot_air_balloon.jpg" data-align="left" data-vspace="9" data-hspace="9" width="288" height="404" />I love America because it is the land of Jubilee! Freedom means different things to different people, but the liberty and freedom of America is best described by the Biblical word "Jubilee."
+<img src="/images/newsletters/pictures/Jubilee_hot_air_balloon.jpg" data-align="left" data-vspace="9" data-hspace="9" width="288" height="404" />I love America because it is the land of Jubilee! Freedom means different things to different people, but the liberty and freedom of America is best described by the Biblical word "Jubilee."
 
 "Liberty" to the ancient Roman meant freedom from oppression as long as you obeyed their rules. "Freedom" to a slave meant that you could freely travel where and when you wanted. But true "Jubilee" is both a spiritual and a financial freedom that surpasses any liberty or freedom in any other nation on the globe. Am I just biased?
 

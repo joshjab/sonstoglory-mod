@@ -15,7 +15,7 @@ by Paul Jablonowski
 
 May 1, 2016
 
-<img src="pictures/religion_good_bad_ugly.jpg" width="703" height="419" />
+<img src="/images/newsletters/pictures/religion_good_bad_ugly.jpg" width="703" height="419" />
 
 Jesus showed us how to have a relationship with our heavenly Father. This is the Good definition of religion. A simple relationship with our loving Creator. To love Him first and then to love our neighbor with the same love. James 1:27 says it this way: *"Pure and undefiled religion before God and the Father is this: to visit orphans and widows in their trouble, and to keep oneself unspotted from the world."*
 

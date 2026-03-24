@@ -50,7 +50,7 @@ At dawn on August 12, 3 B.C. the magoi stood atop their ziggurats, watching rapt
 
 But there was even more to come, I discovered.
 
-<img src="images/Jupiter_Venus_conjunction.jpg" data-align="left" data-vspace="7" data-hspace="7" width="224" height="210" />Ten months later, in June of 2 B.C., it happened again. Once more Jupiter and Venus lined up, this time so close they blazed as a single, glorious light. But now they shone in the evening sky, in the west. To the astounded wise men, that was precisely the direction of Jerusalem, capital city of Hebrew kings.
+<img src="/images/images/Jupiter_Venus_conjunction.jpg" data-align="left" data-vspace="7" data-hspace="7" width="224" height="210" />Ten months later, in June of 2 B.C., it happened again. Once more Jupiter and Venus lined up, this time so close they blazed as a single, glorious light. But now they shone in the evening sky, in the west. To the astounded wise men, that was precisely the direction of Jerusalem, capital city of Hebrew kings.
 
 Nor was that all. Between these two dazzling planetary displays, some other unique heavenly events took place. In September of 3 B.C. the excited wise men saw Jupiter rise to met Regulus, the bright star in the constellation Leo, and a symbol of rulership. To their wonder, this occurred twice more in February and May of 2 B.C. To the magoi, these three conjunctions, preceded and followed by the Jupiter/Venus conjunctions, could mean only one thing: the birth of a very powerful Jewish king.
 

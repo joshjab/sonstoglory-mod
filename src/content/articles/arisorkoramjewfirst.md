@@ -14,7 +14,7 @@ legacy_url: "/Jesus/arisorkoramjewfirst.htm"
 
 (Ari is a Messianic Jew who has been living full time in Israel since 1976, and leads both a congregation in Tel Aviv and MAOZ Israel Ministries)
 
-<img src="Sorko_Ram.jpg" width="177" height="172" />
+<img src="/images/Jesus/Sorko_Ram.jpg" width="177" height="172" />
 
 ## 2008
 

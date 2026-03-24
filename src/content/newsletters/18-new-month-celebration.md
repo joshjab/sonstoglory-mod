@@ -35,7 +35,7 @@ David celebrated the New Months with dinner feasts (1 Samuel 20:5,18,24), and th
 
 Like Pentecost, the New Months are times of **new beginnings**. We all need refreshing, revival and renewing in certain aspects of our walk with Jesus and these appointed times of new month celebrations allow for such cleansing, rededication and remembrance. This is why Hebrews 10:25 admonishes us not to forsake assembling together for fellowship. I wrote in <a href="../worshipJesusfeastssaved.htm" target="_blank">chapter 2</a> of my book exactly how the Scriptures show we are to assemble. Below is a chart from this 2001 writing where the New Month celebrations fit in the Scriptural matrix as tribal meetings.
 
-<img src="../images/OfferingsofWorshipNumbers28.jpg" data-border="2" width="720" height="540" />
+<img src="/images/images/OfferingsofWorshipNumbers28.jpg" data-border="2" width="720" height="540" />
 
 Isaiah 66:22-23 indicates that these New Month worship times will be celeberated forever in the Kingdom: *""For as the new heavens and the new earth which I will make shall remain before Me," says the LORD, "So shall your descendants and your name remain. And it shall come to pass that from one **New Month** to another, and from one Sabbath to another, all flesh shall come to worship before Me, says the LORD.""*
 

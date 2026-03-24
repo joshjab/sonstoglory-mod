@@ -11,7 +11,7 @@ legacy_url: "/sonshipofwomen.htm"
 
 ## by Cindye Coates
 
-<img src="images/cindye_coates_minister.jpg" width="210" height="208" />
+<img src="/images/images/cindye_coates_minister.jpg" width="210" height="208" />
 
 Sonship in scripture always speaks of covenant and inheritance. The third day Church must walk in the Spirit and understand the eternal meaning of such concepts. Many have been hindered by the generic implication of the word, "sonship." The time has come for kingdom women to move from the wilderness over into their covenant place, possessing that which was already possessed for them in, through and by Jesus Christ. This deliverance from the wilderness into the promise happens by faith. Hebrews 6:12 says that we are to be imitators of those who through faith and patience inherit the promises.
 

@@ -14,7 +14,7 @@ Chapter 9
 
 Written September 11th 2003
 
-*<img src="images/StephenJablonowski.jpg" data-align="left" width="333" height="428" />**"Here am I and the children whom the LORD has given me! We are for <a href="http://www.biblegateway.com/passage/?search=Isaiah%208:18;&amp;version=50;9;45;" style="text-decoration:none" target="_blank">signs</a> and <a href="http://biblecc.com/hebrews/2-13.htm" style="text-decoration:none" target="_blank">wonders</a> in Israel from the Lord of hosts, who dwells in Mount Zion."*** (Isaiah 8:18, Hebrews 2:13)
+*<img src="/images/images/StephenJablonowski.jpg" data-align="left" width="333" height="428" />**"Here am I and the children whom the LORD has given me! We are for <a href="http://www.biblegateway.com/passage/?search=Isaiah%208:18;&amp;version=50;9;45;" style="text-decoration:none" target="_blank">signs</a> and <a href="http://biblecc.com/hebrews/2-13.htm" style="text-decoration:none" target="_blank">wonders</a> in Israel from the Lord of hosts, who dwells in Mount Zion."*** (Isaiah 8:18, Hebrews 2:13)
 
 Pictured to the left is my son Stephen who was born September 11th 1999. The tragic events which occurred in America two years ago today on September 11th 2001 was a sign from hell of just how desperate the kingdom of darkness is trying to keep control of the earth. On the other hand, the events of September 11th 1999, four years ago, was a sign from heaven that God's plans to rule the earth are indeed right on schedule. You can be sure that what God has promised in destroying Satan, He will certainly fulfill.
 
