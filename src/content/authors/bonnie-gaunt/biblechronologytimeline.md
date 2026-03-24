@@ -7,12 +7,6 @@ tags: []
 legacy_url: "/bonniegaunt/biblechronologytimeline.htm"
 ---
 
-******[About Bonnie](about.htm)******
+Bonnie Gaunt spent a lifetime assembling this chronological timeline of Biblical events — from creation through the promised Millennium. It is available as a free printable PDF.
 
-**[Millennium Book](../millenniumgematria.htm)**
-
-****[Chronology Timeline](biblechronologytimeline.htm)****
-
-****[Other Books](index.htm)****
-
-****[Bonnie's Studies](studies.htm)****
+[Download the Chronology Timeline (PDF)](/pdfs/bonniegaunt/Bonnie_Timeline.pdf)
