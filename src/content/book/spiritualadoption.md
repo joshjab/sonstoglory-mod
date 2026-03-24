@@ -2,6 +2,7 @@
 title: "The Adoption of Sons - Spiritual Maturity manchild sonship"
 author: "DAvid Weber"
 type: book-chapter
+chapter: 50
 description: "David Weber on our inheritence through Jesus Christ as sons.  Christian sonship in Romans 8:19 or adoption."
 tags: []
 legacy_url: "/spiritualadoption.htm"

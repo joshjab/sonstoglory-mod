@@ -2,6 +2,7 @@
 title: "Spiritual Authority of Jesus apostles"
 author: "Paul Jablonowski"
 type: book-chapter
+chapter: 4
 description: "Spiritual Authority of Christ manifested through His modern day apostles, Love of Christ, Jesus, 
 Apostles and apostolic authority vs worldy authority. Christian leadership, not hierarchy, but servant leadership"
 tags: []

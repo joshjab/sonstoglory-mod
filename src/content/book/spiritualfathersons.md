@@ -2,6 +2,7 @@
 title: "Spiritual Fathers and Sons, apostolic leadership, spiritual adoption"
 author: "Paul Jablonowski"
 type: book-chapter
+chapter: 3
 description: "Spiritual fathering, sonship and fatherhood leadership in the Kingdom of God"
 tags: []
 legacy_url: "/spiritualfathersons.htm"

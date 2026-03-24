@@ -3,6 +3,7 @@ title: "Sons to Glory book Endnotes"
 author: "Paul Jablonowski"
 date: "2001-02-28"
 type: book-chapter
+chapter: 99
 description: "Endnotes and ministry links regarding Jesus for Paul Jablonowski's Sons to Glory book"
 tags: []
 legacy_url: "/endnotes.htm"

@@ -2,6 +2,7 @@
 title: "Sons to Glory book Foreword by Debbie Kublin"
 author: "Paul Jablonowski"
 type: book-chapter
+chapter: 0
 description: "Foreword by Debbie Kublin for Paul Jablonowski's Sons to Glory book"
 tags: []
 legacy_url: "/foreword.htm"

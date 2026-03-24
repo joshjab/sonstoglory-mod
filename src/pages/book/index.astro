@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const base = import.meta.env.BASE_URL.replace(/(\/?)$/, '/');
+
+const chapters = (await getCollection('book'))
+  .filter(c => c.data.chapter !== undefined)
+  .sort((a, b) => (a.data.chapter ?? 0) - (b.data.chapter ?? 0));
+
+function chapterLabel(c) {
+  const n = c.data.chapter ?? 0;
+  if (n === 0) return 'Foreword';
+  if (n >= 50 && n < 99) return 'Bonus Essay';
+  if (n === 99) return 'Endnotes';
+  return `Chapter ${n}`;
+}
+
+function displayTitle(title) {
+  return title
+    .replace(/^Sons to Glory book\s*/i, '')
+    .replace(/^(Foreword|Endnotes)\s+.*$/i, '$1')
+    .replace(/,.*$/, '')
+    .trim();
+}
+---
+
+<BaseLayout
+  title="Sons To Glory — Free Book"
+  description="Sons To Glory: a free Christian book on spiritual sonship, the Biblical feasts, and the Everlasting Kingdom by Paul Jablonowski."
+>
+  <div class="max-w-4xl mx-auto px-4 py-10">
+
+    <!-- Header -->
+    <div class="text-center mb-10">
+      <h1 class="font-heading text-4xl text-primary mb-3">Sons To Glory</h1>
+      <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+        A free book on spiritual maturity, sonship, the Biblical feasts, and the Everlasting Kingdom
+        by Paul Jablonowski. Freely given.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center mt-6">
+        <a
+          href={`${base}pdfs/SonsToGloryBook.pdf`}
+          target="_blank"
+          class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90"
+        >
+          Download PDF
+        </a>
+        <a
+          href={`${base}book/${chapters[0]?.slug}/`}
+          class="border border-primary text-primary px-6 py-3 rounded font-semibold no-underline hover:bg-primary hover:text-white transition-colors"
+        >
+          Start Reading →
+        </a>
+      </div>
+    </div>
+
+    <!-- Cover images -->
+    <div class="flex justify-center gap-4 mb-12">
+      <img
+        src={`${base}images/images/sonstoglorycover.jpg`}
+        alt="Sons To Glory front cover"
+        class="h-64 w-auto shadow-md rounded"
+      />
+      <img
+        src={`${base}images/images/sonstoglorybackcover.jpg`}
+        alt="Sons To Glory back cover"
+        class="h-64 w-auto shadow-md rounded"
+      />
+    </div>
+
+    <!-- Chapter list -->
+    <section>
+      <h2 class="font-heading text-2xl text-primary mb-6">Available Chapters</h2>
+      <ol class="space-y-0">
+        {chapters.map(c => (
+          <li class="border-b border-gray-100 last:border-0">
+            <a
+              href={`${base}book/${c.slug}/`}
+              class="flex items-baseline gap-4 py-4 no-underline group hover:bg-gray-50 -mx-3 px-3 rounded transition-colors"
+            >
+              <span class="text-accent font-semibold text-sm w-24 shrink-0">
+                {chapterLabel(c)}
+              </span>
+              <span class="font-heading text-primary group-hover:text-accent font-semibold leading-snug">
+                {displayTitle(c.data.title)}
+              </span>
+              {c.data.author && c.data.author !== 'Paul Jablonowski' && (
+                <span class="text-xs text-gray-400 shrink-0">by {c.data.author}</span>
+              )}
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+  </div>
+</BaseLayout>

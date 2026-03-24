@@ -2,6 +2,7 @@
 title: "Apostle, Apostolic, Modern Day Apostles of Jesus Christ"
 author: "Paul Jablonowski"
 type: book-chapter
+chapter: 12
 description: "Modern Day Apostles teaching"
 tags: []
 legacy_url: "/moderndayapostles.htm"

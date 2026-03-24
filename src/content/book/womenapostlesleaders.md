@@ -2,6 +2,7 @@
 title: "Women Apostles, Woman in leadership, spiritual maturity"
 author: "Paul Jablonowski"
 type: book-chapter
+chapter: 13
 description: "Are there women apostles today? - the role of women in the equipping ministry of apostle"
 tags: []
 legacy_url: "/womenapostlesleaders.htm"

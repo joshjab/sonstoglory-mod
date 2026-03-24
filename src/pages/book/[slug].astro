@@ -1,0 +1,70 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const allChapters = (await getCollection('book'))
+    .filter(c => c.data.chapter !== undefined)
+    .sort((a, b) => (a.data.chapter ?? 0) - (b.data.chapter ?? 0));
+
+  function cleanTitle(title) {
+    return title
+      .replace(/^Sons to Glory book\s*/i, '')
+      .replace(/^(Foreword|Endnotes)\s+.*$/i, '$1')
+      .replace(/,.*$/, '')
+      .trim();
+  }
+
+  return allChapters.map((entry, index) => {
+    const prev = index > 0 ? allChapters[index - 1] : null;
+    const next = index < allChapters.length - 1 ? allChapters[index + 1] : null;
+
+    return {
+      params: { slug: entry.slug },
+      props: {
+        entry,
+        prevEntry: prev ? { slug: prev.slug, title: cleanTitle(prev.data.title) } : null,
+        nextEntry: next ? { slug: next.slug, title: cleanTitle(next.data.title) } : null,
+      },
+    };
+  });
+}
+
+const { entry, prevEntry, nextEntry } = Astro.props;
+const { Content } = await entry.render();
+const base = import.meta.env.BASE_URL.replace(/(\/?)$/, '/');
+
+const wordCount = entry.body.split(/\s+/).filter(Boolean).length;
+const readingTime = Math.max(1, Math.round(wordCount / 200));
+
+const chapterNum = entry.data.chapter ?? 0;
+let chapterLabel = '';
+if (chapterNum === 0) chapterLabel = 'Foreword';
+else if (chapterNum >= 50 && chapterNum < 99) chapterLabel = 'Bonus Essay';
+else if (chapterNum === 99) chapterLabel = 'Endnotes';
+else chapterLabel = `Chapter ${chapterNum}`;
+
+function cleanTitle(title) {
+  return title
+    .replace(/^Sons to Glory book\s*/i, '')
+    .replace(/^(Foreword|Endnotes)\s+.*$/i, '$1')
+    .replace(/,.*$/, '')
+    .trim();
+}
+---
+
+<ArticleLayout
+  title={`${chapterLabel} — ${cleanTitle(entry.data.title)}`}
+  author={entry.data.author}
+  description={entry.data.description}
+  tags={entry.data.tags}
+  readingTime={readingTime}
+  prevEntry={prevEntry}
+  nextEntry={nextEntry}
+  baseUrl={`${base}book/`}
+>
+  <div class="mb-6">
+    <a href={`${base}book/`} class="text-sm text-accent hover:underline">← Back to Book</a>
+  </div>
+  <Content />
+</ArticleLayout>

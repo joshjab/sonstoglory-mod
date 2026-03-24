@@ -2,6 +2,7 @@
 title: "Sonship of Women by Cindye Coates, covenant, inheritance,"
 author: "Paul Jablonowski"
 type: book-chapter
+chapter: 51
 description: "Cindye Coates on the spiritual maturity of women as Jesus' sons. The Sonship of women in the Kingdom of God"
 tags: []
 legacy_url: "/sonshipofwomen.htm"

@@ -16,13 +16,13 @@
 - [x] Run a full mirror of sonstoglory.com (464 files, 2.1 GB, completed 2026-03-24)
 - [x] Run the same for pauljab.com (5 files — landing page only, redirects to sonstoglory.com)
 - [x] Verify the mirror downloaded all `.htm`, `.html`, `.pdf`, and image files
-- [ ] Commit the mirror to a `legacy/` branch: `git checkout -b legacy && git add legacy-mirror/ && git commit -m "chore: archive legacy site mirror"`
+- [x] Mirror excluded from git via `.gitignore` (2.1 GB — too large); lives locally only
 
 ### Milestone 0.2 — Content Inventory
 - [x] Write a Python script `scripts/inventory.py` that crawls `legacy-mirror/` and outputs a CSV with columns: `filename`, `path`, `title` (from `<title>` tag), `type` (newsletter/article/book/etc), `estimated_date`
 - [x] Run the script and review the output CSV: `python3 scripts/inventory.py > content-inventory.csv`
 - [x] Manually review the CSV and fill in any missing `type` or `date` values
-- [ ] Commit the inventory CSV to the repo
+- [x] `content-inventory.csv` committed at repo root
 
 **Notes from initial run (116 HTML files, 152 rows total):**
 - 42 newsletters #1–#41, all numbered and dated correctly (2008–2021)
@@ -82,58 +82,29 @@
 **Prereqs:** Node.js 18+, npm, a GitHub account, a Netlify or Cloudflare Pages account.
 
 ### Milestone 1.1 — Git & GitHub Setup
-- [ ] Create a new GitHub repository (e.g., `sonstoglory-site`)
-- [ ] Rename local branch to `main`: `git branch -m main`
-- [ ] Add GitHub remote and push: `git remote add origin <url> && git push -u origin main`
-- [ ] Create a `.gitignore` with: `node_modules/`, `dist/`, `.env`, `.DS_Store`
+- [x] Repo created at https://github.com/joshjab/sonstoglory-mod
+- [x] Branch named `main`, remote added, initial push completed
+- [x] `.gitignore` with node_modules, dist, .env, legacy-mirror, public/video, public/audio
 
 ### Milestone 1.2 — Init Astro Project
-- [ ] Install Node 18+ if not present
-- [ ] Scaffold the project in the repo root:
-  ```bash
-  npm create astro@latest -- --template minimal --yes
-  ```
-- [ ] Add Tailwind CSS integration:
-  ```bash
-  npx astro add tailwind
-  ```
-- [ ] Add the Astro content collections integration (built-in, just configure `src/content/config.ts`)
-- [ ] Run `npm run dev` and verify the dev server starts on `localhost:4321`
-- [ ] Commit the scaffolded project: `git commit -m "feat: init Astro project with Tailwind"`
+- [x] Astro 4.16.19 + Tailwind CSS 3 scaffolded (Node 20; Astro 4 chosen because Astro 5/6 requires Node 22)
+- [x] `@astrojs/tailwind@5` manually installed (npx astro add picked up v6)
+- [x] Content collections configured via `src/content/config.ts`
+- [x] Dev server runs on `localhost:4321`; use `npm run dev -- --host` for LAN access
 
 ### Milestone 1.3 — Content Collection Schema
-- [ ] Create `src/content/config.ts` defining Zod schemas for:
-  - `newsletters` collection (title, author, date, number, tags, description, legacy_url)
-  - `book` collection (title, chapter number, description)
-  - `articles` collection (title, author, date, tags, description, legacy_url)
-  - `authors` collection (name, bio, books)
-  - `poems` collection (title, author, date)
-- [ ] Copy a few Markdown files from `content/` into `src/content/` to validate the schema
-- [ ] Fix any schema validation errors that Astro reports
+- [x] `src/content/config.ts` — Zod schemas for newsletters, book, articles, authors
+- [x] All 101 migrated Markdown files validated against schema (0 errors)
 
 ### Milestone 1.4 — Base Layout
-- [ ] Create `src/layouts/BaseLayout.astro` with:
-  - `<html>`, `<head>` with meta charset, viewport, title slot
-  - `<Header />` component (see next task)
-  - `<slot />` for page content
-  - `<Footer />` component (see next task)
-- [ ] Create `src/components/Header.astro` with:
-  - Site logo/name: "Sons To Glory"
-  - Nav links: Home, Book, Newsletters, Articles, Videos, Authors, Subscribe
-  - Mobile hamburger menu (Tailwind + minimal JS toggle)
-- [ ] Create `src/components/Footer.astro` with:
-  - Mailing address: Harvest, AL 35749
-  - Links: YouTube, Subscribe, RSS
-  - Copyright line
-- [ ] Add global typography styles in `src/styles/global.css` (import Tailwind directives, set base font size to 18–20px)
+- [x] `src/layouts/BaseLayout.astro` — full HTML shell, header + footer inline (no separate component files)
+- [x] Nav: Book, Newsletters, Articles, Authors, Videos, Subscribe; CSS-only mobile hamburger
+- [x] Footer: mailing address, YouTube/RSS/Subscribe links, copyright
+- [x] `src/styles/global.css` — Lora + Source Serif 4, 18px base, prose spacing
 
 ### Milestone 1.5 — Homepage
-- [ ] Create `src/pages/index.astro`:
-  - Hero section: site title, one-sentence mission statement, two CTA buttons (Read the Book, Browse Newsletters)
-  - "Latest Newsletters" section: grid of 3 most recent newsletter cards (title, date, short excerpt)
-  - "Featured Article" section: one highlighted piece
-  - Newsletter signup CTA block (email input + subscribe button — can be a placeholder for now)
-- [ ] Pull latest newsletters dynamically from the content collection
+- [x] `src/pages/index.astro` — hero, latest 3 newsletters (dynamic), book CTA, subscribe CTA
+- [x] Latest newsletters pulled from content collection, sorted by issue number desc
 
 ### Milestone 1.6 — Article Layout & Newsletter Listing
 - [x] Create `src/layouts/ArticleLayout.astro`:
@@ -146,8 +117,9 @@
 
 ### Milestone 1.7 — Deploy to GitHub Pages
 - [x] Create `.github/workflows/deploy.yml` — builds on push to main, deploys via `actions/deploy-pages@v4`
-- [x] Add `public/CNAME` with `sonstoglory.com` for custom domain
+- [x] CNAME removed — deploying to default github.io URL for now
 - [x] Fixed `package.json`: name → "sonstoglory", engines → ">=18.0.0"
+- [x] `scripts/rebase-assets.mjs` postbuild — fixes root-relative image/href paths for base path
 - [ ] **Josh:** In GitHub repo Settings → Pages → Source, set to "GitHub Actions"
 - [ ] Push to main and verify the Actions build passes
 - [ ] Verify site is live at `joshjab.github.io/sonstoglory-mod` (before DNS cutover)
@@ -166,19 +138,15 @@
 **Prereqs:** Phase 1 complete, email service account created, Paul's YouTube channel ID confirmed.
 
 ### Milestone 2.1 — Import All Content
-- [ ] Move all remaining converted Markdown files into `src/content/`
-- [ ] Fix any frontmatter schema errors reported by Astro
-- [ ] Verify all 40+ newsletters render correctly at `/newsletters/[slug]`
-- [ ] Verify all book chapters render
+- [x] All 101 Markdown files already in `src/content/` from Phase 0
+- [x] Schema validates cleanly (0 errors on `npm run build`)
+- [x] All 41 newsletters render at `/newsletters/[slug]`
+- [x] Book chapters render at `/book/[slug]`
 
 ### Milestone 2.2 — Book Reading Experience
-- [ ] Create `src/layouts/BookChapterLayout.astro`:
-  - Chapter title and number
-  - Table of contents sidebar (links to all chapters)
-  - Previous/Next chapter navigation buttons at bottom
-  - "Download full book PDF" link
-- [ ] Create `src/pages/book/index.astro`: book overview page with chapter listing
-- [ ] Create `src/pages/book/[slug].astro`: dynamic route for individual chapters
+- [x] Reused `ArticleLayout.astro` for chapters (prev/next nav, reading time)
+- [x] `src/pages/book/index.astro` — cover images, chapter list, PDF download CTA
+- [x] `src/pages/book/[slug].astro` — 9 chapter routes; chapter numbers added to frontmatter
 
 ### Milestone 2.3 — Guest Author Pages
 - [ ] Create `src/layouts/AuthorLayout.astro`:

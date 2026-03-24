@@ -2,6 +2,7 @@
 title: "Covenant of Peace, Jesus, Millennium, Kingdom Age, 1,000 year reign of Christ, Dispensations, Revelations 20"
 author: "Paul Jablonowski"
 type: book-chapter
+chapter: 5
 description: "A scriptural study of Jesus' Covenant of Peace which defines the Millenial reign of Christ and the new age we find ourselves transitioning into."
 tags: []
 legacy_url: "/covenantofpeace.htm"
