@@ -157,9 +157,9 @@
 - [x] `src/content/authors/roland-pletts/about.md` and `bonnie-gaunt/about.md` filled with real bio text
 
 ### Milestone 2.4 — Articles & Poems Pages
-- [ ] Create `src/pages/articles/index.astro`: list of all standalone articles
-- [ ] Create `src/pages/articles/[slug].astro`: single article render
-- [ ] Create `src/pages/poems/[slug].astro`: single poem render
+- [x] `src/pages/articles/index.astro`: full listing of 39 articles sorted by date desc, with author callout for guest authors
+- [x] `src/pages/articles/[slug].astro`: single article render via ArticleLayout (105 total pages now)
+- [x] Poems: no poem content exists in the collection — skipped
 
 ### Milestone 2.5 — YouTube Integration
 - [ ] Confirm Paul's YouTube channel ID (see Open Questions in README)

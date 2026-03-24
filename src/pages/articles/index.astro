@@ -1,9 +1,51 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const base = import.meta.env.BASE_URL.replace(/(\/?)$/, '/');
+
+const articles = (await getCollection('articles'))
+  .filter(a => a.data.type === 'article')
+  .sort((a, b) => {
+    const da = a.data.date ?? '';
+    const db = b.data.date ?? '';
+    return db.localeCompare(da);
+  });
+
+function formatDate(d) {
+  if (!d) return null;
+  if (/^\d{4}$/.test(d)) return d;
+  if (/^\d{4}-\d{2}$/.test(d)) {
+    const [y, m] = d.split('-');
+    return new Date(+y, +m - 1).toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+  }
+  return new Date(d).toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+}
 ---
-<BaseLayout title="Articles" description="Theological articles by Paul Jablonowski and guest authors.">
-  <div class="max-w-3xl mx-auto px-4 py-16 text-center">
-    <h1 class="font-heading text-4xl text-primary mb-4">Articles</h1>
-    <p class="text-gray-500 text-lg">Coming soon — 39 articles are being prepared for this page.</p>
+<BaseLayout title="Articles" description="Theological articles by Paul Jablonowski and guest authors on sonship, prophecy, the Kingdom, and more.">
+  <div class="max-w-3xl mx-auto px-4 py-14">
+    <h1 class="font-heading text-4xl text-primary mb-2">Articles</h1>
+    <p class="text-gray-500 mb-10">{articles.length} articles by Paul Jablonowski and guest authors.</p>
+
+    <ul class="divide-y divide-gray-100">
+      {articles.map(a => (
+        <li>
+          <a
+            href={`${base}articles/${a.slug}/`}
+            class="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4 py-4 no-underline group hover:bg-gray-50 -mx-3 px-3 rounded transition-colors"
+          >
+            <span class="font-heading text-primary font-semibold leading-snug group-hover:text-accent flex-1">
+              {a.data.title}
+            </span>
+            <span class="text-xs text-gray-400 shrink-0 sm:text-right">
+              {a.data.author !== 'Paul Jablonowski' && (
+                <span class="text-accent mr-2">{a.data.author}</span>
+              )}
+              {formatDate(a.data.date)}
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
   </div>
 </BaseLayout>
