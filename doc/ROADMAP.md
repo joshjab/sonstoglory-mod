@@ -67,7 +67,7 @@
 - [x] 282 images copied to `public/images/`
 - [x] 15 audio files (MP3/M4A) copied to `public/audio/`
 - [x] 4 MP4 videos (Miles Albright) copied to `public/video/milesalbright/`
-- [ ] Update image/audio/video references in Markdown files to use new `/images/`, `/audio/`, `/video/` paths (defer to QA pass)
+- [x] Rewrote 221 asset references across 72 files via `scripts/fix_asset_paths.py` — all images/PDFs now use absolute `/images/` and `/pdfs/` paths; audio/video left pointing to legacy server
 
 ### Milestone 0.7 — Generate URL Redirects
 - [x] Write `scripts/generate_redirects.py`

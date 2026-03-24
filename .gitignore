@@ -8,3 +8,6 @@ __pycache__/
 # Large media — too big for git, served from external host or legacy site
 public/video/
 public/audio/
+node_modules/
+dist/
+.astro/

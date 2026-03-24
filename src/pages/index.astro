@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const newsletters = (await getCollection('newsletters'))
+  .filter(n => n.data.type === 'newsletter' && n.data.number)
+  .sort((a, b) => (b.data.number ?? 0) - (a.data.number ?? 0))
+  .slice(0, 3);
+---
+
+<BaseLayout title="Home" description="Theological writings, newsletters, and resources by Paul Jablonowski — freely given for the Everlasting Kingdom of Jesus.">
+
+  <!-- Hero -->
+  <section class="bg-primary text-white py-16 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class="font-heading text-4xl md:text-5xl font-bold text-white mb-4">
+        Sons To Glory
+      </h1>
+      <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+        Theological writings on the Kingdom of Jesus Christ — sonship, the Biblical feasts,
+        prophecy, and the Everlasting Kingdom. Freely given.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/book/" class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90">
+          Read the Book
+        </a>
+        <a href="/newsletters/" class="border border-white text-white px-6 py-3 rounded font-semibold no-underline hover:bg-white hover:text-primary transition-colors">
+          Browse Newsletters
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Newsletters -->
+  <section class="max-w-5xl mx-auto px-4 py-14">
+    <h2 class="font-heading text-3xl text-primary mb-8">Latest Newsletters</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {newsletters.map(n => (
+        <a href={`/newsletters/${n.slug}/`} class="block bg-white rounded-lg shadow-sm border border-gray-100 p-6 no-underline hover:shadow-md transition-shadow">
+          <span class="text-xs font-semibold text-accent uppercase tracking-wide">
+            Issue #{n.data.number}
+          </span>
+          <h3 class="font-heading text-lg text-primary mt-1 mb-2 leading-snug">
+            {n.data.title.replace(/^Newsletter #\d+\s*[-—]?\s*/i, '')}
+          </h3>
+          {n.data.date && (
+            <p class="text-sm text-muted">
+              {new Date(n.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })}
+            </p>
+          )}
+          {n.data.description && (
+            <p class="text-sm text-gray-600 mt-2 line-clamp-3">{n.data.description}</p>
+          )}
+        </a>
+      ))}
+    </div>
+    <div class="mt-8 text-center">
+      <a href="/newsletters/" class="text-primary font-semibold hover:text-accent">
+        View all 41 newsletters →
+      </a>
+    </div>
+  </section>
+
+  <!-- Free Book CTA -->
+  <section class="bg-white border-y border-gray-100 py-14 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="font-heading text-3xl text-primary mb-4">Sons To Glory — Free Book</h2>
+      <p class="text-gray-600 mb-6 text-lg">
+        A multi-chapter exploration of spiritual sonship, the Biblical feasts, and the
+        Everlasting Kingdom. Read online or download the PDF — freely given.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/book/" class="bg-primary text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90">
+          Read Online
+        </a>
+        <a href="/pdfs/SonsToGloryBook.pdf" target="_blank" class="border border-primary text-primary px-6 py-3 rounded font-semibold no-underline hover:bg-primary hover:text-white transition-colors">
+          Download PDF
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe CTA -->
+  <section class="max-w-3xl mx-auto px-4 py-14 text-center">
+    <h2 class="font-heading text-2xl text-primary mb-3">Stay Connected</h2>
+    <p class="text-gray-600 mb-6">
+      Subscribe to receive new writings and updates from Paul Jablonowski.
+    </p>
+    <a href="/subscribe/" class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90">
+      Subscribe to Newsletter
+    </a>
+  </section>
+
+</BaseLayout>

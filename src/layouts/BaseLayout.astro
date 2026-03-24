@@ -1,0 +1,86 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+const siteTitle = 'Sons To Glory';
+const pageTitle = title ? `${title} | ${siteTitle}` : siteTitle;
+const pageDescription = description ?? 'Theological writings, newsletters, and resources by Paul Jablonowski.';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={pageDescription} />
+    <title>{pageTitle}</title>
+    <link rel="icon" type="image/x-icon" href="/images/images/favicon.ico" />
+  </head>
+  <body class="min-h-screen flex flex-col">
+
+    <header class="bg-primary text-white shadow-md">
+      <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="text-white no-underline hover:text-accent">
+          <span class="font-heading text-2xl font-bold">Sons To Glory</span>
+        </a>
+        <nav class="hidden md:flex gap-6 text-sm font-semibold">
+          <a href="/book/" class="text-white hover:text-accent no-underline">Book</a>
+          <a href="/newsletters/" class="text-white hover:text-accent no-underline">Newsletters</a>
+          <a href="/articles/" class="text-white hover:text-accent no-underline">Articles</a>
+          <a href="/authors/" class="text-white hover:text-accent no-underline">Authors</a>
+          <a href="/videos/" class="text-white hover:text-accent no-underline">Videos</a>
+          <a href="/subscribe/" class="text-white hover:text-accent no-underline">Subscribe</a>
+        </nav>
+        <!-- Mobile menu button (JS-free toggle using checkbox hack) -->
+        <label for="mobile-menu-toggle" class="md:hidden cursor-pointer text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </label>
+      </div>
+      <input type="checkbox" id="mobile-menu-toggle" class="hidden peer" />
+      <nav class="hidden peer-checked:block md:hidden bg-primary border-t border-blue-900 px-4 py-2">
+        <a href="/book/" class="block py-2 text-white hover:text-accent no-underline">Book</a>
+        <a href="/newsletters/" class="block py-2 text-white hover:text-accent no-underline">Newsletters</a>
+        <a href="/articles/" class="block py-2 text-white hover:text-accent no-underline">Articles</a>
+        <a href="/authors/" class="block py-2 text-white hover:text-accent no-underline">Authors</a>
+        <a href="/videos/" class="block py-2 text-white hover:text-accent no-underline">Videos</a>
+        <a href="/subscribe/" class="block py-2 text-white hover:text-accent no-underline">Subscribe</a>
+      </nav>
+    </header>
+
+    <main class="flex-1">
+      <slot />
+    </main>
+
+    <footer class="bg-ink text-gray-300 mt-16">
+      <div class="max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
+        <div>
+          <p class="font-heading text-white text-lg mb-2">Sons To Glory</p>
+          <p>Theological writings freely given for the Kingdom of Jesus Christ.</p>
+        </div>
+        <div>
+          <p class="font-semibold text-white mb-2">Mailing Address</p>
+          <p>Paul Jablonowski<br />Harvest, AL 35749</p>
+        </div>
+        <div>
+          <p class="font-semibold text-white mb-2">Links</p>
+          <ul class="space-y-1">
+            <li><a href="/subscribe/" class="text-gray-300 hover:text-accent no-underline">Subscribe to Newsletter</a></li>
+            <li><a href="/rss.xml" class="text-gray-300 hover:text-accent no-underline">RSS Feed</a></li>
+            <li><a href="https://youtube.com/@coolpixstargazer" target="_blank" rel="noopener" class="text-gray-300 hover:text-accent no-underline">YouTube Channel</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 text-center py-4 text-xs text-gray-500">
+        © Paul Jablonowski · All content freely given · sonstoglory.com
+      </div>
+    </footer>
+
+  </body>
+</html>
