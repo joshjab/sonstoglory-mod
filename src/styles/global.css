@@ -35,15 +35,54 @@
   margin: 0 auto;
 }
 
+.prose p {
+  margin-bottom: 1.5em;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+}
+
+.prose ul,
+.prose ol {
+  padding-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.prose li {
+  margin-bottom: 0.4em;
+}
+
 .prose img {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
+  margin: 1.5em auto;
+  display: block;
 }
 
 .prose blockquote {
   border-left: 4px solid #C8912A;
   padding-left: 1rem;
+  margin: 1.5em 0;
   color: #4B5563;
   font-style: italic;
+}
+
+.prose a {
+  color: #1B3A5C;
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  color: #C8912A;
+}
+
+.prose strong {
+  font-weight: 700;
+  color: #1A1A2E;
 }

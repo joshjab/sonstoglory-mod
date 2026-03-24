@@ -136,20 +136,27 @@
 - [ ] Pull latest newsletters dynamically from the content collection
 
 ### Milestone 1.6 — Article Layout & Newsletter Listing
-- [ ] Create `src/layouts/ArticleLayout.astro`:
+- [x] Create `src/layouts/ArticleLayout.astro`:
   - Page title, author, date, reading time estimate
   - Markdown body content
   - Tags list (each tag is a link)
   - "Previous / Next" newsletter navigation
-- [ ] Create `src/pages/newsletters/index.astro`: paginated list of all newsletters, sorted by number descending
-- [ ] Create `src/pages/newsletters/[slug].astro`: dynamic route that renders a single newsletter using ArticleLayout
+- [x] Create `src/pages/newsletters/index.astro`: paginated list of all newsletters, sorted by number descending
+- [x] Create `src/pages/newsletters/[slug].astro`: dynamic route that renders a single newsletter using ArticleLayout
 
-### Milestone 1.7 — Deploy to Netlify
-- [ ] Log in to Netlify (netlify.com), create a new site from the GitHub repo
-- [ ] Set build command: `npm run build`, publish directory: `dist`
-- [ ] Trigger a deploy and verify the site is live at the Netlify URL
-- [ ] Add the `public/_redirects` file and verify one legacy URL redirect works
-- [ ] (Optional for now) Point `sonstoglory.com` DNS to Netlify once DNS access is confirmed
+### Milestone 1.7 — Deploy to GitHub Pages
+- [x] Create `.github/workflows/deploy.yml` — builds on push to main, deploys via `actions/deploy-pages@v4`
+- [x] Add `public/CNAME` with `sonstoglory.com` for custom domain
+- [x] Fixed `package.json`: name → "sonstoglory", engines → ">=18.0.0"
+- [ ] **Josh:** In GitHub repo Settings → Pages → Source, set to "GitHub Actions"
+- [ ] Push to main and verify the Actions build passes
+- [ ] Verify site is live at `joshjab.github.io/sonstoglory-mod` (before DNS cutover)
+
+### Milestone 1.8 — Verify HTTPS + Redirects
+- [ ] Set custom domain in GitHub Pages settings: `sonstoglory.com`
+- [ ] Update DNS: add CNAME `www` → `joshjab.github.io` and A records for apex domain
+- [ ] Verify HTTPS is active (GitHub Pages auto-provisions Let's Encrypt cert)
+- [ ] Test 3 legacy URL redirects from `public/_redirects` work on live site
 
 ---
 

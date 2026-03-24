@@ -61,9 +61,11 @@ Full details in `doc/ARCH.md`.
 - [x] src/layouts/BaseLayout.astro — header, footer, mobile nav
 - [x] src/pages/index.astro — homepage with hero, latest newsletters, book CTA
 - [x] src/styles/global.css — Lora + Source Serif 4 fonts, brand palette
-- [ ] **Next: Milestone 1.5** — ArticleLayout + newsletter listing/detail pages
-- [ ] Milestone 1.6 — Deploy to GitHub Pages
-- [ ] Milestone 1.7 — Verify HTTPS + redirects
+- [x] src/layouts/ArticleLayout.astro — title, author, date, reading time, prev/next nav
+- [x] src/pages/newsletters/index.astro — full listing sorted by number desc
+- [x] src/pages/newsletters/[slug].astro — dynamic detail route (41 pages, clean build)
+- [ ] **Next: Milestone 1.7** — Deploy to GitHub Pages (.github/workflows/deploy.yml)
+- [ ] Milestone 1.8 — Verify HTTPS + redirects on live site
 
 ### Key findings from Phase 0
 - 41 newsletters (#1–#41, 2008–2021), all dated

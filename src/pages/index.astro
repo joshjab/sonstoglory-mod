@@ -6,6 +6,7 @@ const newsletters = (await getCollection('newsletters'))
   .filter(n => n.data.type === 'newsletter' && n.data.number)
   .sort((a, b) => (b.data.number ?? 0) - (a.data.number ?? 0))
   .slice(0, 3);
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title="Home" description="Theological writings, newsletters, and resources by Paul Jablonowski — freely given for the Everlasting Kingdom of Jesus.">
@@ -21,10 +22,10 @@ const newsletters = (await getCollection('newsletters'))
         prophecy, and the Everlasting Kingdom. Freely given.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="/book/" class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90">
+        <a href={`${base}book/`} class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90">
           Read the Book
         </a>
-        <a href="/newsletters/" class="border border-white text-white px-6 py-3 rounded font-semibold no-underline hover:bg-white hover:text-primary transition-colors">
+        <a href={`${base}newsletters/`} class="border border-white text-white px-6 py-3 rounded font-semibold no-underline hover:bg-white hover:text-primary transition-colors">
           Browse Newsletters
         </a>
       </div>
@@ -36,7 +37,7 @@ const newsletters = (await getCollection('newsletters'))
     <h2 class="font-heading text-3xl text-primary mb-8">Latest Newsletters</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       {newsletters.map(n => (
-        <a href={`/newsletters/${n.slug}/`} class="block bg-white rounded-lg shadow-sm border border-gray-100 p-6 no-underline hover:shadow-md transition-shadow">
+        <a href={`${base}newsletters/${n.slug}/`} class="block bg-white rounded-lg shadow-sm border border-gray-100 p-6 no-underline hover:shadow-md transition-shadow">
           <span class="text-xs font-semibold text-accent uppercase tracking-wide">
             Issue #{n.data.number}
           </span>
@@ -55,7 +56,7 @@ const newsletters = (await getCollection('newsletters'))
       ))}
     </div>
     <div class="mt-8 text-center">
-      <a href="/newsletters/" class="text-primary font-semibold hover:text-accent">
+      <a href={`${base}newsletters/`} class="text-primary font-semibold hover:text-accent">
         View all 41 newsletters →
       </a>
     </div>
@@ -70,10 +71,10 @@ const newsletters = (await getCollection('newsletters'))
         Everlasting Kingdom. Read online or download the PDF — freely given.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="/book/" class="bg-primary text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90">
+        <a href={`${base}book/`} class="bg-primary text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90">
           Read Online
         </a>
-        <a href="/pdfs/SonsToGloryBook.pdf" target="_blank" class="border border-primary text-primary px-6 py-3 rounded font-semibold no-underline hover:bg-primary hover:text-white transition-colors">
+        <a href={`${base}pdfs/SonsToGloryBook.pdf`} target="_blank" class="border border-primary text-primary px-6 py-3 rounded font-semibold no-underline hover:bg-primary hover:text-white transition-colors">
           Download PDF
         </a>
       </div>
@@ -86,7 +87,7 @@ const newsletters = (await getCollection('newsletters'))
     <p class="text-gray-600 mb-6">
       Subscribe to receive new writings and updates from Paul Jablonowski.
     </p>
-    <a href="/subscribe/" class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90">
+    <a href={`${base}subscribe/`} class="bg-accent text-white px-6 py-3 rounded font-semibold no-underline hover:opacity-90">
       Subscribe to Newsletter
     </a>
   </section>

@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const newsletters = (await getCollection('newsletters'))
+  .filter(n => n.data.type === 'newsletter' && n.data.number)
+  .sort((a, b) => (b.data.number ?? 0) - (a.data.number ?? 0));
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout
+  title="Newsletters"
+  description="All 41 Sons To Glory newsletters by Paul Jablonowski — theological writings on the Kingdom of Jesus Christ, sonship, and the Biblical feasts."
+>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+
+    <header class="mb-10">
+      <h1 class="font-heading text-4xl text-primary mb-3">Newsletters</h1>
+      <p class="text-gray-600 text-lg">
+        41 issues published 2008–2021 — freely given for the Kingdom of Jesus Christ.
+      </p>
+    </header>
+
+    <ol class="space-y-0" reversed>
+      {newsletters.map(n => {
+        const displayTitle = n.data.title.replace(/^Newsletter #\d+\s*[-—]?\s*/i, '');
+        const formattedDate = n.data.date
+          ? new Date(n.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })
+          : null;
+
+        return (
+          <li class="border-b border-gray-100 last:border-0">
+            <a
+              href={`${base}newsletters/${n.slug}/`}
+              class="flex items-baseline gap-4 py-4 no-underline group hover:bg-gray-50 -mx-3 px-3 rounded transition-colors"
+            >
+              <span class="text-accent font-semibold text-sm w-8 shrink-0 text-right">
+                #{n.data.number}
+              </span>
+              <div class="flex-1 min-w-0">
+                <p class="font-heading text-primary group-hover:text-accent font-semibold leading-snug">
+                  {displayTitle}
+                </p>
+                {n.data.description && (
+                  <p class="text-sm text-gray-500 mt-0.5 line-clamp-2">{n.data.description}</p>
+                )}
+              </div>
+              {formattedDate && (
+                <span class="text-xs text-gray-400 shrink-0">{formattedDate}</span>
+              )}
+            </a>
+          </li>
+        );
+      })}
+    </ol>
+
+  </div>
+</BaseLayout>

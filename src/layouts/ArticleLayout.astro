@@ -1,0 +1,116 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  author?: string;
+  date?: string;
+  description?: string;
+  tags?: string[];
+  issueNumber?: number;
+  pdf?: string;
+  readingTime?: number;
+  prevEntry?: { slug: string; title: string };
+  nextEntry?: { slug: string; title: string };
+  baseUrl?: string;
+}
+
+const {
+  title,
+  author = 'Paul Jablonowski',
+  date,
+  description,
+  tags = [],
+  issueNumber,
+  pdf,
+  readingTime,
+  prevEntry,
+  nextEntry,
+  baseUrl = '/newsletters/',
+} = Astro.props;
+
+const displayTitle = issueNumber
+  ? title.replace(/^Newsletter #\d+\s*[-—]?\s*/i, '')
+  : title;
+
+const formattedDate = date
+  ? new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null;
+---
+
+<BaseLayout title={displayTitle} description={description}>
+  <article class="max-w-3xl mx-auto px-4 py-10">
+
+    <!-- Header -->
+    <header class="mb-8 border-b border-gray-200 pb-8">
+      {issueNumber && (
+        <p class="text-sm font-semibold text-accent uppercase tracking-wide mb-2">
+          Issue #{issueNumber}
+        </p>
+      )}
+      <h1 class="font-heading text-3xl md:text-4xl text-primary leading-tight mb-4">
+        {displayTitle}
+      </h1>
+      <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+        <span>{author}</span>
+        {formattedDate && <span>{formattedDate}</span>}
+        {readingTime && <span>{readingTime} min read</span>}
+      </div>
+      {pdf && (
+        <div class="mt-4">
+          <a
+            href={`${import.meta.env.BASE_URL}${pdf?.replace(/^\//, '')}`}
+            target="_blank"
+            rel="noopener"
+            class="inline-flex items-center gap-1 text-sm text-primary border border-primary px-3 py-1.5 rounded no-underline hover:bg-primary hover:text-white transition-colors"
+          >
+            Download PDF
+          </a>
+        </div>
+      )}
+    </header>
+
+    <!-- Body -->
+    <div class="prose">
+      <slot />
+    </div>
+
+    <!-- Tags -->
+    {tags.length > 0 && (
+      <div class="mt-10 pt-6 border-t border-gray-100">
+        <div class="flex flex-wrap gap-2">
+          {tags.map(tag => (
+            <span class="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full">{tag}</span>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Prev / Next -->
+    {(prevEntry || nextEntry) && (
+      <nav class="mt-10 pt-6 border-t border-gray-100 grid grid-cols-2 gap-4 text-sm">
+        <div>
+          {prevEntry && (
+            <a href={`${baseUrl}${prevEntry.slug}/`} class="block no-underline group">
+              <span class="text-xs text-gray-400 uppercase tracking-wide">← Previous</span>
+              <p class="font-semibold text-primary group-hover:text-accent leading-snug mt-1">
+                {prevEntry.title}
+              </p>
+            </a>
+          )}
+        </div>
+        <div class="text-right">
+          {nextEntry && (
+            <a href={`${baseUrl}${nextEntry.slug}/`} class="block no-underline group">
+              <span class="text-xs text-gray-400 uppercase tracking-wide">Next →</span>
+              <p class="font-semibold text-primary group-hover:text-accent leading-snug mt-1">
+                {nextEntry.title}
+              </p>
+            </a>
+          )}
+        </div>
+      </nav>
+    )}
+
+  </article>
+</BaseLayout>

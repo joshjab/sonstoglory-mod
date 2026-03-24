@@ -1,0 +1,51 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const allNewsletters = (await getCollection('newsletters'))
+    .filter(n => n.data.type === 'newsletter' && n.data.number)
+    .sort((a, b) => (a.data.number ?? 0) - (b.data.number ?? 0));
+
+  return allNewsletters.map((entry, index) => {
+    const prev = index > 0 ? allNewsletters[index - 1] : null;
+    const next = index < allNewsletters.length - 1 ? allNewsletters[index + 1] : null;
+
+    return {
+      params: { slug: entry.slug },
+      props: {
+        entry,
+        prevEntry: prev
+          ? { slug: prev.slug, title: prev.data.title.replace(/^Newsletter #\d+\s*[-—]?\s*/i, '') }
+          : null,
+        nextEntry: next
+          ? { slug: next.slug, title: next.data.title.replace(/^Newsletter #\d+\s*[-—]?\s*/i, '') }
+          : null,
+      },
+    };
+  });
+}
+
+const { entry, prevEntry, nextEntry } = Astro.props;
+const { Content } = await entry.render();
+const base = import.meta.env.BASE_URL;
+
+const wordCount = entry.body.split(/\s+/).filter(Boolean).length;
+const readingTime = Math.max(1, Math.round(wordCount / 200));
+---
+
+<ArticleLayout
+  title={entry.data.title}
+  author={entry.data.author}
+  date={entry.data.date}
+  description={entry.data.description}
+  tags={entry.data.tags}
+  issueNumber={entry.data.number}
+  pdf={entry.data.pdf}
+  readingTime={readingTime}
+  prevEntry={prevEntry}
+  nextEntry={nextEntry}
+  baseUrl={`${base}newsletters/`}
+>
+  <Content />
+</ArticleLayout>

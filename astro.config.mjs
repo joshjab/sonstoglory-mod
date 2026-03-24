@@ -4,6 +4,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://sonstoglory.com',
+  site: 'https://joshjab.github.io',
+  base: '/sonstoglory-mod',
   integrations: [tailwind()],
 });

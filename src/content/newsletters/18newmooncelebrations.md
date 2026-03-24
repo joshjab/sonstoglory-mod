@@ -1,7 +1,7 @@
 ---
 title: ""
 author: "Paul Jablonowski"
-type: newsletter
+type: redirect-only
 number: 18
 description: ""
 tags: []
