@@ -117,28 +117,48 @@
 }
 
 /* ─── Dark mode overrides ─── */
-/* Card / surface backgrounds that use Tailwind's bg-white */
+
+/* Primary brand color (deep navy) → light blue in dark mode */
+[data-theme="dark"] .text-primary {
+  color: #C8D8EE !important;
+}
+[data-theme="dark"] .group:hover .group-hover\:text-accent,
+[data-theme="dark"] .hover\:text-accent:hover {
+  color: #C8912A !important;
+}
+
+/* Card / surface backgrounds */
 [data-theme="dark"] .bg-white {
   background-color: #1E2233 !important;
-  border-color: #2E3450 !important;
+}
+[data-theme="dark"] .bg-gray-50 {
+  background-color: #191D2E !important;
 }
 
-/* Gray tones in dark mode */
+/* Dark gray text → readable mid-gray in dark mode */
+[data-theme="dark"] .text-gray-700,
+[data-theme="dark"] .text-gray-800,
+[data-theme="dark"] .text-gray-900 {
+  color: #C4BFAF !important;
+}
 [data-theme="dark"] .text-gray-600,
-[data-theme="dark"] .text-gray-500,
-[data-theme="dark"] .text-gray-400 {
+[data-theme="dark"] .text-gray-500 {
   color: #8899AA !important;
 }
+[data-theme="dark"] .text-gray-400 {
+  color: #6677A0 !important;
+}
 
+/* Borders */
 [data-theme="dark"] .border-gray-100,
 [data-theme="dark"] .border-gray-200 {
   border-color: #2A2F45 !important;
 }
-
 [data-theme="dark"] .divide-gray-100 > * + * {
   border-color: #2A2F45 !important;
 }
 
+/* Hover row highlight */
 [data-theme="dark"] .hover\:bg-gray-50:hover {
   background-color: #1A1F30 !important;
 }
