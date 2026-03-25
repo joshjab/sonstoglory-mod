@@ -40,16 +40,21 @@ const formattedDate = date
 const base = import.meta.env.BASE_URL.replace(/(\/?)$/, "/");
 const canonicalUrl = `https://joshjab.github.io/sonstoglory-mod${Astro.url.pathname}`;
 
+// Normalize date to ISO 8601 with timezone (required by Google Rich Results)
+const isoDate = date ? new Date(date).toISOString() : undefined;
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": displayTitle,
-  "datePublished": date ?? undefined,
+  "url": canonicalUrl,
+  "image": "https://joshjab.github.io/sonstoglory-mod/images/images/sonstoglorycover_sm.jpg",
+  ...(isoDate ? { "datePublished": isoDate } : {}),
   "author": {
     "@type": "Person",
     "name": author,
+    "url": "https://joshjab.github.io/sonstoglory-mod/",
   },
-  "url": canonicalUrl,
   ...(description ? { "description": description } : {}),
 };
 ---
