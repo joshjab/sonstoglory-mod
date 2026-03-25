@@ -36,9 +36,35 @@ const displayTitle = issueNumber
 const formattedDate = date
   ? new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
   : null;
+
+const base = import.meta.env.BASE_URL.replace(/(\/?)$/, "/");
+const canonicalUrl = `https://joshjab.github.io/sonstoglory-mod${Astro.url.pathname}`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": displayTitle,
+  "datePublished": date ?? undefined,
+  "author": {
+    "@type": "Person",
+    "name": author,
+  },
+  "url": canonicalUrl,
+  ...(description ? { "description": description } : {}),
+};
 ---
 
-<BaseLayout title={displayTitle} description={description}>
+<BaseLayout
+  title={displayTitle}
+  description={description}
+  ogTitle={`${displayTitle} | Sons To Glory`}
+  ogDescription={description}
+  ogUrl={canonicalUrl}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </Fragment>
+
   <article class="max-w-3xl mx-auto px-4 py-10">
 
     <!-- Header -->
@@ -88,7 +114,7 @@ const formattedDate = date
 
     <!-- Prev / Next -->
     {(prevEntry || nextEntry) && (
-      <nav class="mt-10 pt-6 border-t border-gray-100 grid grid-cols-2 gap-4 text-sm">
+      <nav class="mt-10 pt-6 border-t border-gray-100 grid grid-cols-2 gap-4 text-sm" aria-label="Article navigation">
         <div>
           {prevEntry && (
             <a href={`${baseUrl}${prevEntry.slug}/`} class="block no-underline group">

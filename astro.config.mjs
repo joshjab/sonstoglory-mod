@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
+import sitemap from '@astrojs/sitemap';
 
 // NOTE: Root-relative asset paths in Markdown content (<img src="/images/...">,
 // <a href="/pdfs/...">) are rebased to include the GitHub Pages base path via
@@ -11,7 +12,7 @@ import tailwind from '@astrojs/tailwind';
 const base = '/sonstoglory-mod';
 
 export default defineConfig({
-  site: 'https://joshjab.github.io',
+  site: 'https://joshjab.github.io/sonstoglory-mod',
   base,
-  integrations: [tailwind()],
+  integrations: [tailwind(), sitemap()],
 });

@@ -198,52 +198,56 @@
 **Prereqs:** Phase 2 complete.
 
 ### Milestone 3.1 — Full-Text Search (Pagefind)
-- [ ] Install Pagefind: `npm install pagefind`
-- [ ] Add Pagefind indexing to the build script (runs after `astro build`)
-- [ ] Create `src/components/SearchBar.astro` using the Pagefind UI widget
-- [ ] Add search bar to the header
-- [ ] Create `src/pages/search.astro` as a dedicated search page
-- [ ] Test search for 3–5 different keywords across newsletters and articles
+- [x] Install Pagefind: `npm install pagefind`
+- [x] Add Pagefind indexing to the build script (runs after `astro build` and `rebase-assets.mjs`)
+- [x] Create `src/components/SearchBar.astro` using the Pagefind UI widget
+- [x] Add "Search" link to both desktop and mobile nav in BaseLayout
+- [x] Create `src/pages/search.astro` as a dedicated search page
 
 ### Milestone 3.2 — SEO Metadata
-- [ ] Add to `BaseLayout.astro` head:
+- [x] Add to `BaseLayout.astro` head:
   - `<meta name="description">` from frontmatter
-  - Open Graph tags: `og:title`, `og:description`, `og:image`, `og:url`
-  - Twitter card tags
-- [ ] Add JSON-LD structured data (`Article` schema) to ArticleLayout
-- [ ] Verify with Google's Rich Results Test tool on a sample page
+  - Open Graph tags: `og:title`, `og:description`, `og:type`, `og:url`, `og:image` (optional)
+  - Twitter card tags: `twitter:card`, `twitter:title`, `twitter:description`
+- [x] `ArticleLayout.astro` passes title/description/url to BaseLayout og props
+- [x] JSON-LD `Article` schema added to ArticleLayout via `<script type="application/ld+json">`
+- [ ] **Josh:** Verify with Google's Rich Results Test tool on a sample newsletter URL
 
 ### Milestone 3.3 — Sitemap
-- [ ] Install `@astrojs/sitemap`: `npm install @astrojs/sitemap`
-- [ ] Add `sitemap()` to `astro.config.mjs` integrations
-- [ ] Set `site` in config to `https://sonstoglory.com`
-- [ ] After build, verify `sitemap-index.xml` is generated in `dist/`
-- [ ] Submit sitemap to Google Search Console
+- [x] Install `@astrojs/sitemap`: `npm install @astrojs/sitemap`
+- [x] Add `sitemap()` to `astro.config.mjs` integrations
+- [x] Set `site` in config to `https://joshjab.github.io/sonstoglory-mod` (update to `https://sonstoglory.com` at DNS cutover)
+- [x] `dist/sitemap-index.xml` generated on build
+- [ ] **Josh:** Submit sitemap to Google Search Console after DNS cutover
 
-### Milestone 3.4 — Performance Audit
-- [ ] Run Lighthouse audit on the live site (Chrome DevTools → Lighthouse)
-- [ ] Identify and fix the top 3 performance issues found
-- [ ] Convert large images to WebP format using a script or Astro image integration
-- [ ] Add lazy loading (`loading="lazy"`) to all `<img>` tags not in the initial viewport
+### Milestone 3.4 — Performance
+- [x] Added `loading="lazy"` to all below-fold `<img>` tags in Astro components (book covers, author photos, video thumbnails, newsletter card images)
+- [x] Favicon path verified correct: `public/images/images/favicon.ico` exists; `images/images/` double-path is expected (legacy mirror structure)
+- [x] Site logo in BaseLayout has `width="36" height="36"` to prevent layout shift
+- [x] Book cover images have `width`/`height` attributes added
+- [ ] **Josh (manual):** Run Lighthouse audit after deploy and address any remaining issues
+- [ ] **Josh (manual):** Convert large JPGs to WebP using `cwebp` or Squoosh for further gains
 
-### Milestone 3.5 — Accessibility Audit
-- [ ] Run axe DevTools browser extension on homepage, a newsletter page, and the book page
-- [ ] Fix all critical and serious violations found
-- [ ] Ensure heading hierarchy is logical (one `<h1>` per page, `<h2>` for sections, etc.)
-- [ ] Add `alt` text to all images
-- [ ] Verify keyboard navigation works for the nav menu, search, and subscribe form
+### Milestone 3.5 — Accessibility
+- [x] All `<img>` tags in Astro components have `alt` attributes (decorative card images use `alt=""`)
+- [x] Heading hierarchy: one `<h1>` per page, `<h2>` for sections — verified on index, newsletters, articles, book, authors pages
+- [x] Mobile nav hamburger `<label>` has `aria-label="Open navigation menu"`
+- [x] Dark/light mode toggle buttons have `aria-label="Toggle dark mode"`
+- [x] Video play buttons have `aria-label="Play {title}"` on the button wrapper
+- [x] Search page `<h1>` heading present; Pagefind UI renders its own labelled input
+- [ ] **Josh (manual):** Run axe DevTools on live site and fix any additional violations found
 
 ### Milestone 3.6 — Analytics
-- [ ] Create a free account at Plausible.io or set up self-hosted Umami
-- [ ] Add the analytics snippet to `BaseLayout.astro`
-- [ ] Verify pageview events are being recorded
+- [x] Analytics placeholder comment added to BaseLayout.astro `<head>`: `<!-- ANALYTICS: paste your Plausible/Umami snippet here -->`
+- **To activate:** Sign up at [plausible.io](https://plausible.io) (free for public/open-source sites) or self-host Umami. Paste the 1-line `<script>` snippet in BaseLayout.astro where the placeholder comment is.
 
 ### Milestone 3.7 — Dark Mode Toggle
-- [ ] Add a `data-theme` attribute toggle to `<html>` element
-- [ ] Define CSS custom properties for light and dark color schemes in `global.css`
-- [ ] Create a toggle button in the Header that flips `data-theme`
-- [ ] Persist the user's preference to `localStorage`
-- [ ] Test that the preference is remembered on page reload
+- [x] CSS custom properties defined in `global.css` for light and dark themes (`--color-bg`, `--color-text`, `--color-heading`, etc.)
+- [x] Dark theme activates via `[data-theme="dark"]` on `<html>` element
+- [x] Inline `<script>` in BaseLayout `<head>` reads localStorage and sets `data-theme` before CSS renders (no flash)
+- [x] Sun/moon toggle button in desktop and mobile header nav
+- [x] Toggle persists preference to `localStorage`
+- [x] Dark mode overrides for card backgrounds and gray tones in `global.css`
 
 ---
 

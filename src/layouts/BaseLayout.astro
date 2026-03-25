@@ -4,13 +4,21 @@ import '../styles/global.css';
 interface Props {
   title?: string;
   description?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  ogUrl?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, ogTitle, ogDescription, ogImage, ogUrl } = Astro.props;
 const siteTitle = 'Sons To Glory';
 const pageTitle = title ? `${title} | ${siteTitle}` : siteTitle;
 const pageDescription = description ?? 'Theological writings, newsletters, and resources by Paul Jablonowski.';
 const base = import.meta.env.BASE_URL.replace(/(\/?)$/, "/");
+
+const resolvedOgTitle = ogTitle ?? pageTitle;
+const resolvedOgDescription = ogDescription ?? pageDescription;
+const resolvedOgUrl = ogUrl ?? 'https://joshjab.github.io/sonstoglory-mod/';
 ---
 
 <!doctype html>
@@ -22,6 +30,29 @@ const base = import.meta.env.BASE_URL.replace(/(\/?)$/, "/");
     <title>{pageTitle}</title>
     <link rel="icon" type="image/x-icon" href={`${base}images/images/favicon.ico`} />
     <link rel="alternate" type="application/rss+xml" title="Sons To Glory Newsletters" href={`${base}rss.xml`} />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={resolvedOgTitle} />
+    <meta property="og:description" content={resolvedOgDescription} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={resolvedOgUrl} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={resolvedOgTitle} />
+    <meta name="twitter:description" content={resolvedOgDescription} />
+
+    <!-- Dark mode: read preference before CSS renders to avoid flash -->
+    <script is:inline>
+      (function () {
+        var t = localStorage.getItem('theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+
+    <!-- ANALYTICS: paste your Plausible/Umami snippet here -->
+    <slot name="head" />
   </head>
   <body class="min-h-screen flex flex-col">
 
@@ -32,23 +63,56 @@ const base = import.meta.env.BASE_URL.replace(/(\/?)$/, "/");
             src={`${base}images/images/sonstoglorycover_sm.jpg`}
             alt="Sons To Glory"
             class="h-9 w-auto rounded shadow-sm"
+            width="36"
+            height="36"
           />
           <span class="font-heading text-2xl font-bold">Sons To Glory</span>
         </a>
-        <nav class="hidden md:flex gap-6 text-sm font-semibold">
-          <a href={`${base}book/`} class="text-white hover:text-accent no-underline">Book</a>
-          <a href={`${base}newsletters/`} class="text-white hover:text-accent no-underline">Newsletters</a>
-          <a href={`${base}articles/`} class="text-white hover:text-accent no-underline">Articles</a>
-          <a href={`${base}authors/`} class="text-white hover:text-accent no-underline">Authors</a>
-          <a href={`${base}videos/`} class="text-white hover:text-accent no-underline">Videos</a>
-          <a href={`${base}subscribe/`} class="text-white hover:text-accent no-underline">Subscribe</a>
-        </nav>
-        <!-- Mobile menu button (JS-free toggle using checkbox hack) -->
-        <label for="mobile-menu-toggle" class="md:hidden cursor-pointer text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </label>
+        <div class="hidden md:flex items-center gap-6">
+          <nav class="flex gap-6 text-sm font-semibold">
+            <a href={`${base}book/`} class="text-white hover:text-accent no-underline">Book</a>
+            <a href={`${base}newsletters/`} class="text-white hover:text-accent no-underline">Newsletters</a>
+            <a href={`${base}articles/`} class="text-white hover:text-accent no-underline">Articles</a>
+            <a href={`${base}authors/`} class="text-white hover:text-accent no-underline">Authors</a>
+            <a href={`${base}videos/`} class="text-white hover:text-accent no-underline">Videos</a>
+            <a href={`${base}subscribe/`} class="text-white hover:text-accent no-underline">Subscribe</a>
+            <a href={`${base}search/`} class="text-white hover:text-accent no-underline">Search</a>
+          </nav>
+          <!-- Dark mode toggle -->
+          <button
+            id="theme-toggle"
+            aria-label="Toggle dark mode"
+            class="ml-2 text-white hover:text-accent focus:outline-none focus:ring-2 focus:ring-accent rounded p-1"
+          >
+            <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z" />
+            </svg>
+            <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m8.66-9h-1M4.34 12h-1m14.9-6.34l-.71.71M6.46 17.54l-.71.71m0-12.02l.71.71M17.54 17.54l.71.71M12 7a5 5 0 100 10A5 5 0 0012 7z" />
+            </svg>
+          </button>
+        </div>
+        <!-- Mobile: toggle and hamburger -->
+        <div class="md:hidden flex items-center gap-2">
+          <button
+            id="theme-toggle-mobile"
+            aria-label="Toggle dark mode"
+            class="text-white hover:text-accent focus:outline-none focus:ring-2 focus:ring-accent rounded p-1"
+          >
+            <svg id="icon-moon-mobile" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z" />
+            </svg>
+            <svg id="icon-sun-mobile" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m8.66-9h-1M4.34 12h-1m14.9-6.34l-.71.71M6.46 17.54l-.71.71m0-12.02l.71.71M17.54 17.54l.71.71M12 7a5 5 0 100 10A5 5 0 0012 7z" />
+            </svg>
+          </button>
+          <!-- Mobile menu button (JS-free toggle using checkbox hack) -->
+          <label for="mobile-menu-toggle" aria-label="Open navigation menu" class="cursor-pointer text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </label>
+        </div>
       </div>
       <input type="checkbox" id="mobile-menu-toggle" class="hidden peer" />
       <nav class="hidden peer-checked:block md:hidden bg-primary border-t border-blue-900 px-4 py-2">
@@ -58,6 +122,7 @@ const base = import.meta.env.BASE_URL.replace(/(\/?)$/, "/");
         <a href={`${base}authors/`} class="block py-2 text-white hover:text-accent no-underline">Authors</a>
         <a href={`${base}videos/`} class="block py-2 text-white hover:text-accent no-underline">Videos</a>
         <a href={`${base}subscribe/`} class="block py-2 text-white hover:text-accent no-underline">Subscribe</a>
+        <a href={`${base}search/`} class="block py-2 text-white hover:text-accent no-underline">Search</a>
       </nav>
     </header>
 
@@ -91,3 +156,28 @@ const base = import.meta.env.BASE_URL.replace(/(\/?)$/, "/");
 
   </body>
 </html>
+
+<script>
+  function applyThemeIcons(theme: string) {
+    const isDark = theme === 'dark';
+    document.getElementById('icon-moon')?.classList.toggle('hidden', isDark);
+    document.getElementById('icon-sun')?.classList.toggle('hidden', !isDark);
+    document.getElementById('icon-moon-mobile')?.classList.toggle('hidden', isDark);
+    document.getElementById('icon-sun-mobile')?.classList.toggle('hidden', !isDark);
+  }
+
+  function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme') ?? 'light';
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    applyThemeIcons(next);
+  }
+
+  // Initialize icons based on current theme
+  const currentTheme = document.documentElement.getAttribute('data-theme') ?? 'light';
+  applyThemeIcons(currentTheme);
+
+  document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme);
+  document.getElementById('theme-toggle-mobile')?.addEventListener('click', toggleTheme);
+</script>
